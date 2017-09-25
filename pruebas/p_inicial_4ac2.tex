@@ -1,6 +1,4 @@
 \documentclass[addpoints,spanish, 12pt,a4paper]{exam}
-%\documentclass[answers, spanish, 12pt,a4paper]{exam}
-\printanswers
 \pointpoints{punto}{puntos}
 \hpword{Puntos:}
 \vpword{Puntos:}
@@ -9,6 +7,7 @@
 \hsword{Resultado:}
 \hqword{Ejercicio:}
 \vqword{Ejercicio:}
+
 
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
@@ -31,7 +30,6 @@
 
 \newcommand{\timelimit}{50 minutos}
 
-\renewcommand{\solutiontitle}{\noindent\textbf{Solución:}\enspace}
 
 
 \pagestyle{head}
@@ -43,11 +41,7 @@
 \begin{document}
 
 \noindent
-\begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r @{\extracolsep{6pt}} }
-\textbf{Nombre:} \makebox[3.5in]{\hrulefill} & \textbf{Fecha:}\makebox[1in]{\hrulefill} \\
- & \\
-\textbf{Tiempo: \timelimit} & Tipo: \tipo 
-\end{tabular*}
+
 \rule[2ex]{\textwidth}{2pt}
 Esta prueba tiene \numquestions\ ejercicios. La puntuación máxima es de \numpoints. 
 La nota final de la prueba será la parte proporcional de la puntuación obtenida sobre la puntuación máxima.
@@ -68,22 +62,8 @@ La nota final de la prueba será la parte proporcional de la puntuación obtenid
 \question[1] Efectúa y simplifica  \[\frac{1}{4}-\frac{3}{2}\cdot\left(\frac{2}{3}\right)^{-1}+\frac{7}{6}-\left[\frac{1}{1}-\frac{1}{3}:\frac{2}{5}\right]\]
 \addpoints
 
-\begin{solution}
-$-1$
-\begin{equation*}
-\begin{split}
-& \frac{1}{4}-\frac{3}{2}\cdot\left(\frac{2}{3}\right)^{-1}+\frac{7}{6}-\left[\frac{1}{1}-\frac{1}{3}:\frac{2}{5}\right]=\frac{1}{4}-\frac{3}{2}\cdot\frac{3}{2}+\frac{7}{6}-\left[\frac{1}{1}-\frac{5}{6}\right]= \\
-& =\frac{1}{4}-\frac{9}{4}+\frac{7}{6}-\left[\frac{6}{6}-\frac{5}{6}\right]=\frac{1}{4}-\frac{9}{4}+\frac{7}{6}-\frac{1}{6}=-\frac{8}{4}-\frac{6}{6}=-2+1=-1
-\end{split}
-\end{equation*}
-\end{solution}
-
 \question[1] Reduce a una sola potencia  \[\frac{3^{-5}\cdot9^{4}}{3^{-6}\cdot3^{0}}\]
 \addpoints
-\begin{solution}
-$3^9$
-$$\frac{3^{-5}\cdot9^{4}}{3^{-6}\cdot3^{0}}=\frac{3^{6}\cdot\left(3^{2}\right)^4}{3^{5}\cdot1}=\frac{3\cdot3^{8}}{1\cdot1}=3^9$$
-\end{solution}
 
 \question[1] Tres personas tardan 5 horas en hacer un determinado trabajo. ¿Cuánto tardarían 4 personas en realizar ese mismo trabajo? (expresa el resultado en horas y minutos)
 \addpoints
@@ -92,25 +72,7 @@ $$\frac{3^{-5}\cdot9^{4}}{3^{-6}\cdot3^{0}}=\frac{3^{6}\cdot\left(3^{2}\right)^4
 \noaddpoints % to omit double points count
 \begin{parts}
 \part[1] \[2x\left(2x+1\right)-\left(2x+3\right)^{2}\]
-\begin{solution}
-Once upon a midnight dreary, while I pondered, weak and weary,
-Over many a quaint and curious volume of forgotten lore--- While I
-nodded, nearly napping, suddenly there came a tapping, As of some
-one gently rapping, rapping at my chamber door.  ‘‘\,’Tis some
-visitor,’’ I muttered, ‘‘tapping at my chamber door--- Only this
-and nothing more.’’
-\end{solution}
-
 \part[1] \[\frac{4}{x}+\frac{x}{x-2}\]
-\begin{solution}
-Once upon a midnight dreary, while I pondered, weak and weary,
-Over many a quaint and curious volume of forgotten lore--- While I
-nodded, nearly napping, suddenly there came a tapping, As of some
-one gently rapping, rapping at my chamber door.  ‘‘\,’Tis some
-visitor,’’ I muttered, ‘‘tapping at my chamber door--- Only this
-and nothing more.’’
-\end{solution}
-
 \end{parts}
 \addpoints
 
@@ -152,4 +114,3 @@ Explica con tus propias palabras el teorema de Pitágoras. Pon, además, un ejem
 \end{questions}
 
 \end{document}
-\grid
