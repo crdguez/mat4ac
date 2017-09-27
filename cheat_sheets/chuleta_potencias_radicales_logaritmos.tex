@@ -25,6 +25,9 @@
 
 \usepackage{graphicx}
 \graphicspath{{../img/}}
+\usepackage{svg}
+
+\usepackage{hyperref}
 
 \usepackage{geometry}
 \geometry{
@@ -98,20 +101,30 @@ left=10mm,right=10mm,top=10mm,bottom=15mm}
 
 \section{Potencias}
 
-\subsection{Propiedades}
-
 Es importante destacar que las propiedades se pueden leer (y por tanto aplicar) de izquierda a derecha o al revés.\\
 $$\forall \ n,m \in \mathbb{N} \ y \ \forall \  n,m \in \mathbb{R}:$$
 
 \begin{tabular}{ll}
-Definición de potencia: & $a^n = a \cdot a \stackrel{n}{\cdots} a$ \\
-Producto de potencias de la misma base: & $a^n a^m = a^{n+m}$ \\
-Cociente de potencias de la misma base: & $\dfrac{a^n}{a^m}  = a^{n-m}$ \\
-Potencia de una potencia: & $\left(a^n\right)^m  = a^{n \cdot m}$ \\
-Potencia de un producto: & $\left(a \cdot b \right)^n = a^n \cdot b^n$ \\
-Potencia de un cociente: & $\left(\dfrac{a}{b} \right)^n = \dfrac{a^n}{a^n}$
+\textbf{Definición} de potencia: & $a^n = a \cdot a \stackrel{n}{\cdots} a$ \\
+\textbf{Potencia} de exponente \textbf{negativo}: & $a^{-n} = \dfrac{1}{a^n}$ \\
+\textbf{Potencia} de exponente \textbf{0} $\left( Si \ a \neq 0\right)$: & $a^{0} = 1$ \\
+\textbf{Producto} de potenc. de la \textbf{misma base}: & $a^n a^m = a^{n+m}$ \\
+\textbf{Cociente} de potenc. de la \textbf{misma base}: & $\dfrac{a^n}{a^m}  = a^{n-m}$ \\
+\textbf{Potencia} de una \textbf{potencia}: & $\left(a^n\right)^m  = a^{n \cdot m}$ \\
+\textbf{Potencia} de un \textbf{producto}: & $\left(a \cdot b \right)^n = a^n \cdot b^n$ \\
+\textbf{Potencia} de un \textbf{cociente}: & $\left(\dfrac{a}{b} \right)^n = \dfrac{a^n}{a^n}$
 \end{tabular}
 
+\subsection{Ejemplos}
+
+\begin{tabular}{lll}
+$2^3=2\cdot2\cdot2$ & $3^0=1$ & $2^{-3}=\dfrac{1}{2^3}$\\
+$2^3 \cdot 2^4 = 2^{4+3} = 2^{7}$ & $\left(\dfrac{2}{5}\right)^{-3}=\left(\dfrac{5}{2}\right)^{3}$ & $\dfrac{2^4}{2^3} = 2^{4-3} = 2$\\
+$2^5:2^3 = 2^{5-3} = 2^2$ & $\left(3^2\right)^5  = 3^{2 \cdot 5}=3^{10}$\\
+$a^n a^m = a^{n+m}$ & $\frac{a^n}{a^m} = a^{n-m}$ & $(a^n)^m = a^{n \cdot m}$\\
+$a^n a^m = a^{n+m}$ & $\frac{a^n}{a^m} = a^{n-m}$ & $(a^n)^m = a^{n \cdot m}$\\
+$a^n a^m = a^{n+m}$ & $\frac{a^n}{a^m} = a^{n-m}$ & $(a^n)^m = a^{n \cdot m}$
+\end{tabular}
 
 \section{Radicales}
 
@@ -147,9 +160,12 @@ $a^n a^m = a^{n+m}$ & $\frac{a^n}{a^m} = a^{n-m}$ & $(a^n)^m = a^{n \cdot m}$
 
 
 
-\section{The End}
+\section{Versión Online}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+\url{https://goo.gl/kZNTW4} \includegraphics[width=0.15\columnwidth]{qr_chuletapot}
+
+
+
 
 
 \end{multicols*}
