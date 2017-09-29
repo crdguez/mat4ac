@@ -13,11 +13,11 @@ No obstante se recomienda usar *git* en local. Se recomienda empezar con esta [g
 
 ## Editando los documentos LaTeX
 
-Muchos documentos están creados en LaTeX. Aunque en el repositorio también aparecen los documentos *pdf* generados al compilar los ficheros *tex* puede que te interese modificarlos documentos y adaptarlos a tus necesidades. Un editor "relativamente sencillo" y En recomendable es [texmaker](http://www.xm1math.net/texmaker/). En su web tienes acceso a su [documentación](http://www.xm1math.net/texmaker/doc.html)   
+Muchos documentos están creados en LaTeX. Aunque en el repositorio también aparecen los documentos *pdf* generados al compilar los ficheros *tex* puede que te interese modificarlos documentos y adaptarlos a tus necesidades. Un editor "relativamente sencillo" y recomendable es [texmaker](http://www.xm1math.net/texmaker/). En su web tienes acceso a su [documentación](http://www.xm1math.net/texmaker/doc.html)   
 
 ### Personalizar las imágenes de los encabezados de los documentos latex
 
 Por defecto aparecen los iconos del instituto (IES Pedro Cerrada) y de la comunidad en la que uno de los autores trabaja (Aragón).
-
+Para poder personalizar nuestros documentos, será necesario reemplazar los ficheros de la carpeta img y compilar los ficheros con texmaker
 
 
