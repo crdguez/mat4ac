@@ -5,11 +5,15 @@ Documentación generada para dar un curso de 4ºESO de Matemáticas Académicas
 
 ## Descargar los recursos
 
-Lo más sencillo es descargar en formato zip que aparece en la esquina superior izquierda del repositorio -**Clone or Download --> Download Zip**-. 
+Lo más sencillo es descargar a tu ordenador el repositorio en formato zip mediante la opción que aparece en la esquina superior izquierda del repositorio -**Clone or Download --> Download Zip**-. 
 
 ![imagen de descarga](./img/descargar.png)
 
-No obstante se recomienda usar *git* en local
+No obstante se recomienda usar *git* en local. Se recomienda empezar con esta [guía sencilla de git](http://rogerdudler.github.io/git-guide/index.es.html)
+
+## Personalizar las imágenes de los encabezados de los documentos latex
+
+Por defecto aparecen los iconos
 
 
 
