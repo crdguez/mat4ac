@@ -8,7 +8,7 @@ Documentación generada para dar un curso de 4ºESO de Matemáticas Académicas
 Lo más sencillo es descargar en formato zip que aparece en la esquina superior izquierda del repositorio. 
 
 
-![imagen de descarga](./img/descarga.png)
+![imagen de descarga](./img/descargar.png)
 No obstante se recomienda usar *git* en local
 
 
