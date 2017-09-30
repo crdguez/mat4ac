@@ -17,16 +17,6 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/mat4ac" # the subpath of your site, e.g. /blog
 url: "https://crdguez.github.io/" # the base hostname & protocol for your site
 
-people:
-
-  - name: Juan González (Obijuan)
-    social:
-      - title: twitter
-        url: https://twitter.com/obijuan_cube
-      - title: google-plus
-        url: https://plus.google.com/+JuanGonzalezGomez
-      - title: github
-        url: https://github.com/obijuan
 
 
 #sidebar
@@ -51,10 +41,11 @@ analytics: UA-83979019-1
 disqus-shortname: webjeda-demo
 
 #social
-facebook: http://facebook.com/webjeda
-quora: http://quora.com/sharathdt
-twitter: http://twitter.com/@webjeda
-github: http://github.com/webjeda
+# facebook: http://facebook.com/webjeda
+# quora: http://quora.com/sharathdt
+google: https://plus.google.com/u/1/106926421917771551298
+twitter: http://twitter.com/@crdguez
+github: http://github.com/crdguez/mat4ac
 
 #facebook like box
 fb-app-id: 549480635219583
