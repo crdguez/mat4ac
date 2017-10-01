@@ -5,7 +5,7 @@ img: 34087-NZE3WZ.jpg
 ---
 
 
-# Installation: 
+# Installation (prueba): 
 Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is important because ``gh-pages`` branch is used here only to host the blog. You should be using the master branch as the source and create a fresh ``gh-pages`` branch.
 
 Watch my video on instlallation
