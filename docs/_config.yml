@@ -41,9 +41,9 @@ analytics: UA-83979019-1
 disqus-shortname: webjeda-demo
 
 #social
-facebook: http://facebook.com/webjeda
-quora: http://quora.com/sharathdt
-twitter: http://twitter.com/@crjaso
+# facebook: http://facebook.com/webjeda
+# quora: http://quora.com/sharathdt
+# twitter: http://twitter.com/@crjaso
 github: http://github.com/crdguez/mat4ac
 plus: https://plus.google.com/u/1/106926421917771551298
 
