@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: IES Pedro Cerrada - Matemáticas Académicas 4º ESO
+title: IES Pedro Cerrada - Matemáticas Académicas 4º ESO 1
 email: rodriguezjasoc@iespedrocerrada.org
 description: > # this means to ignore newlines until "baseurl:"
   Webjeda Cards is a Bootstrap based jekyll theme for portfolio, photography or any kind of blog.
@@ -43,7 +43,7 @@ disqus-shortname: webjeda-demo
 #social
 # facebook: http://facebook.com/webjeda
 # quora: http://quora.com/sharathdt
-# twitter: http://twitter.com/@crjaso
+twitter: http://twitter.com/@crjaso
 github: http://github.com/crdguez/mat4ac
 plus: https://plus.google.com/u/1/106926421917771551298
 
