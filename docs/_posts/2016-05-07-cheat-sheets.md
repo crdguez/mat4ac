@@ -4,4 +4,4 @@ title: CheatSheets
 img: 7257.jpg
 ---
 
-[Cheat Sheets](https://github.com/crdguez/mat4ac/tree/master/cheat-sheets)
+[Cheat Sheets](https://github.com/crdguez/mat4ac/tree/master/cheat_sheets)
