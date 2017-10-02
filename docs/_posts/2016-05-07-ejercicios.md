@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hojas de trabajo
+title: Ejercicios
 img: 34087-NZE3WZ.jpg
 ---
 
