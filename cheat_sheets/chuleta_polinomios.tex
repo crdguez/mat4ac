@@ -1,0 +1,204 @@
+% Template created by Karol Kozioł (www.karol-koziol.net) for ShareLaTeX
+
+\documentclass[a4paper,spanish,9pt]{extarticle}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tikz}
+
+\usepackage{amsmath,amssymb,textcomp}
+\everymath{\displaystyle}
+
+\usepackage{times}
+\renewcommand\familydefault{\sfdefault}
+\usepackage{tgheros}
+\usepackage[defaultmono,scale=0.85]{droidmono}
+
+\usepackage{multicol}
+\setlength{\columnseprule}{0pt}
+\setlength{\columnsep}{20.0pt}
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{eurosym}
+
+\usepackage{graphicx}
+\graphicspath{{../img/}}
+\usepackage{svg}
+
+\usepackage{hyperref}
+
+\usepackage{geometry}
+\geometry{
+a4paper,
+total={210mm,297mm},
+left=10mm,right=10mm,top=10mm,bottom=15mm}
+
+\linespread{1.3}
+
+
+% custom title
+\makeatletter
+\renewcommand*{\maketitle}{%
+\noindent
+\begin{minipage}{0.6\textwidth}
+\begin{tikzpicture}
+\node[rectangle,rounded corners=6pt,inner sep=10pt,fill=blue!50!black,text width= 0.95\textwidth] {\color{white}\Huge \@title};
+\end{tikzpicture}
+\end{minipage}
+\hfill
+\begin{minipage}{0.35\textwidth}
+\begin{tikzpicture}
+\node[rectangle,rounded corners=3pt,inner sep=10pt,draw=blue!50!black,text width= 0.95\textwidth] {\begin{tabular}{cc} \multirow{2}{1cm}{\includegraphics[width=0.15\columnwidth]{header_right}}& \@author \\ & \ies \end{tabular}};
+\end{tikzpicture}
+\end{minipage}
+\bigskip\bigskip
+}%
+\makeatother
+
+% custom section
+\usepackage[explicit]{titlesec}
+\newcommand*\sectionlabel{}
+\titleformat{\section}
+  {\gdef\sectionlabel{}
+   \normalfont\sffamily\Large\bfseries\scshape}
+  {\gdef\sectionlabel{\thesection\ }}{0pt}
+  {
+\noindent
+\begin{tikzpicture}
+\node[rectangle,rounded corners=3pt,inner sep=4pt,fill=blue!50!black,text width= 0.95\columnwidth] {\color{white}\sectionlabel#1};
+\end{tikzpicture}
+  }
+\titlespacing*{\section}{0pt}{15pt}{10pt}
+
+
+% custom footer
+\usepackage{fancyhdr}
+\makeatletter
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot[C]{\footnotesize \@author \ - \ies}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\makeatother
+\usepackage{multirow} % para las tablas
+
+
+\title{Polinomios, factorización y ecuaciones}
+\author{Departamento de Matemáticas}
+\date{2014}
+\newcommand{\ies}{IES Pedro Cerrada}
+
+
+
+\begin{document}
+
+\maketitle
+
+\begin{multicols*}{2}
+
+
+\section{Valor numérico de un polinomio}
+\subsection{Teorema del resto}
+
+Es importante destacar que las propiedades se pueden leer (y por tanto aplicar) de izquierda a derecha o al revés.
+$$\forall \ n,m \in \mathbb{N} \ y \ \forall \  n,m \in \mathbb{R}:$$
+\begin{tabular}{ll}
+\textbf{Definición} de potencia: & $a^n = a \cdot a \stackrel{n}{\cdots} a$ \\
+\textbf{Potencia} de exponente \textbf{negativo}: & $a^{-n} = \dfrac{1}{a^n}$ \\
+\textbf{Potencia} de exponente \textbf{0} $\left( Si \ a \neq 0\right)$: & $a^{0} = 1$ \\
+\textbf{Producto} de potenc. de la \textbf{misma base}: & $a^n a^m = a^{n+m}$ \\
+\textbf{Cociente} de potenc. de la \textbf{misma base}: & $\dfrac{a^n}{a^m}  = a^{n-m}$ \\
+\textbf{Potencia} de una \textbf{potencia}: & $\left(a^n\right)^m  = a^{n \cdot m}$ \\
+\textbf{Potencia} de un \textbf{producto}: & $\left(a \cdot b \right)^n = a^n \cdot b^n$ \\
+\textbf{Potencia} de un \textbf{cociente}: & $\left(\dfrac{a}{b} \right)^n = \dfrac{a^n}{a^n}$
+\end{tabular}
+
+\subsection{Ejemplos}
+
+\begin{tabular}{lll}
+$2^3=2\cdot2\cdot2$ & $3^0=1$ & $2^{-3}=\dfrac{1}{2^3}$\\
+$2^3 \cdot 2^4 = 2^{4+3} = 2^{7}$ & $\left(\dfrac{2}{5}\right)^{-3}=\left(\dfrac{5}{2}\right)^{3}$ & $\dfrac{2^4}{2^3} = 2^{4-3} = 2$\\
+$2^5:2^3 = 2^{5-3} = 2^2$ & $\left(3^2\right)^4  = 3^{2 \cdot 4}=3^{8}$ & $\left(\dfrac{1}{2} \right)^3 = \dfrac{1^3}{2^3}$\\
+$2^3 \cdot 3^3=\left(2 \cdot 3 \right)^3 = 6^3$
+\end{tabular}
+
+\section{Radicales}
+Recuerda que: $\sqrt[n]{a}=b \longleftrightarrow b^n=a$. De la definición se deducen las siguientes propiedades:
+\vspace{0.3cm}
+
+\begin{tabular}{ll}
+\textbf{Forma Exponencial}: & $\sqrt[n]{a}=a^\frac{1}{n} \ \sqrt[n]{a^m}=a^\frac{m}{n} $ \\
+\textbf{Simplificación}: & $\sqrt[np]{a^p}=\sqrt[n]{a}$ \\
+\textbf{Raíz} de un \textbf{producto}: & $\sqrt[n]{a\cdot b}=\sqrt[n]{a}\cdot\sqrt[n]{b}$ \\
+\textbf{Raíz} de un \textbf{cociente}: & $\sqrt[n]{\frac{a}{b}}=\frac{\sqrt[n]{a}}{\sqrt[n]{b}}$ \\
+\textbf{Potencia} de un \textbf{radical} & $\left(\sqrt[n]{a}\right)^p=\sqrt[n]{a^p}$ \\
+\textbf{Raíz} de un \textbf{radical} & $\sqrt[n]{\sqrt[m]{a}}=\sqrt[n\cdot m]{a}$ \\
+\end{tabular}
+
+\vspace{0.5cm}
+\textbf{Suma y resta de radicales:} Recuerda que solo se pueden sumar o restar expresiones con radicales idénticos
+
+\vspace{0.5cm}
+\textbf{Racionalizar radicales:} Se multiplica el numerador y denominador por un expresión que permita que desaparezcan los radicales del denominador
+
+\subsection{Ejemplos}
+\begin{tabular}{lr}
+$\sqrt[2]{4}=4^\frac{1}{2}$ & $\sqrt[6]{3^2}=3^\frac{3}{6}=3^\frac{1}{2}$ \\
+$\sqrt[4]{5^2}=\sqrt{5}$ & $\sqrt[3]{2^6}=2^2=4$\\
+$\sqrt{2\cdot 3}=\sqrt{2}\cdot\sqrt{3}$ & $\sqrt{12}=\sqrt{2^2\cdot 3}=\sqrt{2^2}\cdot\sqrt{3}=2\sqrt{3}$\\ 
+$\sqrt[3]{9}\cdot\sqrt[3]{3}=\sqrt[3]{27}=3$ & $\frac{\sqrt{300}}{\sqrt{3}}=\sqrt{\frac{300}{3}}=\sqrt{100}=10$
+\end{tabular}
+
+\begin{tabular}{lr}
+$\left(\sqrt{2}\right)^2=\sqrt{2^2}=2$ & $\sqrt[3]{\sqrt[5]{3}}=\sqrt[15]{3}$\\
+$3\sqrt[3]{7}-\sqrt[3]{7}=2\sqrt[3]{7}$ & $2\sqrt[3]{5}-\sqrt[4]{5}+2\sqrt[3]{5}=4\sqrt[3]{5}-\sqrt[4]{5}$
+\end{tabular}
+
+\begin{tabular}{l}
+$3\sqrt{28}-\sqrt{7}-\sqrt{63}=3\cdot 2\sqrt{7}-\sqrt{7}-3\sqrt{7}=2\sqrt{7}$ \\
+$\frac{1}{\sqrt[6]{5^2}}=\frac{1\cdot \sqrt[6]{5^4}}{\sqrt[6]{5^2}\cdot \sqrt[6]{5^4}}=\frac{\sqrt[6]{5^4}}{5}=\frac{\sqrt[3]{5^2}}{5}$  \\
+$\frac{1}{\sqrt{3}-1}=\frac{1 \cdot \left(\sqrt{3}+1\right)}{\left(\sqrt{3}-1 \cdot \right)\cdot \left(\sqrt{3}+1\cdot \right)}=\frac{\sqrt{3}+1}{3-1}=\frac{\sqrt{3}+1}{2}$
+\end{tabular}
+
+\section{Logaritmos}
+
+\begin{tabular}{ll}
+\textbf{Definición} de logaritmo: & $\log_b x = n \longleftrightarrow b^n=x$\\
+Logaritmo de un \textbf{producto}: & $\log_b \left(x\cdot y\right)=log_b x + log_b y$\\
+Logaritmo de un \textbf{cociente}: & $\log_b \frac{x}{y}=log_b x - log_b y$\\
+Logaritmo de una \textbf{potencia}: & $\log_b {x^n} = n \cdot \log_b x$\\
+Logaritmo de una \textbf{raíz}: & $\log_b {\sqrt[n]{x}} = \frac{1}{n} \cdot \log_b x$\\
+\textbf{Cambio} de \textbf{base}: & $\log_b x =\frac{\log_a x}{\log_a b}$\\
+Logaritmo \textbf{decimal}: & $\log x = log_{10} x$
+\end{tabular}\\
+
+\subsection{Ejemplos}
+
+\begin{tabular}{ll}
+$\log_3 3 = 1$ & $\log_3 1 = 0$ \\
+$\log_2 8 = logb_2 2^3 = 3$  
+\end{tabular}
+
+\begin{tabular}{l}
+$\log_2 \left(4\cdot 16\right)=\log_2 4 + \log_2 16=2 + 4$  \\
+$\log_{10}\frac{1000}{10} =\log_{10} 1000 - \log_{10} 10 = 3-1=2 $ \\
+$\log_3 {81^3} = 3 \cdot \log_3 81= 3 \cdot 4= 12$ \\
+$\log_3 {\sqrt[4]{81}} = \frac{1}{4} \log_3 81=\frac{1}{4} \log_3 3^4= \frac{1}{4} \cdot 4= 1$ \\
+$\log_6 4 =\frac{\log_{10} 6}{\log_{10} 6}$
+\end{tabular}
+
+
+
+\section{Versión Online}
+
+\url{https://goo.gl/kZNTW4} \includegraphics[width=0.15\columnwidth]{qr_chuletapot}
+
+
+
+
+
+\end{multicols*}
+
+\end{document}
