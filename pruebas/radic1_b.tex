@@ -1,6 +1,6 @@
 \documentclass[addpoints,spanish, 12pt,a4paper]{exam}
 %\documentclass[answers, spanish, 12pt,a4paper]{exam}
-%\printanswers
+\printanswers
 \pointpoints{punto}{puntos}
 \hpword{Puntos:}
 \vpword{Puntos:}
@@ -98,6 +98,33 @@ $\frac{39}{13}$&&&&\\
 
 \end{center}
 
+\begin{solution}
+\begin{tabular}{|c |c |c |c |c|}\hline
+&$\mathbb{N}$& $\mathbb{Z}$& $\mathbb{Q}$&$\mathbb{R}$\\ 
+\hline
+$\frac{1}{2}$&&&X&X\\
+\hline
+$\sqrt[3]{-27}$&&X&X&X\\
+\hline
+$4.0\wideparen{31}$&&&X&X\\
+\hline
+$-\frac{12}{4}$&&X&X&X\\
+\hline
+$-\sqrt{36}$&&X&X&X\\
+\hline
+$\sqrt{8}$&&&&X\\
+\hline
+$4$&X&X&X&X\\
+\hline
+$\pi$&&&&X\\
+\hline
+$\sqrt{-4}$&&&&\\
+\hline
+$\frac{39}{13}$&X&X&X&X\\
+\hline
+\end{tabular}
+\end{solution}
+
 \addpoints
 
 \question[1] Representa en la recta real y en forma de intervalo el siguiente conjunto numérico:
@@ -105,7 +132,7 @@ $\frac{39}{13}$&&&&\\
 $$\left\{ x \in \mathbb{R} \left| -5 \leqslant x < 2 \right. \right\}$$
 
 \begin{solution}
-$ $ 
+$$\left[-5 \ , 2\right)$$ 
 \end{solution}
 
 \question Opera:
@@ -114,11 +141,11 @@ $ $
 \begin{parts}
 \part[1] \[\dfrac{\left(2^3\cdot3^2\cdot5\right)^{-4}}{\left(2^{-2}\cdot3^{-3}\right)^{3}}\]
 \begin{solution}
-$\dfrac{3}{2^6\cdot5^4} $ 
+$=\dfrac{2^{-12}\cdot3^{-8}\cdot5^{-4}}{2^{-6}\cdot3^{-9}}=\dfrac{3}{2^6\cdot5^4} $ 
 \end{solution}
 \part[1] \[\left(\dfrac{6p^3d^2}{5q}\right)^4\cdot\left(\dfrac{20p^2q^3}{24d}\right)^4\]
 \begin{solution}
-$p^{20}d^4q^8 $
+$=\left(\dfrac{6p^3d^2}{5q}\cdot\dfrac{20p^2q^3}{24d}\right)^4=\left(p^5dq^2\right)^4=p^{20}d^4q^8 $
 \end{solution}
 \end{parts}
 
@@ -128,7 +155,7 @@ $p^{20}d^4q^8 $
 \addpoints 
 
 $$\dfrac{1000\cdot12000\cdot0'02\cdot0'01}{400\cdot0'00003}$$
-\begin{solution} $2\cdot10^6$ \end{solution}
+\begin{solution} $=\dfrac{10^{3}\cdot1,2\cdot10^{4}\cdot2\cdot10^{-2}\cdot10^{-2}}{4\cdot10^{2}\cdot3\cdot10^{-5}}=\dfrac{2,4\cdot10^{3}}{12\cdot10^{-3}}=2\cdot10^5$ \end{solution}
  
 
 \question Opera y simplifica cada una de estas expresiones:
@@ -137,22 +164,22 @@ $$\dfrac{1000\cdot12000\cdot0'02\cdot0'01}{400\cdot0'00003}$$
 \begin{parts}
 \part[1] \[4\sqrt{20}-3\sqrt{45}+11\sqrt{125}-20\sqrt{5}\]
 \begin{solution}
-$34\sqrt{5}$
+$=4\cdot2\sqrt{5}-3\cdot3\sqrt{5}+11\cdot5\sqrt{5}-20\sqrt{5}=\left(8-9+55-20\right)\sqrt{5}=34\sqrt{5}$
 \end{solution}
 
 \part[1] \[\sqrt{72}\cdot3\sqrt{8}\]
 \begin{solution}
-$72$
+$=\sqrt{72}\cdot\sqrt{72}=\sqrt{72^2}=72$
 \end{solution}
 
 \part[1] \[\sqrt{2\sqrt{2\sqrt{2}}}\]
 \begin{solution}
-$\sqrt[8]{2^7}$
+$=\sqrt{\sqrt{2^2\cdot2\sqrt{2}}}=\sqrt{\sqrt{\sqrt{2^4\cdot2^2\cdot2}}}=\sqrt[8]{2^7}$
 \end{solution}
 
 \part[2] \[\dfrac{\left(3\sqrt{2}+\sqrt{3}\right)^2}{3}\]
 \begin{solution}
-$ 7+2\sqrt{6}$
+$ =\dfrac{9\cdot2+3+2\cdot3\sqrt{2}\sqrt{3}}{3}=3\cdot2+1+2\sqrt{2}\sqrt{3}=7+2\sqrt{6}$
 \end{solution}
 
 
@@ -164,13 +191,13 @@ $ 7+2\sqrt{6}$
 \begin{parts}
 \part[2] \[\dfrac{10}{2\sqrt{3}-\sqrt{2}}\]
 \begin{solution}
-$2\sqrt{3}+\sqrt{2}$
+$=\dfrac{10\cdot\left(2\sqrt{3}+\sqrt{2}\right)}{\left(2\sqrt{3}-\sqrt{2}\right)\cdot\left(2\sqrt{3}+\sqrt{2}\right)}=\dfrac{10\cdot\left(2\sqrt{3}+\sqrt{2}\right)}{4\cdot3-2}=2\sqrt{3}+\sqrt{2}$
 \end{solution}
 
 
 \part[2] \[\dfrac{\sqrt{45}+\sqrt{180}}{\sqrt{176}+4\sqrt{44}}\]
 \begin{solution}
-$\frac{3\sqrt{55}}{44}$
+$=\dfrac{3\sqrt{5}+3\cdot2\sqrt{5}}{4\sqrt{11}+4\cdot2\sqrt{11}}=\dfrac{9\sqrt{5}}{12\sqrt{11}}=\dfrac{3\sqrt{55}}{44}$
 \end{solution}
 
 
@@ -211,7 +238,7 @@ $\frac{1}{2}$
 
 \part[1] \[2\log_4 16 +  log_2 32 - 3log_7 49\]
 \begin{solution}
-$3$
+$=2\cdot2+5-3\cdot2=4+5-6=3$
 \end{solution}
 
 
@@ -228,7 +255,7 @@ $3$
 \begin{parts}
 \part[2] \[\log_2 10 + 2\log_2 3 - \log_2 5 - \log_2 9\]
 \begin{solution}
-$3$
+$=\log_2 \left(\dfrac{10\cdot3^2}{5\cdot9}\right)=\log_2 2= 1$
 \end{solution}
 
 \end{parts}
