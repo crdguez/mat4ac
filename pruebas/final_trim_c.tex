@@ -1,0 +1,136 @@
+\documentclass[addpoints,spanish, 12pt,a4paper]{exam}
+%\documentclass[answers, spanish, 12pt,a4paper]{exam}
+\printanswers
+\pointpoints{punto}{puntos}
+\hpword{Puntos:}
+\vpword{Puntos:}
+\htword{Total}
+\vtword{Total}
+\hsword{Resultado:}
+\hqword{Ejercicio:}
+\vqword{Ejercicio:}
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{eurosym}
+%\usepackage[spanish,es-lcroman, es-tabla, es-noshorthands]{babel}
+
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{multicol}
+\usepackage{yhmath}
+
+\usepackage{verbatim}
+%\usepackage{pstricks}
+
+
+\usepackage{graphicx}
+\graphicspath{{../img/}} 
+
+\newcommand{\class}{4º Académicas}
+\newcommand{\examdate}{\today}
+\newcommand{\examnum}{Examen final de trimestre 1}
+\newcommand{\tipo}{C}
+
+
+\newcommand{\timelimit}{50 minutos}
+
+\renewcommand{\solutiontitle}{\noindent\textbf{Solución:}\enspace}
+
+
+\pagestyle{head}
+\firstpageheader{\includegraphics[width=0.2\columnwidth]{header_left}}{\textbf{Departamento de Matemáticas\linebreak \class}\linebreak \examnum}{\includegraphics[width=0.1\columnwidth]{header_right}}
+\runningheader{\class}{\examnum}{Página \thepage\ of \numpages}
+\runningheadrule
+
+
+\begin{document}
+
+\noindent
+\begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r @{\extracolsep{6pt}} }
+\textbf{Nombre:} \makebox[3.5in]{\hrulefill} & \textbf{Fecha:}\makebox[1in]{\hrulefill} \\
+ & \\
+\textbf{Tiempo: \timelimit} & Tipo: \tipo 
+\end{tabular*}
+\rule[2ex]{\textwidth}{2pt}
+Esta prueba tiene \numquestions\ ejercicios. La puntuación máxima es de \numpoints. 
+La nota final de la prueba será la parte proporcional de la puntuación obtenida sobre la puntuación máxima. Para la recuperación de pendientes de 3º se tendrán en cuenta los apartados: 1.a y 4.a
+
+\begin{center}
+
+
+\addpoints
+ %\gradetable[h][questions]
+	\pointtable[h][questions]
+\end{center}
+
+\noindent
+\rule[2ex]{\textwidth}{2pt}
+
+\begin{questions}
+
+\begin{comment}
+\question[1] 
+\begin{solution} \end{solution}
+
+\addpoints
+\end{comment}
+
+\question Calcula: 
+\begin{parts}
+\part[1] Racionaliza y simplifica:  $\dfrac{\sqrt{3}}{2\sqrt{3}-\sqrt{2}}$ 
+\begin{solution} $=\dfrac{\sqrt{3}\cdot\left(2\sqrt{3}+\sqrt{2}\right)}{\left(2\sqrt{3}-\sqrt{2}\right)\left(2\sqrt{3}+\sqrt{2}\right)}=\dfrac{6\sqrt{6}}{12-2}=\dfrac{6\sqrt{6}}{10}$ \end{solution}
+
+\part[1] Aplica la definición de logaritmo para calcular: $\log_5 \sqrt[3]{25}$
+\begin{solution} $\to 5^x=\sqrt[3]{5^2}\to5^x=5^{2/3}\to\log_5 \sqrt[3]{25}=\frac{2}{3}$ \end{solution}
+\end{parts}
+
+\addpoints
+
+\question[1] Utilizando el teorema del resto para el polinomio $P(x)=-2x^3 + x^2 - 3x - 6$, resuelve: 
+\begin{parts}
+\part Valor numérico para $x=-1$ 
+\begin{solution} $0$ \end{solution}
+\part ¿Es divisible $P(x)$ por $x+1$? Justifica tu respuesta 
+\begin{solution} Sí. Por el teorema del resto \end{solution}
+\end{parts}
+
+\addpoints
+
+
+
+
+\question[1] Simplifica la fracción algebraica: $$\dfrac{2x^3-5x^2+3x}{2x^2+x-61} $$
+\begin{solution}$=\dfrac{2x\left(x-1\right)\left(x-\dfrac{3}{2}\right)}{2\left(x+2\right)\left(x-\dfrac{3}{2}\right)}=\dfrac{x(x-1)}{x+2}$  \end{solution}
+
+\addpoints
+
+
+\question Resuelve las siguientes ecuaciones: 
+\begin{parts}
+\part[2] $$\dfrac{2x}{x+1}-\dfrac{1}{x}=\dfrac{5}{6}$$
+\begin{solution}$\to \dfrac{12x^2}{6x\left(x+1\right)}-\dfrac{6\left(x+1\right)}{5x\left(x+1\right)\left(x+1\right)}=\dfrac{5}{6x\left(x+1\right)}\to 12x^2-6x-6=5x^2+5x\to 7x^2-11x-6=0\to x=2 \ x=-\frac{3}{7}$ \end{solution}
+
+\part[2] $$6x^3-12x^2+6x=0$$
+\begin{solution}$P(x)=6x^3-12x^2+6x=6x\left(x-1\right)^2$. Soluciones: $x=0$ y $x=1$ doble \end{solution}
+\part[2] $$\sqrt{x+1}+5=x$$
+\begin{solution}$\to x+1=\left(x-5\right)^2\to x+1=x^2+25-10x\to 0=x^2-11x+24$ Soluciones: $x=8$ válida y $x=3$ no válida \end{solution}
+
+
+
+\part[2] $$\log {\left(x-1\right)}+ \log{2}=\log{\left(x^2+3\right)} - \log x$$ \\
+
+\begin{solution} $\to 2\left(x-1\right)=\frac{x^2+3}{x}\to 2x^2 -2x=x^2+3\to x^2-2x-3=0 \to x=\frac{2\pm\sqrt{4+12}}{2}=\left\lbrace \begin{gathered}
+	  x=3  \to \textup{es solución} \hfill\\
+	  x=-1  \to \textup{no es solución, no existen los logaritmos de negativos}
+	\end{gathered} \right. $  \end{solution}
+
+\end{parts}
+
+\addpoints
+
+\end{questions}
+
+\end{document}
+\grid
