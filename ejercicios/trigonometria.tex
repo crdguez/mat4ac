@@ -36,7 +36,7 @@
 
 \newcommand{\class}{4º Académicas}
 \newcommand{\examdate}{\today}
-\newcommand{\examnum}{Repaso de inecuaciones y sistemas}
+\newcommand{\examnum}{Trigonometría}
 \newcommand{\tipo}{A}
 
 
@@ -55,25 +55,26 @@
 
 \begin{questions}
 
-\question Resolver los siguientes ejercicios:
+\question Teorema del cateto y altura:
 \begin{multicols}{2}
 \begin{parts}
-\part[]$x^4 + 2x^2- 3x < 0$  
-% solve_univariate_inequality (x**4+2*x**2-3*x<0,x,relational =false )
-\begin{solution} $ \left(0, 1\right)$ \end{solution}
-\part[]$ 2x^2 - 4x - 6 \geqslant 0  $  
-\begin{solution} $ \left(-\infty, -1\right] \cup \left[3, \infty\right)$ \end{solution}
+\part[]Calcula la hipotenusa de un triángulo rectángulo, sabiendo que sus catetos miden 156 cm y 65 cm.
+\begin{solution} $=\sqrt{156^2-65^2}=169$ \end{solution}
+\part[]Halla las longitudes de las proyecciones sobre la hipotenusa de los catetos del triángulo del ejercicio anterior.  
+\begin{solution}
+%solve(156**2-169*x) 
+144 y 25 \end{solution}
 
-\part[]$\dfrac{2x-2}{1-3x}<-\dfrac{2}{3} $  
-%from sympy.solvers.inequalities import reduce_rational_inequalities
-%reduce_rational_inequalities([[(2*x-2)/(1-3*x) < -2/3]], x,relational=0)
+\part[]En un triángulo rectángulo, las proyecciones de los catetos sobre la hipotenusa miden 64 m y 225 m
+respectivamente. Halla la longitud de los tres lados del triángulo.
 \begin{solution} $\left(-\infty, \frac{1}{3}\right)$\end{solution}
 
-\part[]$\dfrac{x^2-3x+2}{x^2-x-6}\leqslant 0$  
+\part[]Halla la altura de un trapecio isósceles, sabiendo que sus bases miden 6 m y 16 m y los lados oblicuos 13 m
+cada uno de ellos.
 \begin{solution} $\left(-2, 1\right] \cup \left[2, 3\right)$ \end{solution}
 
-\part[]  $\left| {2x + 9} \right| > 3$ 
-%reduce_abs_inequality(Abs(2*x + 9) - 3, '>', x)
+\part[] En un triángulo rectángulo se conoce un cateto, ($7\sqrt 2 $), y la proyección del otro cateto sobre la
+hipotenusa, ($2\sqrt 2 $). Halla la hipotenusa y el otro cateto.
 \begin{solution} $\left(-\infty, -6\right) \cup \left(-3, \infty\right) $ \end{solution}
 
 \end{parts}
