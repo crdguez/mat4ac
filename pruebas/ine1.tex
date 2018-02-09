@@ -57,7 +57,7 @@
 \end{tabular*}
 \rule[2ex]{\textwidth}{2pt}
 Esta prueba tiene \numquestions\ ejercicios. La puntuación máxima es de \numpoints. 
-La nota final de la prueba será la parte proporcional de la puntuación obtenida sobre la puntuación máxima. Para la recuperación de pendientes de 3º se tendrán en cuenta los apartados: ? ?
+La nota final de la prueba será la parte proporcional de la puntuación obtenida sobre la puntuación máxima. Para la recuperación de pendientes de 3º se tendrán en cuenta los apartados: 1. 2.a y 4.a ?
 
 \begin{center}
 
@@ -79,23 +79,24 @@ La nota final de la prueba será la parte proporcional de la puntuación obtenid
 \addpoints
 \end{comment}
 
-\question Resuelve, justificadamente, las siguientes cuestiones relacionadas con sistemas de ecuaciones: 
-\begin{parts}
-\part[1] $\left. \begin{gathered}
+\question[1] Resuelve por el método que quieras:
+$$\left. \begin{gathered}
 	  \frac{{x + y}}{2} - \frac{{x - y}}{2} = 2 \hfill \\
 	  5x - 10y = 40 \hfill \\ 
-	\end{gathered}  \right\}$
-\begin{solution}  x=12; y=2 \end{solution}
-\part[1] En las anotaciones de un camarero se podía leer: \\
-	\emph{Mesa 10: 2 cafés y 4 zumos 5,2 euros.\\
-	Mesa 15: 3 cafés y 2 zumos 4,2 euros.}\\
-¿Cuánto valían el café y el zumo en ese bar?
-\begin{solution} Café 0,8 euros y zumo 0,9 euros \end{solution}
-\part[2] Calcula el área de un rectángulo sabiendo que su diagonal mide 13 m y su perímetro es 34 m.
+	\end{gathered}  \right\rbrace$$
+	\begin{solution}  x=12; y=2 \end{solution}
+
+\question Cuánto vale el área de un rectángulo sabiendo que su diagonal mide 13 m y su perímetro es 34 m.
+\begin{parts}
+\part[1] Traduce a lenguaje algebraico el enunciado anterior
+\begin{solution}  $\left. \begin{gathered}
+	  2x+2y=34 \hfill \\
+	  x^2+y^2=169 \hfill \\ 
+	\end{gathered}  \right\rbrace$ \end{solution}
+\part[1] Resuelve la expresión del apartado anterior indicando cuántas soluciones hay
 \begin{solution}  
 %solve([2*x+2*y-34,x**2+y**2-169],[x,y])
 $\left ( 5, \quad 12\right ), \quad \left ( 12, \quad 5\right)$ \end{solution}
-
 \end{parts}
 
 \question Resuelve las siguientes inecuaciones:
@@ -125,9 +126,12 @@ $\left ( 5, \quad 12\right ), \quad \left ( 12, \quad 5\right)$ \end{solution}
 \question En  un  examen  de  40  preguntas  te  dan  dos puntos  por  cada  acierto  y  te  restan  0,5  puntos  por  cada fallo. ¿Cuántas preguntas hay que contestar bien para obtener como mínimo 40 puntos, si es obligatorio responder a todas?
 \begin{parts} 
 \part[2] Traduce a lenguaje algebraico el enunciado anterior
-\begin{solution} $ \left(-\infty, -1\right] \cup \left[3, \infty\right)$ \end{solution}
-\part[2] Resuelve la expresión del apartado anterior
-\begin{solution} $ \left(-\infty, -1\right] \cup \left[3, \infty\right)$ \end{solution}
+\begin{solution} $\left. \begin{gathered}
+	  2x - \frac{y}{2} \geqslant 40 \hfill \\
+	  x + y = 40 \hfill
+	 \end{gathered}  \right\rbrace \to 2x-\left(40-x\right)\cdot 0,5 \geqslant 40$ \end{solution}
+\part[2] Resuelve la expresión del apartado anterior e indica cuáles son las soluciones
+\begin{solution} 24 o más \end{solution}
 
 \end{parts}
 \addpoints
