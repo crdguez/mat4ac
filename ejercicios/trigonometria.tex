@@ -20,7 +20,7 @@
 \graphicspath{{../img/}}
 
 
-\printanswers
+%\printanswers
 \nopointsinmargin
 \pointformat{}
 
@@ -36,7 +36,7 @@
 
 \newcommand{\class}{4º Académicas}
 \newcommand{\examdate}{\today}
-\newcommand{\examnum}{Trigonometría}
+\newcommand{\examnum}{Semejanza y Trigonometría 1}
 \newcommand{\tipo}{A}
 
 
@@ -88,43 +88,69 @@ cateto \to \sqrt{-98 + \left(\sqrt{2} + 10\right)^{2}}= 2 \sqrt{1 + 5 \sqrt{2}}$
 
 
 
-\question \textbf{Razones trigonométricas en un triángulo rectángulo}. En los siguientes ejercicios los lados de un triángulo
+\question Razones trigonométricas en un triángulo rectángulo. En los siguientes ejercicios los lados de un triángulo
 rectángulo se representan con las letras a, b y c, siendo siempre a la hipotenusa. Los lados del triángulo se
 representan con las letras A, B y C, siendo siempre A el ángulo recto, B el ángulo opuesto a b y C el ángulo
 opuesto a c. Usando exclusivamente la definición de las razones trigonométricas involucradas en cada caso,
 calcula el lado que se pide:
 \begin{multicols}{2}
 \begin{parts}
-\part[] a = 40 m B = 30º. Hallar b.  
- 
-\begin{solution} $b=40\cdot \sen30$\end{solution}
+\part[] a = 40 m B = 30º. Hallar b.   
+%sin(rad(30))
+\begin{solution} $b=40\cdot \sen30=20\ m$\end{solution}
+\part[] a = 40 cm B = 30º. Hallar c.  
+\begin{solution} $c=40\cdot \cos 30\approx 20 \sqrt{3} \ cm$\end{solution}
+\part[] a = 12 dm C = 60º. Hallar b.  
+\begin{solution} $b=12\cdot \cos60 = 6 \ dm$\end{solution}
+\part[] a = 12 Hm C = 60º. Hallar c. 
+\begin{solution} $c=12\cdot \sen60=6 \sqrt{3}\approx10.3923048454133 \ Hm$\end{solution}
+\part[] b = 20 mm B = 45º. Hallar c.  
+\begin{solution} $c=\dfrac{20}{\tg45} = 20 \ mm $\end{solution}
 
-\part[]  $\left\{ {\begin{matrix}
-   {2x + y \leqslant 4}  \\ 
-   {x \geqslant 0}  \\ 
-   {y \geqslant 1}  \\ 
-
- \end{matrix} } \right.$
 
 \end{parts}
 \end{multicols}
 
+\question Halla sin calculadora el valor de las siguientes expresiones:
+\begin{multicols}{2}
+\begin{parts}
+\part[] $\dfrac{\sen 60 - \sen 30}{\sen 60 + \sen 30}$   
+%(sin(rad(60))-sin(rad(30)))/(sin(rad(60))+sin(rad(30)))
+\begin{solution} $- \sqrt{3} + 2\approx0.267949192431123$\end{solution}
+\part[] $\dfrac{\cos 45 - \sen 30}{\sen 45 + \cos 60}$     
+\begin{solution} $- 2 \sqrt{2} + 3\approx0.17157287525381$\end{solution}
+\part[] $\dfrac{\cos 30 - \cos 60}{\tg 60 - \tg 30}$      
+\begin{solution} $- \frac{\sqrt{3}}{4} + \frac{3}{4}\approx0.316987298107781$\end{solution}
+\part[] $\dfrac{\sen 45 \cdot \cos 30 - \sen 30 \cdot \cos 45}{\cos 45 + \cos 30}$ 
+\begin{solution} $\frac{\sqrt{2} + \sqrt{6}}{2 \sqrt{2} + 2 \sqrt{3}}\approx0.614014407382354$\end{solution}
+
+
+\end{parts}
+\end{multicols}
+
+
 \question Resuelve los siguientes problemas:
 \begin{multicols}{2}
 \begin{parts}
-\part[] Se tienen dos cuadrados distintos. La suma de dos lados, uno de cada cuadrado, es de 62 centímetros, y la suma de sus áreas, de 1954 centímetros cuadrados. ¿Cuáles son sus medidas?
-\begin{solution} $\left\{ {\begin{matrix}
-   {x+y=62}  \\ 
-   {x^2+y^2=1954}  \\ 
- \end{matrix} } \right. \to \\ s\left [ \left ( 27, \quad 35\right ), \quad \left ( 35, \quad 27\right )\right ]$ \end{solution}
-\part[] En una clase hay 5 chicos más que chicas. Sabemos que en total son algo más de 20 alumnos, pero no llegan a 25. ¿Cuál puede ser la composición de la clase?
-\begin{solution} $\left\{ {\begin{matrix}
-   {y=x+5}  \\ 
-   {20<x+y<25}  \\ 
- \end{matrix} } \right. \to$ 8 chicas y 13 chicos o 9 chicas y 14 chicos\end{solution}
-\part[]  ¿Cuántos litros de vino de 5\euro/l se deben mezclar con 20 l de otro de 3,50\euro/l para que el
-precio de la mezcla sea inferior a 4\euro /l ?
-\begin{solution}$5x + 70 < 4\cdot(20 + x)\to\left(20, +\infty\right)\to x<10 \to$ Se deben mezclar menos de 10 l del vino caro  \end{solution}
+\part[] Halla la altura de una antena de radio si su sombra mide 100 m cuando los rayos del Sol forman un ángulo de 30º con la horizontal
+\begin{solution} $\tg30=\frac{a}{100}\to a= 100\cdot\tg30 = \frac{100 \sqrt{3}}{3}\approx57.7350269189626 \ m$ \end{solution}
+\part[] Averigua la distancia a la que se encuentra un castillo que está situado en la orilla opuesta de un río, sabiendo
+que la torre más alta del mismo se ve desde nuestra orilla bajo un ángulo de 40º y alejándonos 100 m del río el
+ángulo es de 25º.
+\begin{solution} \end{solution}
+\part[]  ¿Calcula el área de un decágono regular de 5 cm de lado.
+\begin{solution}$ $ \end{solution}
+
+\part[]  En una circunferencia de 7 cm de radio trazamos una cuerda de 9 cm. ¿Cuánto mide el ángulo central que
+abarca dicha cuerda?
+\begin{solution} \end{solution}
+
+\part[]  Halla los ángulos de un triángulo isósceles cuya base mide 50 cm y los lados iguales 40 cm cada uno.
+\begin{solution} \end{solution}
+
+\part[]  Si vemos una chimenea bajo un ángulo de 30º, ¿bajo qué ángulo la veríamos si la distancia a la que nos
+encontramos de la misma fuese el doble? ¿Y si fuese el triple?
+\begin{solution} \end{solution}
 
 
 \end{parts}
