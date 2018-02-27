@@ -1,0 +1,257 @@
+\documentclass[spanish, 11pt]{exam}
+
+%These tell TeX which packages to use.
+\usepackage{array,epsfig}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsxtra}
+\usepackage{amsthm}
+\usepackage{mathrsfs}
+\usepackage{color}
+\usepackage{multicol}
+\usepackage{verbatim}
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{eurosym}
+
+\usepackage{graphicx}
+\graphicspath{{../img/}}
+
+
+%\printanswers
+\nopointsinmargin
+\pointformat{}
+
+%Pagination stuff.
+%\setlength{\topmargin}{-.3 in}
+%\setlength{\oddsidemargin}{0in}
+%\setlength{\evensidemargin}{0in}
+%\setlength{\textheight}{9.in}
+%\setlength{\textwidth}{6.5in}
+%\pagestyle{empty}
+
+\renewcommand{\solutiontitle}{\noindent\textbf{Sol:}\enspace}
+
+\newcommand{\class}{4º Académicas}
+\newcommand{\examdate}{\today}
+\newcommand{\examnum}{Trigonometría 2}
+\newcommand{\tipo}{A}
+
+
+\newcommand{\timelimit}{50 minutos}
+
+
+
+\pagestyle{head}
+\firstpageheader{\includegraphics[width=0.2\columnwidth]{header_left}}{\textbf{Departamento de Matemáticas\linebreak \class}\linebreak \examnum}{\includegraphics[width=0.1\columnwidth]{header_right}}
+\runningheader{\class}{\examnum}{Página \thepage\ of \numpages}
+\runningheadrule
+
+\begin{document}
+
+
+
+\begin{questions}
+
+
+\question \textbf{Teoría:} Reducción al primer cuadrante
+\begin{multicols}{3}
+\begin{parts}
+\part[]Ángulos complementarios (suman 90º) \\
+\[\begin{matrix}
+   sen\text{ }\left( 90{}^\text{o}\text{ - }\alpha  \right)\ =\text{ cos }\alpha   \\
+   \cos \text{ }\left( \text{90 }\!\!{}^\text{o}\!\!\text{  - }\alpha  \right)\text{ }=\text{ sen }\alpha   \\
+   tg\text{ }\left( \text{90 }\!\!{}^\text{o}\!\!\text{  - }\alpha  \right)\text{ }=\text{ cotg }\alpha   \\
+\end{matrix}\]
+
+\part[]Ángulos que difieren 90º  \\
+\[\begin{matrix}
+   sen\text{ }\left( \text{90 }\!\!{}^\text{o}\!\!\text{  }+\text{ }\alpha  \right)\ =\text{ cos }\alpha   \\
+   \cos \text{ }\left( \text{90 }\!\!{}^\text{o}\!\!\text{  }+\text{ }\alpha  \right)\text{ }=\text{  -sen }\alpha   \\
+   tg\text{ }\left( \text{90 }\!\!{}^\text{o}\!\!\text{  }+\text{ }\alpha  \right)\text{ }=\text{  -cotg }\alpha   \\
+\end{matrix}\]
+
+\part[]Ángulos suplementarios (suman 180º)  \\
+\[\begin{matrix}
+   sen\text{ }\left( \text{180 }\!\!{}^\text{o}\!\!\text{  - }\alpha  \right)\ =\text{ sen }\alpha   \\
+   \cos \text{ }\left( \text{180 }\!\!{}^\text{o}\!\!\text{  - }\alpha  \right)\text{ }=\text{ -cos }\alpha   \\
+   tg\text{ }\left( \text{180 }\!\!{}^\text{o}\!\!\text{  - }\alpha  \right)\text{ }=\text{ -tg }\alpha   \\
+\end{matrix}\]
+
+\part[]Ángulos que difieren 90º  \\
+\[\begin{matrix}
+   sen\text{ }\left( \text{180 }\!\!{}^\text{o}\!\!\text{  }+\text{ }\alpha  \right)\ =\text{ -sen }\alpha   \\
+   \cos \text{ }\left( \text{180 }\!\!{}^\text{o}\!\!\text{  }+\text{ }\alpha  \right)\text{ }=\text{ -cos }\alpha   \\
+   tg\text{ }\left( \text{180 }\!\!{}^\text{o}\!\!\text{  }+\text{ }\alpha  \right)\text{ }=\text{ tg }\alpha   \\
+\end{matrix}\]
+
+\part[]Ángulos cuya suma es 360º  \\
+\[\begin{matrix}
+   sen\text{ }\left( 360{}^\text{o}\text{ - }\alpha  \right)\ =\text{ -sen }\alpha   \\
+   \cos \text{ }\left( 360{}^\text{o}\text{ - }\alpha  \right)\text{ }=\text{ cos }\alpha   \\
+   tg\text{ }\left( 360{}^\text{o}\text{ - }\alpha  \right)\text{ }=\text{ -tg }\alpha   \\
+\end{matrix}\]
+
+\end{parts}
+\end{multicols}
+
+\question Demostrar que para cualquier ángulo $\alpha $, se verifica: $\sec^2{\alpha}+\cosec^2{\alpha}=\sec^2{\alpha}\cdot\cosec^2{\alpha}$
+
+
+\question Demostrar si son verdaderas o falsas las siguientes ecuaciones:
+
+\begin{multicols}{2}
+\begin{parts}
+\part[] $\dfrac{{{\text{tg }}\alpha {\text{ }} + {\text{ tg }}\beta }}{{{\text{cotg }}\alpha {\text{ }} + {\text{ cotg }}\beta }}{\text{ }} = {\text{ tg }}\alpha {\text{ }}{\text{. tg }}\beta   $
+\begin{solution} \end{solution}
+
+\part[] $\dfrac{{{\text{sen }}\alpha {\text{ }}{\text{. cos }}\alpha }}{{{\text{co}}{{\text{s}}^{\text{2}}}\alpha {\text{  -  se}}{{\text{n}}^{\text{2}}}\alpha }}{\text{ }} = {\text{ }}\dfrac{{{\text{tg }}\alpha }}{{{\text{1  -  t}}{{\text{g}}^2}\alpha }}   $
+\begin{solution} \end{solution}
+\part[] $\cotg \alpha {\text{  -  }}\dfrac{{{\text{cot}}{{\text{g}}^{\text{2}}}\alpha {\text{  -  1}}}}{{{\text{cotg }}\alpha }}{\text{ }} = {\text{ tg }}\alpha$
+\begin{solution} \end{solution}
+\part[] $\dfrac{{{\text{ sen }}\alpha {\text{ }} + {\text{ cotg }}\alpha }}{{{\text{tg }}\alpha {\text{ }} + {\text{ cosec }}\alpha }}{\text{ }} = {\text{ cos }}\alpha$
+\begin{solution} \end{solution}
+\part[] $\cotg^2\alpha {\text{  -  }}{\cos ^2}\alpha {\text{ }} = {\text{ }}\cotg^2\alpha {\text{ }}{\text{. }}{\cos ^2}\alpha$
+\begin{solution} \end{solution}
+\part[] $\sen\alpha {\text{ }}{\text{. cos }}\alpha {\text{ }}{\text{. tg }}\alpha {\text{ }}{\text{. cotg}}\alpha {\text{ }}{\text{. sec }}\alpha {\text{ }}{\text{. cosec }}\alpha {\text{ }} = {\text{ 1}}$
+\begin{solution} \end{solution}
+\part[] $\dfrac{1 + \tg\alpha }{1-\tg\alpha } = \dfrac{\cos\alpha+\sen\alpha}{\cos\alpha-\sen\alpha}$
+\begin{solution} \end{solution}
+\part[] $\dfrac{{{\text{1 }} + {\text{ t}}{{\text{g}}^{\text{2}}}\alpha }}{{\cot g{\text{ }}\alpha }}{\text{ }} = {\text{ }}\dfrac{{{\text{tg }}\alpha }}{{{\text{co}}{{\text{s}}^{\text{2}}}\alpha }}$
+\begin{solution} \end{solution}
+
+
+\end{parts}
+\end{multicols}
+
+\question Simplificar las siguientes expresiones:
+
+\begin{multicols}{2}
+\begin{parts}
+\part[] $sen{\text{ }}\alpha {\text{ }}{\text{. }}\frac{{\text{1}}}{{{\text{tg }}\alpha }} $
+\begin{solution} \end{solution}
+\part[] $se{n^3}\alpha  + {\text{ sen }}\alpha {\text{ }}{\text{. co}}{{\text{s}}^{\text{2}}}\alpha$
+\begin{solution} \end{solution}
+\part[] $\sqrt {1{\text{  -  sen }}\alpha } {\text{ }}{\text{. }}\sqrt {{\text{1 }} + {\text{ sen }}\alpha }$
+\begin{solution} \end{solution}
+\part[] $ se{n^4}\alpha {\text{  -  co}}{{\text{s}}^{\text{4}}}\alpha$
+\begin{solution} \end{solution}
+\part[] ${\cos ^3}\alpha {\text{ }} + {\text{ co}}{{\text{s}}^{\text{2}}}\alpha {\text{ }}{\text{. sen }}\alpha {\text{ }} + {\text{ cos }}\alpha {\text{ }}{\text{. se}}{{\text{n}}^{\text{2}}}\alpha {\text{ }} + {\text{ se}}{{\text{n}}^{\text{3}}}\alpha $
+\begin{solution} \end{solution}
+\part[] $sen{\text{ }}\alpha {\text{ }}{\text{. cos }}\alpha {\text{ }}\left( {{\text{tg }}\alpha {\text{ }} + {\text{ }}\dfrac{{\text{1}}}{{{\text{tg }}\alpha }}} \right) $
+\begin{solution} \end{solution}
+\part[] $ \dfrac{{{{\cos }^2}\alpha {\text{  -  se}}{{\text{n}}^{\text{2}}}\alpha }}{{{{\cos }^4}\alpha {\text{  -  se}}{{\text{n}}^{\text{4}}}\alpha }}$
+\begin{solution} \end{solution}
+\part[] $\dfrac{{{{\sec }^2}\alpha {\text{ }} + {\text{ co}}{{\text{s}}^{\text{2}}}\alpha }}{{{{\sec }^2}\alpha {\text{  -  co}}{{\text{s}}^{\text{2}}}\alpha }} $
+\begin{solution} \end{solution}
+\part[] $ \dfrac{{{{\cos }^2}\alpha }}{{{\text{1  -  sen }}\alpha }}$
+\begin{solution} \end{solution}
+\part[] $\dfrac{{\cos ec{\text{ }}\alpha }}{{1{\text{ }} + {\text{ }}\cot {g^2}\alpha {\text{ }}}} $
+\begin{solution} \end{solution}
+\end{parts}
+\end{multicols}
+
+
+
+\question Calcular las restantes razones trigonométricas de $\alpha$, conocida:
+\begin{multicols}{2}
+\begin{parts}
+\part[]  $\cos {\text{ }}\alpha {\text{ }} = {\text{ }}\frac{{\text{4}}}{{\text{5}}}{\text{   y   }}\alpha {\text{ }} \in {\text{ I}}$
+\begin{solution} \end{solution}
+\part[] $sen{\text{ }}\alpha {\text{ }} = {\text{ }}\frac{{\text{3}}}{{\text{5}}}{\text{   y   }}\alpha {\text{ }} \in {\text{ II}}$ 
+\begin{solution} \end{solution}
+\part[]  $tg{\text{ }}\alpha {\text{ }} = {\text{  - }}\frac{{\text{3}}}{{\text{4}}}{\text{   y   }}\alpha {\text{ }} \in {\text{ II}}$
+\begin{solution} \end{solution}
+\part[]  $\sec {\text{ }}\alpha {\text{ }} = {\text{ 2   y   }}\alpha {\text{ }} \in {\text{ IV}}$
+\begin{solution} \end{solution}
+\part[]  $\cos ec{\text{ }}\alpha {\text{ }} = {\text{  - 2   y   }}\alpha {\text{ }} \in {\text{ III}}$
+\begin{solution} \end{solution}
+\part[]  $\cot g{\text{ }}\alpha {\text{ }} = {\text{  - 2   y   }}\alpha {\text{ }} \in {\text{ IV}}$
+\begin{solution} \end{solution}
+
+\end{parts}
+\end{multicols}
+
+\question Si $\tg\alpha = \dfrac{3}{4}$, halla el valor de las siguientes razones trigonométricas: 
+\begin{multicols}{3}
+\begin{parts}
+\part[]  $\tg{\text{ }}\left( {\frac{\pi }{{\text{2}}}{\text{  -  }}\alpha } \right){\text{ }} = {\text{ }}$
+\begin{solution} \end{solution}
+\part[] $\sen (\pi-\alpha) =$ 
+\begin{solution} \end{solution}
+\part[]  $\cos (\pi+\alpha) =$ 
+\begin{solution} \end{solution}
+\part[]  $\tg (\pi-\alpha) =$ 
+\begin{solution} \end{solution}
+\part[]  cotg $\left( {\frac{\pi }{2}{\text{ }} + {\text{ }}\alpha } \right)$ =
+\begin{solution} \end{solution}
+\part[]  $\sec (\pi-\alpha) =$ 
+\begin{solution} \end{solution}
+\part[]  cosec $\left( {\frac{{3\pi }}{2}{\text{  -  }}\alpha } \right)$
+\begin{solution} \end{solution}
+\part[]  cos $\left( {\frac{{3\pi }}{2}{\text{ }} + {\text{ }}\alpha } \right)$ = 
+
+\begin{solution} \end{solution}
+\part[]  $\sen (\pi+\alpha) =$ 
+\begin{solution} \end{solution}
+\part[]  tg $\left( {\frac{\pi }{2}{\text{ }} + {\text{ }}\alpha } \right)$ 
+\begin{solution} \end{solution}
+\part[]  $\cotg (\pi+\alpha) =$ 
+\begin{solution} \end{solution}
+\part[]  $\sec (\pi-\alpha) =$ 
+\begin{solution} \end{solution}
+
+\end{parts}
+\end{multicols}
+
+\question Resolver las siguientes ecuaciones:
+
+\begin{multicols}{1}
+\begin{parts}
+\part[]  sen 2x = $\frac{1}{2}$
+\begin{solution} \end{solution}
+\part[]  tg $\frac{x}{2}{\text{ }} = {\text{ }}\frac{{\sqrt {\text{3}} }}{3}$    
+\begin{solution} \end{solution}
+\part[]  ${\text{sen }}\left( {{\text{3x  -  }}\frac{\pi }{{\text{2}}}} \right){\text{ }} = {\text{  -  }}\frac{{\text{1}}}{{\text{2}}}$
+\begin{solution} \end{solution}
+\end{parts}
+\end{multicols}
+
+\question Resolver las siguientes ecuaciones:
+
+\begin{multicols}{1}
+\begin{parts}
+\part[]  2 sen x + cosec x = 2$\sqrt 2 $
+\begin{solution} \end{solution}
+\part[]  $\sen x = \cos^2 x + 1$  
+\begin{solution} \end{solution}
+\part[]  tg x – sen x = 0
+\begin{solution} \end{solution}
+\part[]  sen x . cos x = 2.sen x
+\begin{solution} \end{solution}
+\part[]  2 cos x – 3tg x = 0
+\begin{solution} \end{solution}
+\part[]  tg x + 3.cotg x = 4
+\begin{solution} \end{solution}
+\end{parts}
+\end{multicols}
+
+\begin{comment}
+\question 
+\begin{multicols}{3}
+\begin{parts}
+\part[]  
+\begin{solution} \end{solution}
+\end{parts}
+\end{multicols}
+\end{comment}
+
+
+
+\end{questions}
+
+\end{document}
+
+
