@@ -1,0 +1,123 @@
+\documentclass[addpoints,spanish, 12pt,a4paper]{exam}
+%\documentclass[answers, spanish, 12pt,a4paper]{exam}
+\printanswers
+\pointpoints{punto}{puntos}
+\hpword{Puntos:}
+\vpword{Puntos:}
+\htword{Total}
+\vtword{Total}
+\hsword{Resultado:}
+\hqword{Ejercicio:}
+\vqword{Ejercicio:}
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{eurosym}
+%\usepackage[spanish,es-lcroman, es-tabla, es-noshorthands]{babel}
+
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{multicol}
+\usepackage{yhmath}
+
+\usepackage{verbatim}
+%\usepackage{pstricks}
+
+
+\usepackage{graphicx}
+\graphicspath{{../img/}} 
+
+\newcommand{\class}{4º Académicas}
+\newcommand{\examdate}{\today}
+\newcommand{\examnum}{Examen de final de trimestre}
+\newcommand{\tipo}{A}
+
+
+\newcommand{\timelimit}{50 minutos}
+
+\renewcommand{\solutiontitle}{\noindent\textbf{Solución:}\enspace}
+
+
+\pagestyle{head}
+\firstpageheader{\includegraphics[width=0.2\columnwidth]{header_left}}{\textbf{Departamento de Matemáticas\linebreak \class}\linebreak \examnum}{\includegraphics[width=0.1\columnwidth]{header_right}}
+\runningheader{\class}{\examnum}{Página \thepage\ of \numpages}
+\runningheadrule
+\pointsinrightmargin % Para poner las puntuaciones a la derecha. Se puede cambiar. Si se comenta, sale a la izquierda.
+\extrawidth{-2.4cm} %Un poquito más de margen por si ponemos textos largos.
+\marginpointname{ \emph{\points}}
+
+\begin{document}
+
+\noindent
+\begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r @{\extracolsep{6pt}} }
+\textbf{Nombre:} \makebox[3.5in]{\hrulefill} & \textbf{Fecha:}\makebox[1in]{\hrulefill} \\
+ & \\
+\textbf{Tiempo: \timelimit} & Tipo: \tipo 
+\end{tabular*}
+\rule[2ex]{\textwidth}{2pt}
+Esta prueba tiene \numquestions\ ejercicios. La puntuación máxima es de \numpoints. 
+La nota final de la prueba será la parte proporcional de la puntuación obtenida sobre la puntuación máxima. Para la recuperación de pendientes de 3º se tendrán en cuenta los apartados: 1. 2.a y 4.a
+
+\begin{center}
+
+
+\addpoints
+ %\gradetable[h][questions]
+	\pointtable[h][questions]
+\end{center}
+
+\noindent
+\rule[2ex]{\textwidth}{2pt}
+
+\begin{questions}
+
+\begin{comment}
+\question[1] 
+\begin{solution} \end{solution}
+
+\addpoints
+\end{comment}
+
+
+\question Resuelve las siguientes inecuaciones:
+\begin{parts}
+
+\part[2]$ x^3 < x  $
+%solve_univariate_inequality (expand(x*(x-1)*(x+1))<0,x,relational =false )  
+\begin{solution} $\left(-\infty, -1\right) \cup \left(0, 1\right)$ \end{solution}
+
+
+
+\part[2]$\dfrac{x^{2} - x}{x^{2} + x}\geqslant 0$  
+%from sympy.solvers.inequalities import reduce_rational_inequalities
+%reduce_rational_inequalities([[expand(x*(x-1))/expand(x*(x+1)) >= 0]], x,relational=0)
+\begin{solution} $\left(-\infty, -1\right) \cup \left[1, \infty\right)$ \end{solution}
+
+
+\end{parts}
+
+\addpoints
+
+\question Si la $\tg \alpha = 1$, calcula:
+\begin{parts} 
+\part[2] El resto de las razones trigonométricas principales usando las relaciones trigonométricas fundamenteles y sabiendo que $\alpha \in I$ (primer cuadrante)
+\begin{solution} $\left. \begin{gathered}
+	  2x - \frac{y}{2} \geqslant 40 \hfill \\
+	  x + y = 40 \hfill
+	 \end{gathered}  \right\rbrace \to 2x-\left(40-x\right)\cdot 0,5 \geqslant 40$ \end{solution}
+\part[2] El resto de las razones trigonométricas principales usando las relaciones trigonométricas fundamenteles y sabiendo que $\alpha \in III$ (tercer cuadrante)
+\begin{solution} $\left. \begin{gathered}
+	  2x - \frac{y}{2} \geqslant 40 \hfill \\
+	  x + y = 40 \hfill
+	 \end{gathered}  \right\rbrace \to 2x-\left(40-x\right)\cdot 0,5 \geqslant 40$ \end{solution}	 
+\part[2] Si $\alpha \in I$ 
+\begin{solution} 24 o más \end{solution}
+
+\end{parts}
+\addpoints
+
+\end{questions}
+
+\end{document}
+\grid
