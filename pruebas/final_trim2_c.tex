@@ -33,7 +33,7 @@
 \newcommand{\class}{4º Académicas}
 \newcommand{\examdate}{\today}
 \newcommand{\examnum}{Examen de final de trimestre}
-\newcommand{\tipo}{A}
+\newcommand{\tipo}{C}
 
 
 \newcommand{\timelimit}{50 minutos}
@@ -85,37 +85,40 @@ La nota final de la prueba será la parte proporcional de la puntuación obtenid
 \question Resuelve las siguientes inecuaciones de manera justificada:
 \begin{parts}
 
-\part[1]$ x^3 < x  $
-%solve_univariate_inequality (expand(x*(x-1)*(x+1))<0,x,relational =false )  
-\begin{solution} $\left(-\infty, -1\right) \cup \left(0, 1\right)$ \end{solution}
+\part[1]$ x < x^3  $
+%solve_univariate_inequality (x-x**3<0,x,relational =false )  
+\begin{solution} $\left(-1, 0\right) \cup \left(1, \infty\right)$ \end{solution}
 
 
 
-\part[2]$\dfrac{x^{2} - x}{x^{2} + x}\geqslant 0$  
+\part[2]$\dfrac{x - 1}{x^{2} + x}\geqslant 0$  
 %from sympy.solvers.inequalities import reduce_rational_inequalities
-%reduce_rational_inequalities([[expand(x*(x-1))/expand(x*(x+1)) >= 0]], x,relational=0)
-\begin{solution} $\left(-\infty, -1\right) \cup \left[1, \infty\right)$ \end{solution}
+%reduce_rational_inequalities([[expand((x-1))/expand(x*(x+1)) >= 0]], x,relational=0)
+\begin{solution} $\left(-1, 0\right) \cup \left[1, \infty\right)$ \end{solution}
 
 
 \end{parts}
 
 \addpoints
 
-\question[1]Calcula las razones trigonométricas principales de los ángulos agudos de un triángulo en el que uno de sus catetos mide 2,5 cm y la hipotenusa, 6,5 cm.
-\begin{solution} El otro cateto mide $\sqrt{6,5^2-2,5^2}=6 cm$\\
-$\sen \alpha = \frac{6}{6,5} \ \cos \alpha = \frac{2.5}{6,5} \ \tg \alpha = \frac{6}{2.5}$\\
-$\cos \beta = \frac{6}{6,5} \ \sen \beta = \frac{2.5}{6,5} \ \tg \beta = \frac{2.5}{6}$
-\end{solution} 
+\question[1] Comprueba, usando el teorema de Pitágoras, que el triángulo de lados 6 cm, 8 cm y 10 cm es rectángulo y calcula las razones trigonométricas de sus dos ángulos agudos.
+
+\begin{solution}
+$10^2= 8^2+6^2$ \\
+$\sen \alpha = \frac{8}{10} \ \cos \alpha = \frac{6}{10} \ \tg \alpha = \frac{8}{6}$\\
+$\cos \beta = \frac{6}{10} \ \sen \beta = \frac{8}{10} \ \tg \beta = \frac{6}{8}$
+\end{solution}
+
 \question[1] Completa la siguiente tabla:\\
 
 \begin{TAB}(r,2cm,0.2cm)[2pt]{|c|c|c|c|c|c|}{|c|c|c|c|c|}% (rows,min,max)[tabcolsep]{columns}{rows}
 \multicolumn{1}{p{2cm}}{Grados} &\multicolumn{1}{p{2cm}}{Radianes}&
 \multicolumn{1}{p{2cm}}{Cuadrante}&
 \multicolumn{1}{p{2cm}}{Signo del seno}& \multicolumn{1}{p{2cm}}{Signo del coseno} &\multicolumn{1}{p{2cm}}{Signo de la tangente}\\
-30º &&&&&\\
-&$\dfrac{11\pi}{6}$&&&&\\
-210º &&&&&\\
-&$\dfrac{\pi}{3}$&&&&\\
+ &$\dfrac{\pi}{3}$&&&&\\
+330º&&&&&\\
+ &$\dfrac{7\pi}{6}$&&&&\\
+60º&&&&&\\
 \end{TAB}
 
 \begin{solution} \\
@@ -131,28 +134,30 @@ $\cos \beta = \frac{6}{6,5} \ \sen \beta = \frac{2.5}{6,5} \ \tg \beta = \frac{2
 
 \end{solution}
 
-\question Si $\sen \alpha = \frac{1}{2}$, calcula usando radicales:
+\question Si $\cos \alpha = \frac{1}{2}$, calcula usando radicales:
 \begin{parts} 
 \part[2] El resto de las razones trigonométricas principales usando las relaciones trigonométricas fundamenteles y sabiendo que $\alpha \in I$ (primer cuadrante)
-\begin{solution} $\cos \alpha = \sqrt{1-\left(\dfrac{1}{2}\right)^2}=\dfrac{\sqrt{3}}{2} \ \tg \alpha = \dfrac{\frac{1}{2}}{\frac{\sqrt{3}}{2}}=\dfrac{1}{\sqrt{3}}=\dfrac{\sqrt{3}}{3}$ \end{solution}
-\part[1] El resto de las razones trigonométricas principales usando el apartado anterior y sabiendo que $\alpha \in II$ (segundo cuadrante)
-\begin{solution} $\cos \alpha = -\dfrac{\sqrt{3}}{2} \ \ \tg \alpha =-\dfrac{\sqrt{3}}{3}$ \end{solution}	 
+\begin{solution} $\sen \alpha = \sqrt{1-\left(\dfrac{1}{2}\right)^2}=\dfrac{\sqrt{3}}{2} \ \tg \alpha = \dfrac{\frac{\sqrt{3}}{2}}{\frac{1}{2}}=\sqrt{3}$ \end{solution}
+\part[1] El resto de las razones trigonométricas principales usando el apartado anterior y sabiendo que $\alpha \in IV$ (cuarto cuadrante)
+\begin{solution} $\sen \alpha = -\dfrac{\sqrt{3}}{2} \ \tg \alpha = -\sqrt{3}$  \end{solution}	 
 
 
 \end{parts}
 \addpoints
 
 
-\question[1]  Calcula la altura de una casa sabiendo que al tender un cable de 9 m desde el tejado, este forma con el suelo un ángulo de 60°. ¿A qué distancia de la casa cae el cable?
-\begin{solution} $\cos 60 = \dfrac{x}{9} \to x=9\cdot\frac{1}{2}=4.5m$ \end{solution}
+\question[1]  Calcula la altura de una torre sabiendo que su sombra mide 13 m cuando los rayos del
+sol forman un ángulo de 50º con el suelo.
+\begin{solution} $\tg 50 = \dfrac{x}{13} \to x=13\cdot\tg 50\approx15.4927967037247m$ \end{solution}
 
-\question[2]   Dos edificios distan entre sí 150 m. Desde un punto que está entre los edificios, vemos
-que las visuales a los puntos más altos de estos forman con la horizontal ángulos de 35º y
-20º. ¿Cuál es la altura de los edificios si sabemos que miden lo mismo?
+\question[2]   Desde el lugar donde me encuentro la visual de la torre forma un ángulo de 32º con la
+horizontal. Si me acerco 15 m, el ángulo es de 50º. ¿Cuál es la altura de la torre?
 \begin{solution} $\left. \begin{gathered}
-	  \tg 35 = \frac{y}{x} \\
-	  \tg 20 = \frac{y}{150-x} \hfill
-	 \end{gathered}  \right\rbrace \to \begin{Bmatrix}x : \frac{150 \tan{\left (\frac{\pi}{9} \right )}}{\tan{\left (\frac{\pi}{9} \right )} + \tan{\left (\frac{7 \pi}{36} \right )}}, & y : - \frac{75}{\tan{\left (\frac{11 \pi}{36} \right )}} + \frac{75 \sqrt{\sqrt{3} + 2}}{2 \sin{\left (\frac{11 \pi}{36} \right )}}\end{Bmatrix} \\ \to \frac{150 \tan{\left (\frac{\pi}{9} \right )} \tan{\left (\frac{7 \pi}{36} \right )}}{\tan{\left (\frac{\pi}{9} \right )} + \tan{\left (\frac{7 \pi}{36} \right )}}\approx35.9227623864298 m$ \end{solution}
+	  \tg 32 = \frac{y}{x} \\
+	  \tg 50 = \frac{y}{x-15} \hfill
+	 \end{gathered}  \right\rbrace \\
+	 \to 
+	 \frac{15 \tan{\left (\frac{8 \pi}{45} \right )} \tan{\left (\frac{5 \pi}{18} \right )}}{- \tan{\left (\frac{8 \pi}{45} \right )} + \tan{\left (\frac{5 \pi}{18} \right )}}\approx19.7048244137178 m $ \end{solution}
 
 
 \end{questions}
