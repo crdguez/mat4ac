@@ -10,7 +10,7 @@
 \usepackage{pgf,tikz}
 \usepackage{mathrsfs}
 
-\usetikzlibrary{shapes, calc, shapes, arrows, babel}
+\usetikzlibrary{shapes, calc, shapes, arrows, math, babel}
 
 \usepackage{amsmath,amssymb,textcomp}
 \everymath{\displaystyle}
@@ -182,21 +182,104 @@ Dado $k \in \mathbb{R}$ y $\overrightarrow{u}$ se define $k\cdot\overrightarrow{
 \end{tikzpicture}
 
 \subsection{Suma y resta de vectores}
-\paragraph*{Definición} Dados $\overrightarrow{u}$ y $\overrightarrow{v}$ se define la suma como el vector que   si los ponemos seguidos va del origen del primer vector al extremo del segundo vector.
+\paragraph*{Definición de suma} Dados $\overrightarrow{u}$ y $\overrightarrow{v}$ se define la suma como el vector que   si los ponemos seguidos va del origen del primer vector al extremo del segundo vector. Además se cumple que si $\overrightarrow{u}(x_1,y_1) \ y \overrightarrow{v}(x_2,y_2) \to \overrightarrow{u} +\overrightarrow{v}(x_1+x_2, y_1+y_2)$ 
+\medskip 
 
 \begin{tikzpicture}[scale=0.75]
 \draw [->, red, thick, fill=red]  (1,0) -- node[left] {$\overrightarrow{u}(1,2)$} (2,2); 
 \draw [->, blue, thick, fill=blue]  (2,2) -- node[left] {$\overrightarrow{v}(4,1)$} (6,3); 
 \draw [->, orange, thick, fill=blue]  (1,0) -- node[right] {$\overrightarrow{u}+\overrightarrow{v}(5,3)$} (6,3); 
+\end{tikzpicture}
+
+\paragraph*{Definición de resta} Dados $\overrightarrow{u}$ y $\overrightarrow{v}$ se define la resta como la suma del primero con el opuesto del segundo. Además se cumple que si $\overrightarrow{u}(x_1,y_1) \ y \overrightarrow{v}(x_2,y_2) \to \overrightarrow{u} -\overrightarrow{v}(x_1-x_2, y_1-y_2)$ 
+
+\section{Punto medio de un segmento}
+
+Dados dos puntos del plano, $A(x_1,y_1)$ y $B(x_2,y_2)$, el punto medio es $M(\frac{x_1+x_2}{2},\frac{y_1+y_2}{2})$. 
+
+\begin{tikzpicture}[scale=0.75]
+
+\tikzmath{\x1 = 1; \y1 =2;
+		  \x2 = 6; \y2 =4; 	 
+                   %computations are also possible
+                    \x3 = (\x1 + \x2)*0.5; \y3 =(\y1 + \y2)*0.5; } 
+
+\coordinate (A) at (\x1,\y1);
+\coordinate (M) at (\x3,\y3);
+\coordinate (B) at (\x2,\y2);
+
+\draw [fill=blue] (A) circle (2pt) node [left] {$A(x_1,y_1)$};
+\draw [fill=blue] (B) circle (2pt) node [right] {$B(x_2,y_2)$};
+\draw [fill=blue] (M) circle (2pt) node [above] {$M(\frac{x_1+x_2}{2},\frac{y_1+y_2}{2})$};
+\draw [->, red, thick]  (A) -- node[below] {$\overrightarrow{AB}$} (B); 
 
 \end{tikzpicture}
 
+La demostración es sencilla aplicando la propiedad geométrica que cumple el punto medio: $\overrightarrow{AM}=\overrightarrow{MB}$
 
+\subsection{Ejemplo}
+\begin{tikzpicture}[scale=0.5]
 
+\tikzmath{\x1 = 1; \y1 = 4;
+		  \x2 = 9; \y2 = 0; 	 
+                   %computations are also possible
+                    \x3 = (\x1 + \x2)*0.5; \y3 =(\y1 + \y2)*0.5; } 
 
+\coordinate (A) at (\x1,\y1);
+\coordinate (M) at (\x3,\y3);
+\coordinate (B) at (\x2,\y2);
 
+\draw [fill=blue] (A) circle (2pt) node [left] {A(\x1,\y1)};
+\draw [fill=blue] (B) circle (2pt) node [right] {B(\x2,\y2)};
+\draw [fill=blue] (M) circle (2pt) node [above] {M(\x3,\y3)};
+\draw [->, red, thick]  (A) -- node[below] {$\overrightarrow{AB}$} (B); 
 
+\end{tikzpicture}
 
+\section{Puntos alineados}
+Dados los puntos $A$, $B$ y $C$ estarán alineados si los vectores $\overrightarrow{AB}$ y $\overrightarrow{BC}$ son colineales, o tienen la misma dirección, y por tanto:
+$\exists k\in\mathbb{R} | \overrightarrow{BC}=k\cdot \overrightarrow{AB}$
+
+\begin{tikzpicture}[scale=0.75]
+
+\tikzmath{\x1 = 1; \y1 =1;
+		  \x2 = 3; \y2 =2;
+		  \k=2; 	 
+                   %computations are also possible
+                    \x3 = \x2+(\x2 - \x1)*\k; \y3 =\y2+(\y2 - \y1)*\k; } 
+
+\coordinate (A) at (\x1,\y1);
+\coordinate (C) at (\x3,\y3);
+\coordinate (B) at (\x2,\y2);
+
+\draw [fill=blue] (A) circle (2pt) node [left] {A};
+\draw [fill=blue] (B) circle (2pt) node [above] {B};
+\draw [fill=blue] (C) circle (2pt) node [right] {C};
+\draw [->, red, thick]  (A) -- node[below] {$\overrightarrow{AB}$} (B); 
+\draw [->, red, thick]  (B) -- node[below, fill=white] {$\overrightarrow{BC}=k\cdot\overrightarrow{AB}$} (C); 
+
+\end{tikzpicture}
+
+\subsection{Ejemplo}
+\begin{tikzpicture}[scale=0.75]
+
+\tikzmath{\x1 = 1; \y1 =6;
+		  \x2 = 2; \y2 =5.5;
+		  \k=3; 	 
+                   %computations are also possible
+                    \x3 = \x2+(\x2 - \x1)*\k; \y3 =\y2+(\y2 - \y1)*\k; } 
+
+\coordinate (A) at (\x1,\y1);
+\coordinate (C) at (\x3,\y3);
+\coordinate (B) at (\x2,\y2);
+
+\draw [fill=blue] (A) circle (2pt) node [left] {$A(\x1,\y1)$};
+\draw [fill=blue] (B) circle (2pt) node [right] {$B(\x2,\y2)$};
+\draw [fill=blue] (C) circle (2pt) node [below] {$C(\x3,\y3)$};
+\draw [->, red, thick]  (A) -- node[below] {$\overrightarrow{AB}$} (B); 
+\draw [->, red, thick]  (B) -- node[right, fill=white] {$\overrightarrow{BC}=\k\cdot\overrightarrow{AB}$} (C); 
+
+\end{tikzpicture}
 \end{multicols*}
 
 \end{document}
