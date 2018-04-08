@@ -280,6 +280,146 @@ $\exists k\in\mathbb{R} | \overrightarrow{BC}=k\cdot \overrightarrow{AB}$
 \draw [->, red, thick]  (B) -- node[right, fill=white] {$\overrightarrow{BC}=\k\cdot\overrightarrow{AB}$} (C); 
 
 \end{tikzpicture}
+
+\section{Ecuaciones de la recta}
+
+Podemos definir la recta como el lugar geométrico formado por el conjunto de puntos del plano que a partir de un punto fijo siguen una misma dirección. Dado un punto $P(x_0,y_0)$ y un vector $\overrightarrow{d}(v_1,v_2)$, en la recta $r$ se cumple:
+
+\begin{tikzpicture}[domain=-1:6,>=triangle 45]
+
+\tikzmath{\v1 = 3; \v2 =-1;
+		  \x0 = 1; \y0=3;
+		  \k=1.5; 
+		  \x1 = \x0 +\k*\v1; \y1 = \y0 +\k*\v2;	 
+          } 
+%\draw[very thin,color=gray] (-0.1,-1.1) grid (3.9,3.9);
+\draw[->] (0,0) -- (1,0) node[right] {$x$};
+\draw[->] (0,0) -- (0,1) node[above] {$y$};
+\draw [color=green,thick] plot(\x,\v2/\v1*\x + 10/3) node [below]{$r$}  ;
+\draw [fill=blue] (\x0,\y0) circle (2pt) node [left] {$P(x_0,y_0)$};
+\draw [fill=blue] (\x1,\y1) circle (2pt) node [above] {$X(x,y)$};
+\draw [fill=black] (0,0) circle (1pt) node [left] {$O(0,0)$};
+\draw[->, color=red] (0,0) -- node[right] {$\overrightarrow{OP}$}(\x0,\y0);
+\draw[->, color=orange] (0,0) -- node[above] {$\overrightarrow{OX}$}(\x1,\y1);
+
+\draw[->, color=blue] (\x0,\y0) -- node[above] {$\overrightarrow{d}(v_1,v_2)$}(\x0+\v1,\y0+\v2);
+
+
+\end{tikzpicture}
+
+$$\overrightarrow{OX}=\overrightarrow{OP}+\overrightarrow{PX} $$ 
+
+Como $\overrightarrow{PX}$ y $\overrightarrow{d}$ son colineales:
+
+$$\overrightarrow{OX}=\overrightarrow{OP}+\lambda\cdot\overrightarrow{d} $$ 
+
+\subsection{Ecuación vectorial}
+Se obtiene a partir de las coordenadas de la expresión anterior :
+$$(x,y)=(x_0,y_0)+\lambda\cdot(v_1,v_2)$$
+
+\subsection{Ecuaciones paramétricas}
+Se obtienen separando cada coordenada del expresión anterior:
+$$\left\lbrace \begin{gathered}
+  x = x_0 + \lambda\cdot v_1 \hfill \\
+  y = y_0 + \lambda\cdot v_2 \hfill \\ 
+\end{gathered}  \right.
+$$
+ 
+\subsection{Ecuación continua}
+Se obtienen de la anterior despejando $\lambda$ en cada ecuación e igualando la expresiones:
+$$ \dfrac{x-x_0}{v_1}=\dfrac{y-y_0}{v_2}$$
+
+\subsection{Ecuación implícita o general}
+Operando y reduciendo la expresión anterior llegaremos a una de la forma:
+$$Ax+By+C=0$$
+
+\subsection{Ecuación explícita}
+Despejando la $y$ en la ecuación anterior obtendremos
+$$y=mx+n$$
+donde $m$ es la pendiente y $n$ la ordenada en el origen
+\paragraph*{Vector director y pendiente de una recta:} 
+Dada una recta $r$ de pendiente $m$ entonces el vector $\overrightarrow{v}(1,m)$ es un vector director de la recta. Y al revés, si $\overrightarrow{d}(v_1,v_2)$ es un vector director de la recta, entonces $m=\dfrac{v_2}{v_1}$ es la pendiente de la recta 
+
+\subsection{Ejemplo}
+Dada la recta que pasa por $P(1,3)$ y de dirección la marcada por edl vector $\overrightarrow{d}(3,-1)$ determina la ecuación de la misma en sus diferentes variantes:
+\begin{itemize}
+\item Ecuación vectorial:
+$(x,y)=(1,3)+\lambda\cdot(3,-1)$
+\item Ecuaciones paramétricas:
+$\left\lbrace \begin{gathered}
+  x = 1 + 3\lambda \hfill \\
+  y = 3 - \lambda \hfill \\ 
+\end{gathered}  \right.
+$
+\item Ecuación continua:
+$\dfrac{x-1}{3}=3-y$
+\item Ecuación general:
+$3y+x-10=0$
+\item Ecuación explícita:
+$y=-\dfrac{1}{3}x+\dfrac{10}{3}$
+\end{itemize}
+
+\section{Condiciones de paralelismo y perpendicularidad}
+
+\begin{itemize}
+\item Para que dos rectas sean paralelas basta con que tengan la misma dirección
+\item Dada una recta con vector director $\overrightarrow{d}(v_1,v_2)$, un vector director de las rectas perpendiculares será $\overrightarrow{e}(-v_2,v_1)$ 
+\end{itemize}
+
+\section{Ecuación de la circunferencia}
+
+Dada una circunferencia de centro  $P(x_0,y_0)$ y de radio $r$:
+
+\begin{tikzpicture}[domain=-1:6,>=triangle 45]
+
+\tikzmath{\x0 = 3; \y0=2.5;
+		  \r=2; 
+		  \g=-15;
+		  } 
+
+
+
+%\draw[very thin,color=gray] (-0.1,-1.1) grid (6,6);
+\draw[->] (0,0) -- (1,0) node[right] {$x$};
+\draw[->] (0,0) -- (0,1) node[above] {$y$};
+%\draw [color=green,thick] plot(\x,\v2/\v1*\x + 10/3) node [below]{$r$}  ;
+\draw[fill=blue] (\x0,\y0) circle (2pt) node [left] {$P(x_0,y_0)$};
+\draw[fill=blue] (\x0,\y0)+(\g:\r) circle (2pt) node [right] {$X(x,y)$};
+\draw[] (\x0,\y0) circle (\r) node [left] {$P(x_0,y_0)$};
+\draw [fill=black] (0,0) circle (1pt) node [left] {$O(0,0)$};
+\draw[->, color=red] (0,0) -- node[left] {$\overrightarrow{OP}$}(\x0,\y0);
+\draw[->, color=orange] (0,0) -- node[right] {$\overrightarrow{OX}$} ($(\g:\r)+(\x0,\y0)$);
+
+\draw[->, color=green] (\x0,\y0) -- node[above] {$\overrightarrow{PX}=r$} ($(\g:\r)+(\x0,\y0)$);
+\end{tikzpicture}
+
+Los puntos $X(x,y)$ de la misma  cumplen:
+
+$$\left|\overrightarrow{PX}\right|=r $$
+
+
+Como $\overrightarrow{OP}+\overrightarrow{PX}=\overrightarrow{OX}$, luego $\overrightarrow{PX}=\overrightarrow{OX}-\overrightarrow{OP}$- Por tanto:
+
+$$\left|\overrightarrow{OX}-\overrightarrow{OP}\right|=r $$
+Pasando a coordenadas:
+$$ \left|(x-x_0,y-y_0)\right|=r $$
+
+Y por el teorema de Pitágoras obtenemos la ecuación de la circunferencia:
+
+$$ (x-x_0)^2+(y-y_0)^2=r^2 $$
+
+\subsection{Ejemplo}
+
+Determina la ecuación de la circunferencia con centro $P(3,1)$ y radio 3:
+
+%expand(Circle(Point(3,1),3).equation())
+
+$$(x-3)^2+(y-1)^2=3^2$$
+
+$$x^2-6x+9+y^2-2y+1=9$$
+
+$$x^2+y^2-6x-2y+1=0$$
+
 \end{multicols*}
 
 \end{document}
