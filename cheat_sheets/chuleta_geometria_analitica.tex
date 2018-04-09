@@ -109,7 +109,7 @@ left=10mm,right=10mm,top=10mm,bottom=15mm}
 
 \section{Vectores Libres}
 
-Dados dos puntos en el plano (A y B), podemos trazar  una flecha que vaya del primero al segundo. A esta flecha la llamaremos vector (fijo) y se denota $\overrightarrow{AB}$ o $\overrightarrow{v}$.
+Dados dos puntos en el plano (A y B), podemos trazar  una flecha que vaya del primero al segundo. A esta flecha la llamaremos vector (fijo) y se denota $\overrightarrow{AB}$.
 
 
 \begin{tikzpicture}[scale=0.75]
@@ -129,7 +129,7 @@ Dados dos puntos en el plano (A y B), podemos trazar  una flecha que vaya del pr
 \item \textbf{Dirección}: La recta que contiene al vector y cualquiera de sus paralelas
 \item \textbf{Sentido}: El que va del origen al final o su contrario. Viene representado por punta "la cabeza de la flecha"
 \end{itemize}
-Dos vectores (fijos) son \textbf{equipolentes} cuando tienen el mismo módulo, misma dirección y mismo sentido. Un vector fijo y todos sus equipolentes forman lo que de denomina un \textbf{vector libre}. Un vector libre viene determinado por sus coordenadas:
+Dos vectores (fijos) son \textbf{equipolentes} cuando tienen el mismo módulo, misma dirección y mismo sentido. Un vector fijo y todos sus equipolentes forman lo que de denomina un \textbf{vector libre}. Se denota $\overrightarrow{v}$ o $\left[\overrightarrow{AB}\right]$ siendo $\overrightarrow{AB}$ un vector fijo representante de $\overrightarrow{v}$. Un vector libre viene determinado por sus coordenadas:
 
 \section{Coordenadas y módulo de un vector} Un vector se puede ver como el desplazamiento que tenemos que hacer horizontalmente y verticalmente para ir del origen al extremo del mismo. Al desplazamiento horizontal le llamaremos primera coordenada y al vertical, segunda.
 
@@ -238,7 +238,7 @@ La demostración es sencilla aplicando la propiedad geométrica que cumple el pu
 
 \section{Puntos alineados}
 Dados los puntos $A$, $B$ y $C$ estarán alineados si los vectores $\overrightarrow{AB}$ y $\overrightarrow{BC}$ son colineales, o tienen la misma dirección, y por tanto:
-$\exists k\in\mathbb{R} | \overrightarrow{BC}=k\cdot \overrightarrow{AB}$
+$\exists k\in\mathbb{R} | \ \left[\overrightarrow{BC}\right]=k\cdot\left[\overrightarrow{AB}\right]$
 
 \begin{tikzpicture}[scale=0.75]
 
@@ -256,9 +256,13 @@ $\exists k\in\mathbb{R} | \overrightarrow{BC}=k\cdot \overrightarrow{AB}$
 \draw [fill=blue] (B) circle (2pt) node [above] {B};
 \draw [fill=blue] (C) circle (2pt) node [right] {C};
 \draw [->, red, thick]  (A) -- node[below] {$\overrightarrow{AB}$} (B); 
-\draw [->, red, thick]  (B) -- node[below, fill=white] {$\overrightarrow{BC}=k\cdot\overrightarrow{AB}$} (C); 
+\draw [->, red, thick]  (B) -- node[below, fill=white] {$\left[\overrightarrow{BC}\right]=k\cdot\left[\overrightarrow{AB}\right]$} (C); 
 
 \end{tikzpicture}
+
+o bien:
+
+Si $\left[\overrightarrow{AB}\right]=\overrightarrow{u}(u1,u2)$ y  $\left[\overrightarrow{BC}\right]=\overrightarrow{v}(v1,v2)$, se cumple: $$\dfrac{v1}{u1}=\dfrac{v2}{u2}$$
 
 \subsection{Ejemplo}
 \begin{tikzpicture}[scale=0.75]
@@ -266,8 +270,10 @@ $\exists k\in\mathbb{R} | \overrightarrow{BC}=k\cdot \overrightarrow{AB}$
 \tikzmath{\x1 = 1; \y1 =6;
 		  \x2 = 2; \y2 =5.5;
 		  \k=3; 	 
-                   %computations are also possible
-                    \x3 = \x2+(\x2 - \x1)*\k; \y3 =\y2+(\y2 - \y1)*\k; } 
+          %computations are also possible
+          \x3 = \x2+(\x2 - \x1)*\k; \y3 =\y2+(\y2 - \y1)*\k;
+          \u1 = \x2 - \x1; \u2 = \y2 - \y1;
+          \v1 = \x3 - \x2; \v2 = \y3 - \y2; } 
 
 \coordinate (A) at (\x1,\y1);
 \coordinate (C) at (\x3,\y3);
@@ -276,10 +282,16 @@ $\exists k\in\mathbb{R} | \overrightarrow{BC}=k\cdot \overrightarrow{AB}$
 \draw [fill=blue] (A) circle (2pt) node [left] {$A(\x1,\y1)$};
 \draw [fill=blue] (B) circle (2pt) node [right] {$B(\x2,\y2)$};
 \draw [fill=blue] (C) circle (2pt) node [below] {$C(\x3,\y3)$};
-\draw [->, red, thick]  (A) -- node[below] {$\overrightarrow{AB}$} (B); 
-\draw [->, red, thick]  (B) -- node[right, fill=white] {$\overrightarrow{BC}=\k\cdot\overrightarrow{AB}$} (C); 
+\draw [->, red, thick]  (A) -- node[left] {$\overrightarrow{AB}(\u1,\u2)$} (B); 
+\draw [->, red, thick]  (B) -- node[right, fill=white] {$\overrightarrow{BC}=\k\cdot\overrightarrow{AB}=(\v1,\v2)$} (C); 
 
 \end{tikzpicture}
+
+Están alineados porque $\left[\overrightarrow{BC}\right]=3\cdot\left[\overrightarrow{AB}\right]$, o bien porque:
+
+$$\dfrac{3}{1}=\dfrac{-1.5}{-0.5}$$
+
+
 
 \section{Ecuaciones de la recta}
 
@@ -360,6 +372,33 @@ $y=-\dfrac{1}{3}x+\dfrac{10}{3}$
 \end{itemize}
 
 \section{Condiciones de paralelismo y perpendicularidad}
+
+Dado $\overrightarrow{d}(u1,u2)$ y un vector perpendicular del mismo módulo $\overrightarrow{e}(v1,v2)$:
+
+\begin{tikzpicture}[domain=-4:4,>=triangle 45]
+
+\tikzmath{\u1 = 2; \u2 = 3;
+		\v1 = -\u2; \v2 = \u1;	
+		\x0 = 3; \y0=2.5;
+		  \r=2; 
+		  \g=-15;
+		  } 
+
+
+
+\draw[very thin,color=gray] (-3.9,-0.5) grid (3.9,3.9);
+\draw[<->] (-3.9,0) -- (3.9,0) node[right] {$x$};
+\draw[<->] (0,-0.5) -- (0,4) node[above] {$y$};
+
+\draw[->, thick, color=red] (0,0) -- node[left] {$\overrightarrow{d}(u1,u2)$}(\u1,\u2);
+\draw[line width=1.5pt, color=blue] (0,0) -- node[below] {$u1$}(\u1,0);
+\draw[line width=1.5pt, color=magenta] (\u1,0) -- node[right] {$u2$}(\u1,\u2);
+\draw[->, thick, color=red] (0,0) -- node[left] {$\overrightarrow{e}(v1,v2)$}(\v1,\v2);
+\draw[line width=1.5pt, color=magenta] (0,0) -- node[below] {$-u2$}(-\u2,0);
+\draw[line width=1.5pt, color=blue] (-\u2,0) -- node[left] {$u1$}(-\u2,\u1);
+\end{tikzpicture}
+
+Se cumple que $\overrightarrow{e}(v1,v2)=(-u2,u1)$ y por tanto:
 
 \begin{itemize}
 \item Para que dos rectas sean paralelas basta con que tengan la misma dirección
