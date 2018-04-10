@@ -2,7 +2,7 @@
 
 %These tell TeX which packages to use.
 \usepackage{array,epsfig}
-\usepackage{amsmath}
+\usepackage{amsmath, textcomp}
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{amsxtra}
@@ -12,12 +12,14 @@
 \usepackage{multicol}
 \usepackage{verbatim}
 
+
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
 \usepackage{eurosym}
 
 \usepackage{graphicx}
 \graphicspath{{../img/}}
+
 
 
 %\printanswers
@@ -33,6 +35,8 @@
 %\pagestyle{empty}
 
 \renewcommand{\solutiontitle}{\noindent\textbf{Sol:}\enspace}
+
+\newcommand{\samedir}{\mathbin{\!/\mkern-5mu/\!}}
 
 \newcommand{\class}{4º Académicas}
 \newcommand{\examdate}{\today}
@@ -51,8 +55,64 @@
 
 \begin{document}
 
-
 \begin{questions}
+
+\question Calcula la distancia que hay entre los puntos  
+$A(8,10)$ y $B(-2,14)$
+%A, B = Point(8,10), Point(-2,14)
+%A.distance(B)
+\begin{solution}
+$2\sqrt{29}$
+\end{solution}
+\question	Dados los siguientes vectores: $\overrightarrow u \left( {3,{\text{ }}2} \right){\text{ }}$ y ${\text{ }}\overrightarrow v \left( {1,{\text{ }}4} \right)$, calcula:
+\begin{multicols}{4}
+\begin{parts}
+\part[] $\overrightarrow u \, + \,\overrightarrow v $ 
+\begin{solution} $(4,5)$ \end{solution}
+\part[]$\overrightarrow u \, - \,\overrightarrow v $  
+\begin{solution}
+$(2,-2) $ \end{solution}
+
+\part[]$2\overrightarrow u \, + 3\,\overrightarrow v $ 
+\begin{solution} $(9,16)$\end{solution}
+
+\part[]$3\overrightarrow u \, - 4\,\overrightarrow v $ 
+\begin{solution} $ (5,-10)$ \end{solution}
+
+\end{parts}
+\end{multicols}
+
+\question Averigua el punto simétrico de $A(5, -1)$ con respecto a $B(4, -2)$.
+%from sympy.geometry import Point, Line
+%from sympy import pi
+%p1, p2 = Point(5,-1), Point(4,-2)
+%p3=p1.rotate(pi,p2)
+%p3 
+\begin{solution} B tiene que ser el punto medio \\
+ $ \to (4,-2)=(\dfrac{5+x_1}{2},\dfrac{-1+x_2}{2})\to (3,-3) $\end{solution}
+
+\question Halla el punto medio del segmento de extremos $A(5, -1)$ y $B(4, -2)$ 
+%p1.midpoint(p2)
+\begin{solution} $(9/2, -3/2)$\end{solution}
+
+\question Dados los puntos $A(2, -3)$, $B(-1, 4)$ y $C(x, 3)$, determina el valor de x para que $A$, $B$ y $C$ estén alineados.
+%p1, p2 = Point(2,-3), Point(-1,4)
+%y3=3
+%l1=Line(p1,p2)
+%l1.direction.y
+%solve((y3-p2.y)/l1.direction.y-(x-p2.x)/l1.direction.x) 
+%comprobacion
+%p3= Point(-4/7,3)
+%p1.is_collinear(p2,p3)
+\begin{solution} $ -\frac{4}{7}$\end{solution}
+
+\question Halla las coordenadas del vértice $D$ del paralelogramo $ABCD$, sabiendo que $A(-1, -2)$, $B(3, 1)$ y $C(1, 3)$.
+%A, B, C, D = Point(-1,-2), Point(3,1), Point(1,3), Point
+%D=C-Line(A,B).direction
+%D
+\begin{solution} $(-3,0)$\end{solution}
+
+
 \question Halla las coordenadas de los puntos medios de los lados del
 triángulo de vértices $A(1,3)$, $B(2,5)$ y $C(1,-1)$
 \begin{solution} $(3/2,4)$, $(3/2,2)$ y $(1,1)$ \end{solution}
@@ -103,40 +163,10 @@ t\equiv y=\frac{1}{3}x+n_2 \land P(2,-1) \in s \to n_2=-\frac{5}{3} \to t\equiv 
 \question Halla el coeficiente $a$ para que la recta $ax + 4y = 11$ pase por el punto $P(1, 2)$
 \begin{solution} $ a+8=11 \to a=3$ \end{solution}
 
-\question	Dados los siguientes vectores: $\overrightarrow u \left( {3,{\text{ }}2} \right){\text{ }}$ y ${\text{ }}\overrightarrow v \left( {1,{\text{ }}4} \right)$, calcula:
-\begin{multicols}{4}
-\begin{parts}
-\part[] $\overrightarrow u \, + \,\overrightarrow v $ 
-\begin{solution} $(4,5)$ \end{solution}
-\part[]$\overrightarrow u \, - \,\overrightarrow v $  
-\begin{solution}
-$(2,-2) $ \end{solution}
-
-\part[]$2\overrightarrow u \, + 3\,\overrightarrow v $ 
-\begin{solution} $(9,16)$\end{solution}
-
-\part[]$3\overrightarrow u \, - 4\,\overrightarrow v $ 
-\begin{solution} $ (5,-10)$ \end{solution}
-
-\end{parts}
-\end{multicols}
-
-\question Averigua el punto simétrico de $A(5, -1)$ con respecto a $B(4, -2)$. 
-\begin{solution} B tiene que ser el punto medio \\
- $ \to (4,-2)=(\dfrac{5+x_1}{2},\dfrac{-1+x_2}{2})\to (3,-3) $\end{solution}
-
-\question Halla el punto medio del segmento de extremos $A(5, -1)$ y $B(4, -2)$ 
-\begin{solution} $c=\dfrac{20}{\tg45} = 20 \ mm $\end{solution}
-
-\question Dados los puntos $A(2, -3)$, $B(-1, 4)$ y $C(x, 3)$, determina el valor de x para que $A$, $B$ y $C$ estén alineados. 
-\begin{solution} $c=\dfrac{20}{\tg45} = 20 \ mm $\end{solution}
-
-\question Halla las coordenadas del vértice $D$ del paralelogramo $ABCD$, sabiendo que $A(-1, -2)$, $B(3, 1)$ y $C(1, 3)$.
-\begin{solution} $c=\dfrac{20}{\tg45} = 20 \ mm $\end{solution}
 
 
 \question Halla las ecuaciones paramétricas de la recta paralela a $2x - y + 3 = 0 $ y que pasa por el punto $P(4, 3)$.
-\begin{solution} $c=\dfrac{20}{\tg45} = 20 \ mm $\end{solution}
+\begin{solution} Paramétrica: $(-3t/2 + 4, -3t + 3)$, general: $3x - 3y/2 - 15/2=0$\end{solution}
 
 
 \question Dadas las rectas:  $r \equiv \left\{ 
@@ -149,28 +179,36 @@ $(2,-2) $ \end{solution}
    {y =  - 1 - 2\lambda }  \\ 
 \end{matrix} } \right.$  averigua su posición relativa. Si se cortan, di cuál es el punto de corte
 
-\begin{solution} $c=\dfrac{20}{\tg45} = 20 \ mm $\end{solution}
+%P1, V1, P2, V2 = Point(2,-2), Point(-4,1), Point(3,-1), Point(8,-2)
+%r = Line(P1, P1+V1)
+%print(r.direction)
+%s = Line(P2, P2+V2)
+%print(s.direction)
+%print(r.is_parallel(s))
+%r.intersection(s)
+
+\begin{solution} $\overrightarrow{d}(-4,1)$ y $\overrightarrow{d'}(8,-2)$, como $\overrightarrow{d'}=-2\cdot\overrightarrow{d} \to \overrightarrow{d}\samedir\overrightarrow{d'}$  \end{solution}
 
 \question ¿Cuál ha de ser el valor de $k$ para que estas dos rectas sean paralelas? $$x + 3y -2 = 0 \ \ \ \  kx + 2y + 3 = 0$$ 
-\begin{solution} $c=\dfrac{20}{\tg45} = 20 \ mm $\end{solution}
+\begin{solution} $m=-1/3$ y $m'=-k/2$ entonces $m=m' \to -1/3=-k/2 \to k=2/3$ \end{solution}
 
-\question Halla el valor de $k$ para que las rectas $2x - 3y + 4 = 0 $  $-3x + ky -1 = 0$ 
-sean perpendiculares \begin{solution} $c=\dfrac{20}{\tg45} = 20 \ mm $\end{solution}
+\question Halla el valor de $k$ para que las rectas $2x - 3y + 4 = 0 $,  $-3x + ky -1 = 0$ 
+sean perpendiculares \begin{solution} $m=2/3$ y $m'=3/k$ entonces $m\cdot m'=-1 \to 2/k=-1 \to k=-2$\end{solution}
 
 
 
-\question Dados los puntos A(-1, -1), B(1, 4) y C(5, 2), hallar 
+\question Dados los puntos A(-1, -1), B(1, 4) y C(5, 2), hallar: 
 \begin{multicols}{2}
 \begin{parts}
 \part[] Si están alineados   
 %(sin(rad(60))-sin(rad(30)))/(sin(rad(60))+sin(rad(30)))
-\begin{solution} $- \sqrt{3} + 2\approx0.267949192431123$\end{solution}
+\begin{solution} No \end{solution}
 \part[] Mediana trazada desde B    
-\begin{solution} $- 2 \sqrt{2} + 3\approx0.17157287525381$\end{solution}
+\begin{solution} Punto medio AC: $(2,1/2)$, Mediana B:$-7x/2 - y + 15/2=0$\end{solution}
 \part[] Altura trazada desde A      
-\begin{solution} $- \frac{\sqrt{3}}{4} + \frac{3}{4}\approx0.316987298107781$\end{solution}
+\begin{solution} Recta BC: $2x + 4y - 18=0$, Mediana B:$-4x + 2y - 2=0$\end{solution}
 \part[] Mediatriz del lado AB 
-\begin{solution} $\frac{\sqrt{2} + \sqrt{6}}{2 \sqrt{2} + 2 \sqrt{3}}\approx0.614014407382354$\end{solution}
+\begin{solution} Recta AB: $-5x + 2y - 3=0$, Mediatriz AB:$-2x - 5y + 13/2=0$\end{solution}
 \end{parts}
 \end{multicols}
 
@@ -178,7 +216,7 @@ sean perpendiculares \begin{solution} $c=\dfrac{20}{\tg45} = 20 \ mm $\end{solut
 
 \begin{parts}
 \part[] La ecuación de la recta que pasando por A es paralela a la que pasa por B y C
-\begin{solution} $- 2 \sqrt{2} + 3\approx0.17157287525381$\end{solution}
+\begin{solution} Recta BC: $-5x + y + 23=0$, Paralela por A:$-5*x + y + 5=0$\end{solution}
 \part[] La ecuación de la mediana que pasa por C.     
 \begin{solution} $- \frac{\sqrt{3}}{4} + \frac{3}{4}\approx0.316987298107781$\end{solution}
 \end{parts}
