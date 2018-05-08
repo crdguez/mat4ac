@@ -1,0 +1,94 @@
+%% Creator: Inkscape inkscape 0.92.2, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'funcion1g_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{361.38024967bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,124.98397738)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{funcion1g_svg-tex.pdf}}%
+    \put(0.19716582,82.49552752){\makebox(0,0)[b]{\smash{-10}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{funcion1g_svg-tex.pdf}}%
+    \put(0.27603011,82.49552752){\makebox(0,0)[b]{\smash{-8}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{funcion1g_svg-tex.pdf}}%
+    \put(0.35489441,82.49552752){\makebox(0,0)[b]{\smash{-6}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{funcion1g_svg-tex.pdf}}%
+    \put(0.43375871,82.49552752){\makebox(0,0)[b]{\smash{-4}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{funcion1g_svg-tex.pdf}}%
+    \put(0.51262301,82.49552752){\makebox(0,0)[b]{\smash{-2}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{funcion1g_svg-tex.pdf}}%
+    \put(0.59148731,82.49552752){\makebox(0,0)[b]{\smash{0}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{funcion1g_svg-tex.pdf}}%
+    \put(0.67035161,82.49552752){\makebox(0,0)[b]{\smash{2}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{funcion1g_svg-tex.pdf}}%
+    \put(0.74921591,82.49552752){\makebox(0,0)[b]{\smash{4}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{funcion1g_svg-tex.pdf}}%
+    \put(0.82808021,82.49552752){\makebox(0,0)[b]{\smash{6}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{funcion1g_svg-tex.pdf}}%
+    \put(0.90694451,82.49552752){\makebox(0,0)[b]{\smash{8}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{funcion1g_svg-tex.pdf}}%
+    \put(0.9858088,82.49552752){\makebox(0,0)[b]{\smash{10}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{funcion1g_svg-tex.pdf}}%
+    \put(0.6008265,82.25027919){\makebox(0,0)[lb]{\smash{-60}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{funcion1g_svg-tex.pdf}}%
+    \put(0.6008265,82.3351417){\makebox(0,0)[lb]{\smash{-40}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{funcion1g_svg-tex.pdf}}%
+    \put(0.6008265,82.42000421){\makebox(0,0)[lb]{\smash{-20}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{funcion1g_svg-tex.pdf}}%
+    \put(0.6008265,82.50486672){\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{funcion1g_svg-tex.pdf}}%
+    \put(0.6008265,82.58972923){\makebox(0,0)[lb]{\smash{20}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{funcion1g_svg-tex.pdf}}%
+    \put(0.6008265,82.67459173){\makebox(0,0)[lb]{\smash{40}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{funcion1g_svg-tex.pdf}}%
+    \put(0.6008265,82.75945424){\makebox(0,0)[lb]{\smash{60}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{funcion1g_svg-tex.pdf}}%
+    \put(0.6008265,82.84431675){\makebox(0,0)[lb]{\smash{80}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{funcion1g_svg-tex.pdf}}%
+    \put(0.6008265,82.92917926){\makebox(0,0)[lb]{\smash{100}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{funcion1g_svg-tex.pdf}}%
+  \end{picture}%
+\endgroup%
