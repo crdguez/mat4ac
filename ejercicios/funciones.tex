@@ -13,6 +13,10 @@
 \usepackage{verbatim}
 \usepackage{svg}
 
+\usepackage{pgf,tikz}
+\usetikzlibrary{shapes, calc, shapes, arrows, math, babel}
+
+
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
 \usepackage{eurosym}
@@ -46,7 +50,7 @@
 
 \newcommand{\timelimit}{50 minutos}
 
-
+\newcommand\xa{3} %tamaño ejes par tikz
 
 \pagestyle{head}
 \firstpageheader{\includegraphics[width=0.2\columnwidth]{header_left}}{\textbf{Departamento de Matemáticas\linebreak \class}\linebreak \examnum}{\includegraphics[width=0.1\columnwidth]{header_right}}
@@ -147,11 +151,66 @@
 \begin{multicols}{2}
 \begin{parts}
 \part[] $y=x^2-4x-5$ 
-\begin{solution} \end{solution}
+\begin{solution}
+\begin{tikzpicture}[domain=-\xa + 2:\xa,>=triangle 45, scale=0.5]
+
+
+\tikzmath{
+			\a = 1; \b = -4; \c = -5; 
+			\v = - \b / ( 2 * \a);
+			\xmin = (-\xa + 2); \xmax = \xa;
+          }
+          
+\draw[color=red]    plot (\x,{\a*(\x)^2 + \b *\x + \c})             node[right] {$f(x) =\a x^2 + \b x + \c $}; 
+
+\draw[very thin,color=gray] (\xmin - 0.5, \a * \v^2 + \b * \v + \c - 0.5) grid (\xmax + 0.5, 0.5);
+
+\draw[<->] (\xmin -1,0) -- (\xmax + 1,0) node[right] {$x$};
+\draw[<->] (0,1) -- (0,\a * \v^2 + \b * \v + \c - 1) node[above] {$y$};
+
+\end{tikzpicture} \end{solution}
+
 \part[] $y=-x^2+4x+5$ 
-\begin{solution} \end{solution}
+\begin{solution}
+\begin{tikzpicture}[domain=-\xa + 2:\xa,>=triangle 45, scale=0.5]
+
+
+\tikzmath{
+			\a = -1; \b = 4; \c = 5; 
+			\v = - \b / ( 2 * \a);
+			\xmin = (-\xa + 2); \xmax = \xa;
+          }
+          
+\draw[color=red]    plot (\x,{\a*(\x)^2 + \b *\x + \c})             node[right] {$f(x) =\a x^2 + \b x + \c $}; 
+
+\draw[very thin,color=gray] (\xmin - 0.5, \a * \v^2 + \b * \v + \c + 0.5) grid (\xmax, -0.5);
+
+\draw[<->] (\xmin -1,0) -- (\xmax + 1,0) node[right] {$x$};
+\draw[<->] (0,-0.5) -- (0,\a * \v^2 + \b * \v + \c + 0.5) node[above] {$y$};
+
+\end{tikzpicture}
+\end{solution}
+ 
 \part[] $y=-x^2-5x+6$ 
-\begin{solution} \end{solution}
+\begin{solution} 
+
+\begin{tikzpicture}[domain=-\xa - 3.1:\xa -1.9,>=triangle 45, scale=0.5]
+
+
+\tikzmath{
+			\a = -1; \b = -5; \c = 6; 
+			\v = - \b / ( 2 * \a);
+			\xmin = (-\xa - 3.1); \xmax = \xa - 1.9;
+          }
+          
+\draw[color=red]    plot (\x,{\a*(\x)^2 + \b *\x + \c})             node[right] {$f(x) =\a x^2 + \b x + \c $}; 
+
+\draw[very thin,color=gray] (\xmin - 0.5, \a * \v*\v + \b * \v + \c + 0.5) grid (\xmax, -0.5);
+
+\draw[<->] (\xmin -1,0) -- (\xmax + 1,0) node[right] {$x$};
+\draw[<->] (0,-0.5) -- (0, \a*\v*\v + \b* \v + \c) node[above] {$y$};
+
+\end{tikzpicture}\end{solution}
 
 \part[] $f(x) =
 \left\{
@@ -161,7 +220,37 @@
 		2x-3 & \mbox{si } & x \geq 4
 	\end{array}
 \right.$ 
-\begin{solution}  \end{solution}
+\begin{solution} \begin{tikzpicture}[domain=-4.1:6.1 ,>=triangle 45, scale=0.35]
+
+
+\tikzmath{
+			\a = -1; \b = 0; \c = 0; 
+			\v = - \b / ( 2 * \a);
+			\m1 = 0; \n1 = 4;
+			\m3 = 2; \n3 = -3;
+			\xmin1 = - 4.1; \xmax1 = -2;
+			\xmin2 = - 2; \xmax2 = 4;
+			\xmin3 = 4; \xmax3 = 6.1;
+          }
+          
+ 
+\draw[color=red, domain=\xmin1 -0.5:\xmax1-0.25]    plot (\x,{\m1*(\x) + \n1}) node[right] {};
+
+\draw [red] (\xmax1,{\m1*(\xmax1) + \n1}) circle (0.25) node [left] {};
+
+\draw[color=red, domain=\xmin2:\xmax2]    plot (\x,{\a*(\x)^2 + \b *\x + \c})             node[right] {}; 
+\draw [red, fill] (\xmin2,{\a*(\xmin2)^2 + \b *\xmin2 + \c}) circle (0.25) node [left] {};
+\draw [red] (\xmax2,{\a*(\xmax2)^2 + \b *\xmax2 + \c}) circle (0.25) node [left] {};
+
+\draw[color=red, domain=\xmin3  :\xmax3 + 0.1]    plot (\x,{\m3*(\x) + \n3}) node[right] {};
+\draw [red] (\xmin3,{\m3*(\xmin3) + \n3}) circle (0.25) node [left] {};
+
+\draw[very thin,color=lightgray,dash pattern=on 1pt off 1pt] (\xmin1 - 0.5, \a * \xmax2*\xmax2 + \b * \xmax2 + \c - 0.5) grid (\xmax3 + 0.5 , \m3 * \xmax3 + \n3);
+
+\draw[<->] (\xmin1 -1,0) -- (\xmax3 + 1,0) node[right] {$x$};
+\draw[<->] (0,\a * \xmax2*\xmax2 + \b * \xmax2 + \c - 0.5) -- (0, \m3 * \xmax3 + \n3 ) node[above] {$y$};
+
+\end{tikzpicture} \end{solution}
 
 \part[] $f(x) =
 \left\{
@@ -171,7 +260,41 @@
 		2x-3 & \mbox{si } & x \geq 3
 	\end{array}
 \right.$ 
-\begin{solution}  \end{solution}
+\begin{solution}  Nótese, que en este caso la definición no sería una función ($x = 3$ tiene dos imágenes)
+
+\begin{tikzpicture}[domain=-4.1:5.1 ,>=triangle 45, scale=0.35]
+
+\tikzmath{
+			\a = 1; \b = -2; \c = -8; 
+			\v = - \b / ( 2 * \a);
+			\m1 = 2; \n1 = 0;
+			\m3 = 2; \n3 = -3;
+			\xmin1 = - 4.1; \xmax1 = -3;
+			\xmin2 = - 3; \xmax2 = 3;
+			\xmin3 = 3; \xmax3 = 5.1;
+          }
+          
+ 
+\draw[color=red, domain=\xmin1 -0.5:\xmax1]    plot (\x,{\m1*(\x) + \n1}) node[right] {};
+
+\draw [red] (\xmax1,{\m1*(\xmax1) + \n1}) circle (0.25) node [left] {};
+
+\draw[color=red, domain=\xmin2:\xmax2]    plot (\x,{\a*(\x)^2 + \b *\x + \c})             node[right] {}; 
+\draw [red, fill] (\xmin2,{\a*(\xmin2)^2 + \b *\xmin2 + \c}) circle (0.25) node [left] {};
+\draw [red, fill] (\xmax2,{\a*(\xmax2)^2 + \b *\xmax2 + \c}) circle (0.25) node [left] {};
+
+\draw[color=red, domain=\xmin3  :\xmax3 + 0.1]    plot (\x,{\m3*(\x) + \n3}) node[right] {};
+\draw [red, fill] (\xmin3,{\m3*(\xmin3) + \n3}) circle (0.25) node [left] {};
+
+\draw[very thin,color=lightgray,dash pattern=on 1pt off 1pt] (\xmin1 - 0.5, \m1 * \xmin1 + \n1 - 0.5) grid (\xmax3 + 0.5 , \m3 * \xmax3 + \n3);
+
+\draw[<->] (\xmin1 -1,0) -- (\xmax3 + 1,0) node[right] {$x$};
+\draw[<->] (0,\m1 * \xmin1 + \n1 - 0.5) -- (0, \m3 * \xmax3 + \n3 ) node[above] {$y$};
+
+\end{tikzpicture} \end{solution}
+
+
+
 
 \part[] $f(x) =
 \left\{
@@ -180,7 +303,34 @@
 		x^2-4x+3 & \mbox{si } &  x > 0 
 	\end{array}
 \right.$ 
-\begin{solution}  \end{solution}
+\begin{solution}
+\begin{tikzpicture}[domain=-4.1:5.1 ,>=triangle 45, scale=0.35]
+
+\tikzmath{
+			\a = 1; \b = -2; \c = -8; 
+			\v = - \b / ( 2 * \a);
+			\m1 = 1; \n1 = 1;
+			\xmin1 = - 4.1; \xmax1 = 0;
+			\xmin2 = 0; \xmax2 = 5.1;
+         }
+          
+ 
+\draw[color=red, domain=\xmin1 -0.5:\xmax1]    plot (\x,{\m1*(\x) + \n1}) node[right] {};
+
+\draw [red, fill] (\xmax1,{\m1*(\xmax1) + \n1}) circle (0.25) node [left] {};
+
+\draw[color=red, domain=\xmin2:\xmax2]    plot (\x,{\a*(\x)^2 + \b *\x + \c})             node[right] {}; 
+\draw [red] (\xmin2,{\a*(\xmin2)^2 + \b *\xmin2 + \c}) circle (0.25) node [left] {};
+
+
+
+\draw[very thin,color=lightgray,dash pattern=on 1pt off 1pt] (\xmin1 - 0.5, \a * \v * \v + \b * \v + \c - 0.5) grid (\xmax2 + 0.5 , \a * \xmax2 * \xmax2 + \b * \xmax2 + \c + 0.5);
+
+\draw[<->] (\xmin1 -1,0) -- (\xmax2 + 1,0) node[right] {$x$};
+\draw[<->] (0,\a * \v * \v + \b * \v + \c - 0.5) -- (0, \a * \xmax2 * \xmax2 + \b * \xmax2 + \c + 0.5 ) node[above] {$y$};
+
+\end{tikzpicture}  
+\end{solution}
 
 \end{parts}
 \end{multicols}
