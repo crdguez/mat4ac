@@ -1,0 +1,169 @@
+\documentclass[spanish, 11pt]{exam}
+
+%These tell TeX which packages to use.
+\usepackage{array,epsfig}
+\usepackage{amsmath, textcomp}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsxtra}
+\usepackage{amsthm}
+\usepackage{mathrsfs}
+\usepackage{color}
+\usepackage{multicol}
+\usepackage{verbatim}
+\usepackage{svg}
+
+\usepackage{pgf,tikz}
+\usetikzlibrary{shapes, calc, shapes, arrows, math, babel}
+
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{eurosym}
+
+\usepackage{graphicx}
+\graphicspath{{../img/}}
+
+
+
+%\printanswers
+\nopointsinmargin
+\pointformat{}
+
+%Pagination stuff.
+%\setlength{\topmargin}{-.3 in}
+%\setlength{\oddsidemargin}{0in}
+%\setlength{\evensidemargin}{0in}
+%\setlength{\textheight}{9.in}
+%\setlength{\textwidth}{6.5in}
+%\pagestyle{empty}
+
+\renewcommand{\solutiontitle}{\noindent\textbf{Sol:}\enspace}
+
+\newcommand{\samedir}{\mathbin{\!/\mkern-5mu/\!}}
+
+\newcommand{\class}{4º Académicas}
+\newcommand{\examdate}{\today}
+\newcommand{\examnum}{Combinatoria}
+\newcommand{\tipo}{A}
+
+
+\newcommand{\timelimit}{50 minutos}
+
+\newcommand\xa{3} %tamaño ejes par tikz
+
+\pagestyle{head}
+\firstpageheader{\includegraphics[width=0.2\columnwidth]{header_left}}{\textbf{Departamento de Matemáticas\linebreak \class}\linebreak \examnum}{\includegraphics[width=0.1\columnwidth]{header_right}}
+\runningheader{\class}{\examnum}{Página \thepage\ of \numpages}
+\runningheadrule
+
+\begin{document}
+\textbf{NOTA}: Para todos los ejercicios indica si en las agrupaciones de elementos importa el orden o no, y si se pueden repetir los elementos 
+\begin{questions}
+\question ¿Cuántos números de cuatro cifras distintas se pueden formar con las cifras 1, 2, 3, 4 y 5? ¿Y con 0, 1, 2, 3, 4 y 5?
+
+%from sympy.utilities.iterables import variations
+%len(list(variations(list(range(1, 5 + 1)),4))), len(list(variations(list(range(5 + 1)),4))) - len(list(variations(list(range(1,max + 1)),3)))
+\begin{solution}
+$V_5^{4}=5\cdot 4\cdot 3 = 120$, \
+$V_6^4 - V_5^3 = 360 - 60 = 300$
+\end{solution}
+
+\question ¿Cuántos números naturales se pueden formar con las cifras 1, 3, 5, 7 y 9 sin repetir ninguna de ellas?
+%for i in range(5): l.append((len(list(variations(list(range(1,9+1,2)),i + 1)))))
+\begin{solution}
+$V_5^1+V_5^2+V_5^3+V_5^4+V_5^5 \to ([5, 20, 60, 120, 120], 325)$
+\end{solution}
+
+
+\question ¿De cuántas formas pueden ocupar tres personas tres de las cuatro butacas numeradas de un cine?
+
+%len(list(variations(list(['a','b','c','d']),3)))
+\begin{solution}
+$ V_4^3=24$
+\end{solution}
+
+
+\question Con las cifras pares 2, 4, 6 y 8 se construyen todos los posibles números de tres cifras sin que se repita ninguna. ¿Cuántos son? ¿Cuántos empiezan por 2? ¿Cuántos terminan en 64? ¿Cuántos hay mayores que 500? ¿Cuánto suman todos ellos?
+\begin{solution}
+$V_4^3=24 $, \ 
+$V_3^2=6 $,  \ 
+$V_2^1=2 $, \ 
+$\dfrac{V_4^3}{2}=12 $, \
+$V_3^2 \cdot (2 + 4 + 6 + 8) \cdot (100 + 10 +1) =13320$
+\end{solution}
+
+\question ¿De cuántas maneras se pueden cubrir los puestos de Director, Vicedirector, Jefe de Estudios, Secretario y Vicesecretario en un Instituto de Bachillerato si hay 40 profesores?
+
+\begin{solution}
+$V_{40}^5=40\cdot39\cdot38\cdot37\cdot36=78960960$
+\end{solution}
+
+\question Una bandera tiene tres franjas horizontales. Si se pinta cada una de un color (pueden repetirse los colores en la misma bandera), ¿cuántas banderas distintas pueden formarse cuando se dispone de 5 colores?
+\begin{solution}
+$ {VR}_5^3=5\cdot5\cdot5=125$
+\end{solution}
+
+\question Cinco amigos disponen de un coche para trasladarse de un lugar
+a otro. Solo dos de ellos saben conducir. ¿De cuántas maneras podrán colocarse para sus viajes?
+\begin{solution}
+$2\cdot P_4=48$
+\end{solution}
+
+
+\question ¿De cuántas formas pueden sentarse 6 personas en un banco?
+\begin{solution}
+$P_6= 6!=720$
+\end{solution}
+
+\question ¿Cuántas palabras se pueden formar con las letras de la palabra EUFRASIO de forma que comiencen y terminen por vocal?
+\begin{solution}
+$V_5^2\cdot P_6= 5*4 \cdot 6!=20\cdot720=14400 $
+\end{solution}
+
+
+%from sympy.utilities.iterables import variations, combinations
+%len(list(combinations(list(range(1,30+1)),5)))
+\question ¿Cuántos grupos de cinco alumnos podrán formarse con los
+treinta alumnos de una clase?
+\begin{solution}
+$C_30^5=142506 $
+\end{solution}
+
+\question En una reunión de 17 personas, ¿cuántos saludos habrá?
+\begin{solution}
+$C_17^2=136 $
+\end{solution}
+
+\question En una avanzadilla hay 18 soldados. ¿Cuántas guardias diferentes de tres soldados se pueden formar? ¿En cuántas entrará un
+soldado determinado? ¿Y dos soldados determinados?
+\begin{solution}
+$C_18^3, C_17^2, C_16^1 (816, 136, 16)$
+\end{solution}
+
+\question ¿De cuántas formas podrán distribuirse 8 premios iguales entre doce aspirantes? ¿Y si los premios fueran diferentes?
+\begin{solution}
+$C_12^8, V_12^8 (495, 19958400)$
+\end{solution}
+
+\question En una empresa hay 6 plazas vacantes, de las cuales 4 corresponden a economistas y 2 a ingenieros. Se han presentado 10 economistas y 5 ingenieros. ¿De cuántas maneras se pueden ocupar las 6 plazas?
+\begin{solution}
+$C_10^4 \cdot C_5^2 (210, 10, 2100)$
+\end{solution}
+
+
+
+\begin{comment}
+\question 
+\begin{multicols}{3}
+\begin{parts}
+\part[]  
+\begin{solution} \end{solution}
+\end{parts}
+\end{multicols}
+\end{comment}
+
+
+\end{questions}
+\end{document}
+
