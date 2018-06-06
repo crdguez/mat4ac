@@ -1,0 +1,251 @@
+% Template created by Karol Kozioł (www.karol-koziol.net) for ShareLaTeX
+
+\documentclass[a4paper,spanish,9pt]{extarticle}
+\usepackage[utf8]{inputenc}
+
+\usepackage[T1]{fontenc}
+\usepackage{verbatim}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{pgf,tikz}
+\usepackage{mathrsfs}
+
+\usetikzlibrary{shapes, calc, shapes, arrows, math, babel}
+
+\usepackage{amsmath,amssymb,textcomp}
+\everymath{\displaystyle}
+
+\usepackage{times}
+\renewcommand\familydefault{\sfdefault}
+\usepackage{tgheros}
+\usepackage[defaultmono,scale=0.85]{droidmono}
+
+\usepackage{multicol}
+\setlength{\columnseprule}{0pt}
+\setlength{\columnsep}{20.0pt}
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{eurosym}
+
+\usepackage{graphicx}
+\graphicspath{{../img/}}
+\usepackage{svg}
+
+\usepackage{hyperref}
+
+\usepackage{geometry}
+\geometry{
+a4paper,
+total={210mm,297mm},
+left=10mm,right=10mm,top=10mm,bottom=15mm}
+
+\linespread{1.3}
+
+\newcommand{\samedir}{\mathbin{\!/\mkern-5mu/\!}}
+
+% custom title
+\makeatletter
+\renewcommand*{\maketitle}{%
+\noindent
+\begin{minipage}{0.6\textwidth}
+\begin{tikzpicture}
+\node[rectangle,rounded corners=6pt,inner sep=10pt,fill=blue!50!black,text width= 0.95\textwidth] {\color{white}\Huge \@title};
+\end{tikzpicture}
+\end{minipage}
+\hfill
+\begin{minipage}{0.35\textwidth}
+\begin{tikzpicture}
+\node[rectangle,rounded corners=3pt,inner sep=10pt,draw=blue!50!black,text width= 0.95\textwidth] {\begin{tabular}{cc} \multirow{2}{1cm}{\includegraphics[width=0.15\columnwidth]{header_right}}& \@author \\ & \ies \end{tabular}};
+\end{tikzpicture}
+\end{minipage}
+\bigskip\bigskip
+}%
+\makeatother
+
+% custom section
+\usepackage[explicit]{titlesec}
+\newcommand*\sectionlabel{}
+\titleformat{\section}
+  {\gdef\sectionlabel{}
+   \normalfont\sffamily\Large\bfseries\scshape}
+  {\gdef\sectionlabel{\thesection\ }}{0pt}
+  {
+\noindent
+\begin{tikzpicture}
+\node[rectangle,rounded corners=3pt,inner sep=4pt,fill=blue!50!black,text width= 0.95\columnwidth] {\color{white}\sectionlabel#1};
+\end{tikzpicture}
+  }
+\titlespacing*{\section}{0pt}{15pt}{10pt}
+
+
+% custom footer
+\usepackage{fancyhdr}
+\makeatletter
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot[C]{\footnotesize \@author \ - \ies}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\makeatother
+\usepackage{multirow} % para las tablas
+
+
+\title{Probabilidad}
+\author{Departamento de Matemáticas}
+\date{2014}
+\newcommand{\ies}{IES Pedro Cerrada}
+
+
+
+\begin{document}
+
+\maketitle
+
+
+
+\begin{multicols*}{2}
+
+
+\section{Experimento aleatorio}
+
+Un \textbf{experimento aleatorio} o no determinista es aquél que si se repite varias veces no está garantizado obtener siempre el mismo resultado. Es decir, no se puede determinar cuál va a ser el resultado del experimiento hasta que no se realiza. En caso contrario, decimos que el experimento es \textbf{determinista}
+
+Un experimento es aleatorio cuando depende de muchos factores y cualquier pequeña modificación de alguno implica obtener un resultado diferente.
+
+\subsection{Ejemplos}
+
+\begin{itemize}
+ \item \textbf{Aleatorio}: Lanzar un dado y ver el resultado
+ \item \textbf{Determinista}: Calcular el tiempo que tarda en caer un objeto al suelo desde una distancia determinada
+ \end{itemize} 
+ 
+\section{Espacio muestral y sucesos}
+\begin{itemize}
+\item \textbf{Espacio muestral}: Conjunto de los posibles resultados del experimento. Se denota: $E$
+\item \textbf{Sucesos simples o elementales}: Cualquiera de los elementos del espacio muestral
+\item \textbf{Sucesos compuestos}: Sucesos formados por varios simples. 
+\item \textbf{Suceso seguro}: Suceso compuesto por los elementos del Espacio muestral. Se cumple siempre
+\item \textbf{Suceso imposible}: Cualquier suceso que no se cumpla nunca. Se denota con el símbolo: $\varnothing$
+\item \textbf{Suceso contrario}: Si $A$ es un suceso, $\overline{A}$ es el suceso contrario. Es aquel que se cumple cuando no se cumple $A$
+\end{itemize}
+
+\subsection{Ejemplo:} Lanzamos un dado y comprobamos la cara que sale.
+\begin{itemize}
+\item \textbf{Espacio muestral}: $E=\lbrace 1,2,3,4,5,6 \rbrace $
+\item \textbf{Sucesos simples o elementales}: $1$, $2$, $3$, $4$, $5$ ó $6$
+\item \textbf{Sucesos compuestos}: $A=\lbrace que\ salga\ par\rbrace=\lbrace2,4,6\rbrace$
+\item \textbf{Suceso seguro}: $E=\lbrace 1,2,3,4,5,6 \rbrace $
+\item \textbf{Suceso imposible}: $\varnothing=\lbrace que\ salga \ mayor \ que \ 6\rbrace$
+\item \textbf{Suceso contrario}: Si $A=\lbrace que\ salga\ par\rbrace=\lbrace2,4,6\rbrace$, $\overline{A}=\lbrace que\ salga\ impar\rbrace=\lbrace1,3,5\rbrace$ 
+\end{itemize}
+
+
+\section{Operaciones con sucesos y relaciones}
+
+\def\firstcircle{(0,0) circle (1.5cm)}
+\def\secondcircle{(0:2cm) circle (1.5cm)}
+\def\espacio{(-2,-2) rectangle (4,2)}
+
+\colorlet{circle edge}{blue!50}
+\colorlet{circle area}{blue!20}
+
+\tikzset{filled/.style={fill=circle area, draw=circle edge, thick},
+    outline/.style={draw=circle edge, thick}}
+
+\setlength{\parskip}{5mm}
+\begin{itemize}
+\item \textbf{Unión}: la unión de los sucesos $A$ y $B$ es aquel suceso que contiene a todos los elementos de $A$ y a  los de $B$. Se denota: $A\cup B$ 
+
+% Set A or B
+\begin{tikzpicture}[scale=0.8]
+\draw[outline] \espacio node[above] {$E$};
+    \draw[filled] \firstcircle node {$A$}
+                  \secondcircle node {$B$};
+    \node[anchor=south] at (1,1.3) {$A \cup B$};
+\end{tikzpicture}
+
+\item \textbf{Intersección}: la intersección de los sucesos $A$ y $B$ es aquel suceso que contiene a todos los elementos que están tanto en $A$ como en $B$. Se denota: $A\cap B$  
+% Set A and B
+\begin{tikzpicture}[scale=0.8]
+	\draw[outline] \espacio node[above] {$E$};
+    \begin{scope}
+        \clip \firstcircle;
+        \fill[filled] \secondcircle;
+    \end{scope}
+    \draw[outline] \firstcircle node {$A$};
+    \draw[outline] \secondcircle node {$B$};
+    %\node[anchor=south] at (current bounding box.north) {$A \cap B$};
+    \node[anchor=south] at (1,1.3) {$A \cap B$};
+\end{tikzpicture}
+\end{itemize}
+
+\subsection{Ejemplo} Tomamos como experimento el resultado de lanzar un dado, y los sucesos: \\
+\begin{tabular}{l}
+$A=\lbrace que\ salga\ par\rbrace=\lbrace2,4,6\rbrace$ \\
+$B=\lbrace que\ sea\ mayor\ que\ 3\rbrace=\lbrace4,5,6\rbrace$ \\
+$C=\lbrace que\ salga\ impar\rbrace=\lbrace1,3,5\rbrace$
+\end{tabular}
+\begin{itemize}	
+	\item $A\cup B=\lbrace2,4,5,6\rbrace$ \\
+	% Set A or B
+\begin{tikzpicture}[scale=0.7]
+\draw[outline] \espacio node[above] {$E$};
+    \draw[filled] \firstcircle node[left] {$2$}
+                  \secondcircle node[right] {$5$};
+    \node[anchor=south] at (1,1.3) {$A \cup B$};
+    \node[anchor=south] at (1,0.25) {$4$};
+    \node[anchor=south] at (1,-0.75) {$6$};
+    
+\end{tikzpicture}
+	\item $A\cap B=\lbrace4,6\rbrace$\\
+	% Set A and B
+\begin{tikzpicture}[scale=0.7]
+	\draw[outline] \espacio node[above] {$E$};
+    \begin{scope}
+        \clip \firstcircle;
+        \fill[filled] \secondcircle;
+    \end{scope}
+    \draw[outline] \firstcircle node[left] {$2$};
+    \draw[outline] \secondcircle node[right] {$5$};
+    %\node[anchor=south] at (current bounding box.north) {$A \cap B$};
+    \node[anchor=south] at (1,1.3) {$A \cap B$};
+    \node[anchor=south] at (1,0.25) {$4$};
+    \node[anchor=south] at (1,-0.75) {$6$};
+\end{tikzpicture}
+\item $A\cup C=\lbrace1,2,3,4,5,6\rbrace=E$
+\item $A\cap C=\varnothing$
+\end{itemize}
+
+\subsection{Compatibilidad de sucesos} Se dice que dos sucesos son incompatibles cuando su intersección es el conjunto vacío. En caso contrario se dice que son compatibles.
+
+\subsubsection{Ejemplo} En el ejemplo anterior, $A$ y $B$ son compatibles y $A$ y $C$ incompatibles.
+
+
+\section{Probabilidad en experimentos regulares y Regla de Laplace} Cuando todos los sucesos elementales de un \textbf{espacio muestral finito} están en las mismas condiciones de suceder se dice que son \textbf{equiprobables}, y al experimento se le llama \textbf{regularregular}.
+\subsection{Ejemplos de experimentos regulares} Lanzamiento de dados, monedas, extracción de cartas, ...
+
+\subsection{Regla de Laplace} La probabilidad de un suceso de un experimento regular viene determinada por la Regla de Laplace:
+$$P(A)=\dfrac{Casos\ favorables}{Casos\ posibles} $$
+\subsubsection{Ejemplos}
+\begin{tabular}{l}
+$a$\\
+$b$
+\end{tabular}
+
+\section{Propiedades de la probabilidad} La probabilidad de un experimento regular cumple las siguientes propiedades:
+\begin{itemize}
+\item $0 \leq P(A) \leq 1$ 
+\item $P(E) = 1$ y $P(\varnothing) = 0$
+\item $P(A) + P(\overline A) = 1$
+\item $P(A \cup B) = P(A) + P(B) - P(A \cap B)$
+\end{itemize}
+Podemos extender el concepto de probabilidad a cualquier función que cumpla las propiedades anteriores.  
+
+
+
+
+
+\end{multicols*}
+
+\end{document}
