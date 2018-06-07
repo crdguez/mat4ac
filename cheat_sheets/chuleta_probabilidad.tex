@@ -227,10 +227,12 @@ $C=\lbrace que\ salga\ impar\rbrace=\lbrace1,3,5\rbrace$
 
 \subsection{Regla de Laplace} La probabilidad de un suceso de un experimento regular viene determinada por la Regla de Laplace:
 $$P(A)=\dfrac{Casos\ favorables}{Casos\ posibles} $$
-\subsubsection{Ejemplos}
+\subsubsection{Ejemplo}
+Al lanzar un dado, los casos posibles son 6 ($\lbrace1,2,3,4,5,6\rbrace$):
 \begin{tabular}{l}
-$a$\\
-$b$
+La probabilidad de sacar un 3: $\lbrace3\rbrace\to \dfrac{1}{6}$\\
+La probabilidad de sacar par: $\lbrace2,4,6\rbrace\to\dfrac{3}{6}$ \\
+La probabilidad de sacar más de 4: $\lbrace5,6\rbrace\to\dfrac{2}{6}$
 \end{tabular}
 
 \section{Propiedades de la probabilidad} La probabilidad de un experimento regular cumple las siguientes propiedades:
@@ -241,6 +243,41 @@ $b$
 \item $P(A \cup B) = P(A) + P(B) - P(A \cap B)$
 \end{itemize}
 Podemos extender el concepto de probabilidad a cualquier función que cumpla las propiedades anteriores.  
+
+\section{Probabilidad condicionada}
+
+Puesto que la probabilidad está ligada al nivel de confianza sobre los resultados de un experimento, el hecho de que ocurra un suceso, puede cambiar la probabilidad de los demás. A esta nueva probabilidad se le llama \textbf{condicionada}
+\subsection{Ejemplo}
+ Supongamos que tenemos una urna con 8 bolas numeradas pero de colores blancos y negros de la cual se extrae una. Supongamos, también, que las tres primeras son blancas y el resto negras, luego  $E=\lbrace B_1,B_2, B_3, N_4, N_5, N_6, N_7, N_8\rbrace$.\\
+ A priori, la $P(\lbrace Sea\ impar\rbrace )=\frac{4}{8}=\frac{1}{2}$ por la regla de Laplace. Tiene la misma probabilidad salir par que impar\\
+ Vamos a suponer ahora que durante la extracción se percibe que la bola es blanca. La situación cambia, porque que sea blanca implica que hay 3 casos posibles y dos de las tres son impares. A esta nueva probabilidad se le llama  condicional y se denota así:
+ $$P(I|B)=\dfrac{2}{3}$$
+La probabilidad de que sea impar ha aumentado por el hecho de haber añadido la condición (o información) que es blanca.\\
+Esta probabilidad la podemos transformar:
+ $$P(I|B)=\dfrac{2}{3}=\dfrac{\dfrac{2}{8}}{\dfrac{3}{8}}=\dfrac{P(I\cap B)}{P(B)}$$
+
+\subsection{Generalización del fórmula de la probabilidad condicionada}
+$$P(A|B)=\dfrac{P(A\cap B)}{P(B)}$$
+y despejando:
+$$P(A\cap B) = P(A|B)\cdot P(B)$$
+
+\section{Experimentos compuestos} Un \textbf{experimento aleatorio compuesto} es el que está formado por varios experimentos simples realizados de forma consecutiva.
+\subparagraph{Ejemplo:}Lanzar tre monedas, extraer cuatro cartas de una baraja, ...
+
+La probabilidad de un suceso compuesto se podrá calcular a partir de las probabilidades obtenidas de los experimentos simples usando la probabilidad condicional:
+$$P(A\cap B) = P(A) \cdot P(B|A)$$
+
+\subsection{Independencia y dependencia de sucesos}
+Se dice que dos sucesos son idnependientes cuando la probabilidad de cada uno no depende del resultado del otro. 
+
+$$A\ y \ B\ son \ independientes \Longleftrightarrow P(B|A)=P(B)$$
+
+
+ 
+  
+
+
+
 
 
 
