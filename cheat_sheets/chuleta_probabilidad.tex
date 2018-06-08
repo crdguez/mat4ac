@@ -10,7 +10,7 @@
 \usepackage{pgf,tikz}
 \usepackage{mathrsfs}
 
-\usetikzlibrary{shapes, calc, shapes, arrows, math, babel}
+\usetikzlibrary{shapes, calc, shapes, arrows, math, babel, positioning}
 
 \usepackage{amsmath,amssymb,textcomp}
 \everymath{\displaystyle}
@@ -240,7 +240,7 @@ La probabilidad de sacar más de 4: $\lbrace5,6\rbrace\to\dfrac{2}{6}$
 \item $0 \leq P(A) \leq 1$ 
 \item $P(E) = 1$ y $P(\varnothing) = 0$
 \item $P(A) + P(\overline A) = 1$
-\item $P(A \cup B) = P(A) + P(B) - P(A \cap B)$
+\item $P(A \cup B) = P(A) + P(B) - P(A \cap B)$. Si $A$ y $B$ son icompatibles: $P(A \cup B) = P(A) + P(B)$
 \end{itemize}
 Podemos extender el concepto de probabilidad a cualquier función que cumpla las propiedades anteriores.  
 
@@ -256,8 +256,7 @@ La probabilidad de que sea impar ha aumentado por el hecho de haber añadido la 
 Esta probabilidad la podemos transformar:
  $$P(I|B)=\dfrac{2}{3}=\dfrac{\dfrac{2}{8}}{\dfrac{3}{8}}=\dfrac{P(I\cap B)}{P(B)}$$
 
-\subsection{Generalización del fórmula de la probabilidad condicionada}
-$$P(A|B)=\dfrac{P(A\cap B)}{P(B)}$$
+\subsection{Generalización del fórmula de la probabilidad condicionada} $$P(A|B)=\dfrac{P(A\cap B)}{P(B)}$$
 y despejando:
 $$P(A\cap B) = P(A|B)\cdot P(B)$$
 
@@ -268,9 +267,256 @@ La probabilidad de un suceso compuesto se podrá calcular a partir de las probab
 $$P(A\cap B) = P(A) \cdot P(B|A)$$
 
 \subsection{Independencia y dependencia de sucesos}
-Se dice que dos sucesos son idnependientes cuando la probabilidad de cada uno no depende del resultado del otro. 
+Se dice que dos sucesos son independientes cuando la probabilidad de cada uno no depende del resultado del otro. 
 
 $$A\ y \ B\ son \ independientes \Longleftrightarrow P(B|A)=P(B)$$
+
+\subparagraph{Ejemplos de sucesos independientes:}  Lanzar varias monedas, extracción de varias cartas con reemplazamiento, sacar bolas de una urna con reemplazamiento, lanzar varios dados, ...
+\subparagraph{Ejemplos de sucesos dependientes:}  Extracción de varias cartas sin reemplazamiento, sacar bolas de una urna sin reemplazamiento, ...
+
+\subsection{Cálculo de probabilidad compuesta para sucesos dependientes}
+\paragraph{Ejemplo:} En una urna hay tres bolas blancas y dos negras. Se extraen dos bolas \textbf{sin} reemplazamiento. Podemos construir el siguiente árbol con las probabilidades de los diferentes resultados:
+
+\tikzstyle{bag} = [text width=4em, text centered]
+\tikzstyle{end} = [circle, minimum width=3pt,fill, inner sep=0pt]
+\tikzstyle{level 1} = [level distance=3.5cm, sibling distance=3.5cm]
+\tikzstyle{level 2} = [level distance=3.5cm, sibling distance=2cm]
+\begin{tikzpicture}[grow=right, sloped, scale=0.7]
+\node[bag] {$3_B, 2_N$}
+    child {
+        node[bag] {$3_B, 1_N$}        
+            child {
+                node[end, label=right:
+                    {$P(N_1\cap N_2)=\frac{2}{5}\cdot\frac{1}{4}$}] {}
+                edge from parent
+                node[above] {$N$}
+                node[below]  {$1/4$}
+            }
+            child {
+                node[end, label=right:
+                    {$P(N_1\cap B_2)=\frac{2}{5}\cdot\frac{3}{4}$}] {}
+                edge from parent
+                node[above] {$B$}
+                node[below] {$3/4$}
+            }
+            edge from parent 
+            node[above] {$N$}
+            node[below]  {$2/5$}
+    }
+    child {
+        node[bag] {$2_B, 2_N$}        
+        child {
+                node[end, label=right:
+                    {$P(B_1\cap N_2)=\frac{3}{5}\cdot\frac{2}{4}$}] {}
+                edge from parent
+                node[above] {$N$}
+                node[below]  {$2/4$}
+            }
+            child {
+                node[end, label=right:
+                    {$P(B_1\cap B_2)=\frac{3}{5}\cdot\frac{2}{4}$}] {}
+                edge from parent
+                node[above] {$B$}
+                node[below]  {$2/4$}
+            }
+        edge from parent         
+            node[above] {$B$}
+            node[below]  {$3/5$}
+    };
+\end{tikzpicture} \\
+\subparagraph{Ejemplos:}\begin{list}{-}{}
+\item Probabilidad de que las dos sean blancas:\\
+$P(B_1\cap B_2)=P(B_1)\cdot P(B_2|B_1)=\frac{3}{5}\cdot\frac{2}{4}=\frac{3}{10}$
+\item Probabilidad de que las dos sean negras:\\ 
+$P(N_1\cap N_2)=P(N_1)\cdot P(N_2|N_1)=\frac{2}{5}\cdot\frac{1}{4}=\frac{1}{10}$
+\item Probabilidad de que sean del mismo color: \\
+$P((B_1\cap B_2)\cup (N_1\cap N_2))=\frac{3}{10}+\frac{1}{10}=\frac{2}{5}$
+\end{list}
+
+
+\subsection{Cálculo de probabilidad compuesta para sucesos independientes}
+\paragraph{Ejemplo:} En una urna hay tres bolas blancas y dos negras. Se extraen dos bolas \textbf{con} reemplazamiento. Ahora el árbol quedará:
+\begin{tikzpicture}[grow=right, sloped, scale=0.7]
+\node[bag] {$3_B, 2_N$}
+    child {
+        node[bag] {$3_B, 2_N$}        
+            child {
+                node[end, label=right:
+                    {$P(N_1\cap N_2)=\frac{2}{5}\cdot\frac{2}{5}$}] {}
+                edge from parent
+                node[above] {$N$}
+                node[below]  {$2/5$}
+            }
+            child {
+                node[end, label=right:
+                    {$P(N_1\cap B_2)=\frac{2}{5}\cdot\frac{3}{5}$}] {}
+                edge from parent
+                node[above] {$B$}
+                node[below] {$3/5$}
+            }
+            edge from parent 
+            node[above] {$N$}
+            node[below]  {$2/5$}
+    }
+    child {
+        node[bag] {$3_B, 2_N$}        
+        child {
+                node[end, label=right:
+                    {$P(B_1\cap N_2)=\frac{3}{5}\cdot\frac{2}{5}$}] {}
+                edge from parent
+                node[above] {$N$}
+                node[below]  {$2/5$}
+            }
+            child {
+                node[end, label=right:
+                    {$P(B_1\cap B_2)=\frac{3}{5}\cdot\frac{3}{5}$}] {}
+                edge from parent
+                node[above] {$B$}
+                node[below]  {$3/5$}
+            }
+        edge from parent         
+            node[above] {$B$}
+            node[below]  {$3/5$}
+    };
+\end{tikzpicture} \\
+\subparagraph{Ejemplos:}\begin{list}{-}{}
+\item Probabilidad de que las dos sean blancas:\\
+$P(B_1\cap B_2)=P(B_1)\cdot P(B_2|B_1)=\frac{3}{5}\cdot\frac{3}{5}=\frac{9}{25}$
+\item Probabilidad de que las dos sean negras:\\ 
+$P(N_1\cap N_2)=P(N_1)\cdot P(N_2|N_1)=\frac{2}{5}\cdot\frac{2}{5}=\frac{4}{25}$
+\item Probabilidad de que sean del mismo color: \\
+$P((B_1\cap B_2)\cup (N_1\cap N_2))=\frac{9}{25}+\frac{4}{25}=\frac{13}{25}$
+\end{list}
+
+
+\section{Teorema de la probabilidad total}
+
+\begin{tikzpicture}
+\tikzset{
+    myrectangle/.style={
+        draw=black,
+        minimum width=4cm,
+        minimum height=2cm,
+    },
+    B/.style={
+        draw=blue,
+    },
+    A/.style={
+        draw=green,
+    },
+    >=stealth,
+    node distance=1cm and 1cm,
+}
+
+    \node[myrectangle] (left) {};
+    \node[myrectangle] (right) [right=of left] {};
+    \path (left.south east) -- coordinate (tmp) (right.south west);
+    \node[myrectangle] (bottom) [below=of tmp] {};
+
+    % "contents" of left node
+    \path (left.west) -- node[pos=.25)] {B1} (left.east);
+    \path (left.west) -- node[pos=.5] {B2} (left.east);
+    \path (left.west) -- node[pos=.75] {B3} (left.east);
+
+    \draw[B] ($(left.north west) ! .4 ! (left.north east)$) -- ($(left.south west) ! .35 ! (left.south east)$);
+    \draw[B] ($(left.north west) ! .6 ! (left.north east)$) -- ($(left.south west) ! .66 ! (left.south east)$);
+
+    % "contents" of right node
+    \draw[A] (right.center) ellipse [x radius=1cm, y radius=.5cm] node {A};
+
+    % "contents" of bottom node
+    \path (bottom.west) -- node[pos=.25] {A1} (bottom.east);
+    \path (bottom.west) -- node[pos=.5] {A2} (bottom.east);
+    \path (bottom.west) -- node[pos=.75] {A3} (bottom.east);
+
+    \draw[B] ($(bottom.north west) ! .4 ! (bottom.north east)$) -- ($(bottom.south west) ! .35 ! (bottom.south east)$);
+    \draw[B] ($(bottom.north west) ! .6 ! (bottom.north east)$) -- ($(bottom.south west) ! .66 ! (bottom.south east)$);
+
+    \draw[A] (bottom.center) ellipse [x radius=1.5cm, y radius=.5cm];
+
+    % arrows
+    \begin{scope}[
+        shorten >=.2cm,
+        shorten <=.2cm,
+    ]
+        \draw[->, black] (left) -- (bottom);
+        \draw[->, black] (right) -- (bottom);
+    \end{scope}
+
+    % labels on top
+    \node at (left.north east) [anchor=south east] {E};
+    \node at (right.north east) [anchor=south east] {E};
+    \node at (bottom.north east) [anchor=south east] {E};
+
+\end{tikzpicture}
+
+
+\begin{tikzpicture}
+\tikzset{
+    myrectangle/.style={
+        draw=black,
+        minimum width=4cm,
+        minimum height=2cm,
+    },
+    B/.style={
+        draw=blue,
+    },
+    A/.style={
+        draw=green,
+    },
+    >=stealth,
+    node distance=1cm and 1cm,
+}
+
+    \node[myrectangle] (left) {};
+    \node[myrectangle] (right) [right=of left] {};
+    \path (left.south east) -- coordinate (tmp) (right.south west);
+    \node[myrectangle] (bottom) [below=of tmp] {};
+
+    % "contents" of left node
+    \path (left.north west) -- node[pos=.5] {B1} (left.center);
+    \path (left.north east) -- node[pos=.5] {B2} (left.center);    
+    \path (left.south west) -- node[pos=.5] {B3} (left.center);
+    \path (left.south east) -- node[pos=.5] {B4} (left.center);
+    
+    
+    
+\draw[B] ($(left.north west) ! .5 ! (left.north east)$) -- ($(left.south west) ! .5 ! (left.south east)$);
+
+\draw[B] ($(left.north west) ! .5 ! (left.south west)$) -- ($(left.north east) ! .5 ! (left.south east)$);
+
+
+    % "contents" of right node
+    \draw[A] (right.center) ellipse [x radius=1.5cm, y radius=.5cm] node {A};
+
+    % "contents" of bottom node
+    \path (bottom.west) -- node[pos=.25] {A1} (bottom.east);
+    \path (bottom.west) -- node[pos=.5] {A2} (bottom.east);
+    \path (bottom.west) -- node[pos=.75] {A3} (bottom.east);
+
+\draw[B] ($(bottom.north west) ! .5 ! (bottom.north east)$) -- ($(bottom.south west) ! .5 ! (bottom.south east)$);
+
+\draw[B] ($(bottom.north west) ! .5 ! (bottom.south west)$) -- ($(bottom.north east) ! .5 ! (bottom.south east)$);
+
+    \draw[A] (bottom.center) ellipse [x radius=1.5cm, y radius=.5cm];
+
+    % arrows
+    \begin{scope}[
+        shorten >=.2cm,
+        shorten <=.2cm,
+    ]
+        \draw[->, black] (left) -- (bottom);
+        \draw[->, black] (right) -- (bottom);
+    \end{scope}
+
+    % labels on top
+    \node at (left.north east) [anchor=south east] {E};
+    \node at (right.north east) [anchor=south east] {E};
+    \node at (bottom.north east) [anchor=south east] {E};
+
+\end{tikzpicture}
+
+\section{Teorema de Bayes}
 
 
  
