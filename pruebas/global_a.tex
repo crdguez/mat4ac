@@ -1,6 +1,6 @@
 \documentclass[addpoints,spanish, 12pt,a4paper]{exam}
 %\documentclass[answers, spanish, 12pt,a4paper]{exam}
-\printanswers
+%\printanswers
 \pointpoints{punto}{puntos}
 \hpword{Puntos:}
 \vpword{Puntos:}
@@ -33,8 +33,8 @@
 
 \newcommand{\class}{4º Académicas}
 \newcommand{\examdate}{\today}
-\newcommand{\examnum}{Examen final de 3ª evaluación}
-\newcommand{\tipo}{C}
+\newcommand{\examnum}{Global}
+\newcommand{\tipo}{A}
 
 
 \newcommand{\timelimit}{50 minutos}
@@ -59,6 +59,16 @@
 \textbf{Tiempo: \timelimit} & Tipo: \tipo 
 \end{tabular*}
 \rule[2ex]{\textwidth}{2pt}
+
+
+\textbf{Instrucciones:} \begin{itemize}
+\item \textbf{Si tienes alguna/s evaluación pendiente:} Tienes que hacer \textbf{todos} los ejercicios salvo el último
+\item \textbf{Si tienes todas las evaluaciones aprobadas:} Tienes que hacer el \textbf{último ejercicio}, y luego del resto cuatro ejercicios
+
+\end{itemize}
+
+
+\begin{comment}
 Esta prueba tiene \numquestions\ ejercicios. La puntuación máxima es de \numpoints. 
 La nota final de la prueba será la parte proporcional de la puntuación obtenida sobre la puntuación máxima. 
 
@@ -72,6 +82,7 @@ La nota final de la prueba será la parte proporcional de la puntuación obtenid
 
 \noindent
 \textbf{ACLARACIÓN:} Los ejercicios de geometría se han de resolver de manera analítica (no gráfica). Los ejercicios de funciones deberán estar justificados con los cálculos que sean necesarios para su resolución. 
+\end{comment}\\
 
 \rule[2ex]{\textwidth}{2pt}
 
@@ -84,85 +95,83 @@ La nota final de la prueba será la parte proporcional de la puntuación obtenid
 \addpoints
 \end{comment}
 
-\question Resuelve las siguientes cuestiones relacionadas con combinatoria. Indicando previamente \textbf{el tipo de agrupación que calculas} a partir de si importa el orden dentro de la agrupación y si los elementos se pueden repetir:
+\question Calcula: 
 \begin{parts}
-\begin{comment}
-\part[1] ¿De cuántas formas podrán distribuirse 3 premios iguales entre diez aspirantes?  
-\begin{solution} $ C_{10}^3=\frac{10!}{7!\cdot3!}=120$  \end{solution}
-\part[1] ¿Y si los premios fueran diferentes? 
+\part[1] Racionaliza y simplifica:  $\dfrac{\sqrt{3}}{2\sqrt{3}-\sqrt{2}}$ 
+\begin{solution} $=\dfrac{\sqrt{3}\cdot\left(2\sqrt{3}+\sqrt{2}\right)}{\left(2\sqrt{3}-\sqrt{2}\right)\left(2\sqrt{3}+\sqrt{2}\right)}=\dfrac{6\sqrt{6}}{12-2}=\dfrac{6\sqrt{6}}{10}$ \end{solution}
+\part[1] Aplica la definición de logaritmo para calcular: $\log_4 \sqrt{0,25}$
+\begin{solution} $\to 4^x=\sqrt{\frac{1}{4}}\to4^x=4^{-1/2}\to\log_4 \sqrt{0,25}=-\frac{1}{2}$ \end{solution}
 
-\begin{solution} $ V_{10}^3=\frac{10!}{7!}=720$  \end{solution}
-\end{comment}
+\end{parts}
+
+\question Resuelve la siguiente ecuación: 
+
+$\sqrt{3x-2}+\sqrt{x-1}=3$
+\begin{solution}$\to\sqrt{3x-2}=3-\sqrt{x-1}\to 3x-2=9+x-1-6\sqrt{x-1}\to6\sqrt{x-1}=9+x-1-3x+32\to6\sqrt{x-1}=10-2x\to3\sqrt{x-1}=5-x\to x-1=25+x^2-10x\to x^2-19x+34=0$. Soluciones: $x=2$ (Sí) y $x=17$ No  \end{solution}
+
+
+
+\question Resuelve las siguientes inecuaciones de manera justificada:
+\begin{parts}
+
+\part[1]$ x < x^3  $
+%solve_univariate_inequality (x-x**3<0,x,relational =false )  
+\begin{solution} $\left(-1, 0\right) \cup \left(1, \infty\right)$ \end{solution}
+
+
+
+\part[1]$\dfrac{x - 1}{x^{2} + x}\geqslant 0$  
+%from sympy.solvers.inequalities import reduce_rational_inequalities
+%reduce_rational_inequalities([[expand((x-1))/expand(x*(x+1)) >= 0]], x,relational=0)
+\begin{solution} $\left(-1, 0\right) \cup \left[1, \infty\right)$ \end{solution}
+
+
+\end{parts}
+
+\question[2] El  diámetro  de  la  base  de  un  cilindro  es  igual  a  su  altura.  El  área  total  es  169,56 metros cuadrados. Calcula sus dimensiones
+\begin{solution}
+d=h=6m
+\end{solution}
+
+\question[2]   Desde el lugar donde me encuentro la visual de la torre forma un ángulo de 32º con la
+horizontal. Si me acerco 15 m, el ángulo es de 50º. ¿Cuál es la altura de la torre?
+\begin{solution} $\left. \begin{gathered}
+	  \tg 32 = \frac{y}{x} \\
+	  \tg 50 = \frac{y}{x-15} \hfill
+	 \end{gathered}  \right\rbrace \\
+	 \to 
+	 \frac{15 \tan{\left (\frac{8 \pi}{45} \right )} \tan{\left (\frac{5 \pi}{18} \right )}}{- \tan{\left (\frac{8 \pi}{45} \right )} + \tan{\left (\frac{5 \pi}{18} \right )}}\approx19.7048244137178 m $ \end{solution}
+
+\question Resuelve las siguientes cuestiones relacionadas con combinatoria:
+\begin{parts}
+\part[1] ¿De cuántas formas podrán distribuirse dos premios iguales entre diez aspirantes?  
+\begin{solution} $ C_{10}^2=\frac{10!}{8!\cdot2!}=45$  \end{solution}
+
 \part[1] ¿Cuántas palabras se pueden formar con las letras de la palabra AMBROSI de forma que comiencen y terminen por vocal?
 \begin{solution}
 $V_3^2\cdot P_5= 3*2 \cdot 5!=6\cdot120=720 $
 \end{solution}
+\begin{comment}
 \part[1] ¿Cuántos números naturales se pueden formar con las cifras 1, 3, 5 y 7 sin repetir ninguna de ellas? 
 \begin{solution} $ V_4^1+V_4^2+V_4^3+V_4^4 \to ([4, 12, 24, 24], 64)$  \end{solution}
+\end{comment}
 
-\part[1] ¿Cuántos números de tres cifras distintas se pueden formar con las cifras 1, 2, 3, 4 ? ¿Y con 0, 1, 2, 3 y 4 ?
-\begin{solution} $V_4^3=24 $ y $V_5^3-V_4^2= 60-12=48$ \end{solution}
 \end{parts}
-
-\question De una baraja de 40 cartas se extraen dos \textbf{sin} remplazamiento. Halla la probabilidad de cada apartado de dos formas: Sin reducir el experimento compuesto (\textbf{combinatoria}) y reduciéndolo (\textbf{probabilidad condicionada})
-
-\begin{parts}
-\begin{comment}
-\part[1] de que sean dos ases
-\begin{solution}
-$\frac{V_{4}^2}{V_{40}^{2}}=\frac{4\cdot3}{40\cdot39}=\frac{1}{130}$ ó $P(A_1 \cap A_2)=P(A1)\cdot P(A_2 | A_1) = \frac{4}{40}\cdot \frac{3}{39}$
-\end{solution}
-\end{comment}
-\begin{comment}
-\part[1] de que sean dos figuras (sota, caballo o rey)
-\begin{solution}
-$  \frac{V_{12}^2}{V_{40}^2}=\frac{12\cdot11}{40\cdot39}=\frac{11}{130}$ ó $P(2F)=P(F_1)\cdot P(F_2 | F_1)=\frac{12}{40}\cdot \frac{11}{39}$
-\end{solution}
-\end{comment}
-%\begin{comment}
-\part[1] de que al menos haya un as
-\begin{solution}
-$1-\frac{V_{36}^{2}}{V_{40}^{2}}=1-\frac{36\cdot35}{40\cdot39}=1-\frac{21}{26}=\frac{5}{26}$ ó $1-P(NA_1 \cap NA_2)=1 - P(NA_1)\cdot P(NA_2 | NA_1)=1 - \frac{36}{40}\cdot \frac{35}{39}$
-\end{solution}
-%\end{comment}
-\begin{comment}
-\part[1] de que sean dos reyes
-\begin{solution}
-$\frac{V_{4}^2}{V_{40}^{2}}=\frac{4\cdot3}{40\cdot39}=\frac{1}{130}$ ó $P(R_1 \cap R_2)=P(R_1)\cdot P(R_2 | R_1) = \frac{4}{40}\cdot \frac{3}{39}$
-\end{solution}
-\end{comment}
-\begin{comment}
-\part[1] de que sean del mismo palo
-\begin{solution}
-
-$\frac{V_{4}^1 \cdot V_{10}^2}{V_{40}^{2}}=\frac{4\cdot10\cdot9}{40\cdot39}=\frac{3}{13}$ ó $4\cdot P(P_1 \cap P_2)=4 \cdot P(P_1)\cdot P(P_2 | P_1) = 4\cdot \frac{10}{40}\cdot \frac{9}{39} $
-\end{solution}
-\end{comment}
-%\begin{comment}
-\part[1] de que sean un rey y una sota (o al revés). 
-\begin{solution}
-$\frac{V_{8}^1 \cdot V_{4}^1}{V_{40}^{2}}=\frac{8\cdot4}{40\cdot39}=\frac{4}{195}$ ó $2\cdot P(R_1 \cap S_2)= 2 \cdot P(R_1)\cdot P(S_2 | R_1) = 2 \cdot \frac{4}{40}\cdot \frac{4}{39} $
-\end{solution}
-%\end{comment}
-\end{parts}
-
-
 
 
 
 \question Dados el triángulo de vértices   $A(3, -1)$ ,   $B(5, 3)$ y   $C(-1, 3)$, determina:
 \begin{parts} 
+\begin {comment}
 \part[1] si están alineados
 \begin{solution} (False, Point2D(2, 4), Point2D(-6, 0)) \end{solution}
+\end {comment}
 
 
-\part[1]  La recta que contiene a la altura que pasa por $A$ 
-\begin{solution} $x= 3$ \end{solution}
+\part[1]  La recta que contiene a la altura que pasa por $A$ y la recta que contiene a la altura $C$
+\begin{solution} $x= 3$ (-2*x - 4*y + 10 = 0)\end{solution}
 
-	
-\part[1] La recta que contiene a la altura que pasa por $C$
-\begin{solution} (-2*x - 4*y + 10 = 0)
-\end{solution} 
+
 \part[1] El punto donde se cortan ambas rectas. 
 \begin{solution} {x: 3, y: 1} \end{solution}
 
@@ -351,62 +360,83 @@ $f(x) =
 
 \end{comment}
 
-\question Calcula los dominios de las siguientes funciones usando la notación de conjuntos
+\question En una urna hay cinco bolas blancas y cuatro negras. Se extraen dos bolas \textbf{sin} reemplazamiento. Cuál es la probabilidad de que sean: 
 
 \begin{parts}
-\part[1] $f(x)=\dfrac{x^3-6x^2+4x+8}{x^3-x^2-9x+9}$ 
-% g = (x**3-6*x**2+4*x+8)/(x**3-x**2-9*x+9)
-% singularities(g, x)
-\begin{solution} $\left\{-3, 1, 3\right\}$\end{solution}
-\part[1] $f(x) =
-\left\{
-	\begin{array}{clc}
-		4  & \mbox{si } & x < -2 \\
-		-x^2 & \mbox{si } & -2 \leq x < 4 \\
-		2x-3 & \mbox{si } & x > 4
-	\end{array}
-\right.$
-\begin{solution} $Dom(f)=\mathbb{R}-\lbrace 4 \rbrace$
+\part de distinto color
+\begin{solution}
+\tikzstyle{bag} = [text width=4em, text centered]
+\tikzstyle{end} = [circle, minimum width=3pt,fill, inner sep=0pt]
+\tikzstyle{level 1} = [level distance=3.5cm, sibling distance=3.5cm]
+\tikzstyle{level 2} = [level distance=3.5cm, sibling distance=2cm]
+
+\begin{tikzpicture}[grow=right, sloped, scale=1]
+\node[bag] {$2B, 1N$}
+    child {
+        node[bag] {$2B, 0N$}        
+            child {
+                node[end, label=right:
+                    {$P(N_1\cap N_2)=\frac{1}{3}\cdot\frac{0}{3}=0$}] {}
+                edge from parent
+                node[above] {$N$}
+                node[below]  {$\frac{0}{2}$}
+            }
+            child {
+                node[end, label=right:
+                    {$P(N_1\cap B_2)=\frac{1}{3}\cdot\frac{2}{2}$}] {}
+                edge from parent
+                node[above] {$B$}
+                node[below] {$\frac{2}{2}$}
+            }
+            edge from parent 
+            node[above] {$N$}
+            node[below]  {$\frac{1}{3}$}
+    }
+    child {
+        node[bag] {$1B, 1N$}        
+        child {
+                node[end, label=right:
+                    {$P(B_1\cap N_2)=\frac{2}{3}\cdot\frac{1}{2}$}] {}
+                edge from parent
+                node[above] {$N$}
+                node[below]  {$\frac{1}{2}$}
+            }
+            child {
+                node[end, label=right:
+                    {$P(B_1\cap B_2)=\frac{2}{3}\cdot\frac{1}{2}$}] {}
+                edge from parent
+                node[above] {$B$}
+                node[below]  {$\frac{1}{2}$}
+            }
+        edge from parent         
+            node[above] {$B$}
+            node[below]  {$\frac{2}{3}$}
+    };
+\end{tikzpicture} \\
+$ P(Distinto\ color) = P(B_1\cap N_2) + P(N_1\cap B_2) = \frac{1}{3}+\frac{1}{3}= \frac{2}{3}$
+\end{solution}
+
+\part del mismo color
+\begin{solution}
+$P(Mismo\ color) = P(B_1\cap B_2) + P(N_1\cap N_2) = \frac{1}{3}+\frac{0}{9}= \frac{1}{3}$ 
+\end{solution}
+
+\part Cuál es la probabilidad de que, habiendo sido la segunda bola blanca, la primera haya sido blanca:
+\begin{solution}
+$P(B_1|B_2)=\dfrac{P(B_1\cap B_2)}{P(B_2)}=\dfrac{\frac{2}{3}\cdot\frac{1}{2}}{\frac{2}{3}\cdot\frac{1}{2}+\frac{1}{3}\cdot\frac{2}{2}}=\dfrac{\frac{1}{3}}{\frac{4}{6}}=\frac{1}{2} $
+\end{solution}
+
+\part Cuál es la probabilidad de que, habiendo sido la segunda bola blanca, la primera haya sido negra:
+\begin{solution}
+$P(N_1|B_2)=\dfrac{P(N_1\cap B_2)}{P(B_2)}=\dfrac{\frac{1}{3}\cdot\frac{2}{2}}{\frac{2}{3}\cdot\frac{1}{2}+\frac{1}{3}\cdot\frac{2}{2}}=\dfrac{\frac{1}{3}}{\frac{4}{6}}=\frac{1}{2} $
 \end{solution}
 
 \end{parts}
 
 
-\addpoints
-
-
-
 
 \end{questions}
 
-\newpage 
-
-\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1cm,y=1cm, scale=0.78]
-\draw [color=lightgray,dash pattern=on 1pt off 1pt, xstep=1cm,ystep=1cm] (-10.6,-10.4) grid (10.1,10.1);
-\draw[<->,color=black] (-10.6,0) -- (10.1,0);
-\foreach \x in {-10,-9,-8,-7,-6,-5,-4,-3,-2,-1,1,2,3,4,5,6,7,8,9,10}
-\draw[shift={(\x,0)},color=black] (0pt,1pt) -- (0pt,-1pt) node[below] {\footnotesize $\x$};
-\draw[<->,color=black] (0,-10.43158220601634095) -- (0,10.1);
-\foreach \y in {-10,-9,-8,-7,-6,-5,-4,-3,-2,-1,1,2,3,4,5,6,7,8,9,10}
-\draw[shift={(0,\y)},color=black] (2pt,0pt) -- (-2pt,0pt) node[left] {\footnotesize $\y$};
-%\draw[color=black] (0pt,-10pt) node[right] {\footnotesize $0$};
-%\clip(-0.6129302567150502,-0.43158220601634095) rectangle (9.010648940148005,7.8783927087822985);
-\end{tikzpicture}
-
-
-\newpage 
-
-\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1cm,y=1cm, scale=0.78]
-\draw [color=lightgray,dash pattern=on 1pt off 1pt, xstep=1cm,ystep=1cm] (-10.6,-10.4) grid (10.1,10.1);
-\draw[<->,color=black] (-10.6,0) -- (10.1,0);
-\foreach \x in {-10,-9,-8,-7,-6,-5,-4,-3,-2,-1,1,2,3,4,5,6,7,8,9,10}
-\draw[shift={(\x,0)},color=black] (0pt,1pt) -- (0pt,-1pt) node[below] {\footnotesize $\x$};
-\draw[<->,color=black] (0,-10.43158220601634095) -- (0,10.1);
-\foreach \y in {-10,-9,-8,-7,-6,-5,-4,-3,-2,-1,1,2,3,4,5,6,7,8,9,10}
-\draw[shift={(0,\y)},color=black] (2pt,0pt) -- (-2pt,0pt) node[left] {\footnotesize $\y$};
-%\draw[color=black] (0pt,-10pt) node[right] {\footnotesize $0$};
-%\clip(-0.6129302567150502,-0.43158220601634095) rectangle (9.010648940148005,7.8783927087822985);
-\end{tikzpicture}
 
 \end{document}
 
