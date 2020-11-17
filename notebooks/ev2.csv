@@ -1,0 +1,67 @@
+Alumno,Asignatura,Eval,Nota,Suspenso
+Alumno_1,2FR II,1,8,0
+Alumno_2,2FR II,1,7,0
+Alumno_3,2FR II,1,8,0
+Alumno_1,BI,1,7,0
+Alumno_2,BI,1,8,0
+Alumno_3,BI,1,7,0
+Alumno_4,BI,1,7,0
+Alumno_1,CTM,1,7,0
+Alumno_2,CTM,1,9,0
+Alumno_3,CTM,1,9,0
+Alumno_4,CTM,1,8,0
+Alumno_1,HE,1,5,0
+Alumno_2,HE,1,7,0
+Alumno_3,HE,1,6,0
+Alumno_4,HE,1,3,1
+Alumno_1,IN II,1,10,0
+Alumno_2,IN II,1,9,0
+Alumno_3,IN II,1,9,0
+Alumno_4,IN II,1,7,0
+Alumno_1,LC2,1,6,0
+Alumno_2,LC2,1,7,0
+Alumno_3,LC2,1,7,0
+Alumno_4,LC2,1,7,0
+Alumno_1,MA2,1,7,0
+Alumno_2,MA2,1,9,0
+Alumno_3,MA2,1,7,0
+Alumno_4,MA2,1,10,0
+Alumno_4,PS,1,8,0
+Alumno_1,PSC,1,8,0
+Alumno_1,QU,1,6,0
+Alumno_2,QU,1,9,0
+Alumno_3,QU,1,6,0
+Alumno_4,QU,1,7,0
+Alumno_1,2FR II,2,7,0
+Alumno_2,2FR II,2,8,0
+Alumno_3,2FR II,2,7,0
+Alumno_1,BI,2,5,0
+Alumno_2,BI,2,7,0
+Alumno_3,BI,2,8,0
+Alumno_4,BI,2,7,0
+Alumno_1,CTM,2,7,0
+Alumno_2,CTM,2,8,0
+Alumno_3,CTM,2,8,0
+Alumno_4,CTM,2,7,0
+Alumno_1,HE,2,6,0
+Alumno_2,HE,2,7,0
+Alumno_3,HE,2,6,0
+Alumno_4,HE,2,2,1
+Alumno_1,IN II,2,10,0
+Alumno_2,IN II,2,9,0
+Alumno_3,IN II,2,9,0
+Alumno_4,IN II,2,8,0
+Alumno_1,LC2,2,5,0
+Alumno_2,LC2,2,7,0
+Alumno_3,LC2,2,5,0
+Alumno_4,LC2,2,6,0
+Alumno_1,MA2,2,7,0
+Alumno_2,MA2,2,8,0
+Alumno_3,MA2,2,8,0
+Alumno_4,MA2,2,10,0
+Alumno_4,PS,2,2,1
+Alumno_1,PSC,2,9,0
+Alumno_1,QU,2,7,0
+Alumno_2,QU,2,7,0
+Alumno_3,QU,2,8,0
+Alumno_4,QU,2,8,0
