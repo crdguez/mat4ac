@@ -1,9 +1,12 @@
 # Acta de la 2ª evaluación 
- ## Informe actilla: 
- ![](actilla.png) 
- ## Resultados generales: 
 
- ### Resumen 
+## Informe actilla: 
+ ![](actilla.png) 
+
+## Resultados generales: 
+
+
+###Resumen 
 
   |   Eval |   N_al |   Media |   N_susp |   Susp_alu |
 |-------:|-------:|--------:|---------:|-----------:|
