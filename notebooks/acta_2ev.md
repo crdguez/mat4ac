@@ -27,7 +27,7 @@ Tenemos los siguientes datos:
 | Alumnos |         3 |         0 |         1 |             0 |           0 | 
 
  
- ![](g0.png) 
+ ![](g0.png=10x10) 
  
  
  Alumnos con suspensos: 
