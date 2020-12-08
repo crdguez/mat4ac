@@ -26,8 +26,8 @@
 % \extrawidth{-2.4cm} %Un poquito más de margen por si ponemos textos largos.
 % \marginpointname{ \emph{\points}}
 
-% \usepackage{graphicx}
-% \graphicspath{{../img/}} 
+\usepackage{graphicx}
+\graphicspath{{.}} 
 
 \newcommand{\class}{1º Bachillerato CCSS}
 \newcommand{\examdate}{\today}
@@ -40,7 +40,7 @@
 \renewcommand{\solutiontitle}{\noindent\textbf{Solución:}\enspace}
 
 
-\pagestyle{head}\firstpageheader{\includegraphics[width=0.2\columnwidth]{header_left}}{\textbf{Departamento de Matemáticas\linebreak \class}\linebreak \examnum}{\includegraphics[width=0.1\columnwidth]{header_right}}
+\pagestyle{head}\firstpageheader{\includegraphics[width=0.2\columnwidth]{header_left}}{\textbf{Departamento de Matemáticas\linebreak \class}\linebreak \examnum}{\includegraphics[width=0.08\columnwidth]{header_right}}
 \runningheader{\class}{\examnum}{Página \thepage\ of \numpages}
 \runningheadrule
 
