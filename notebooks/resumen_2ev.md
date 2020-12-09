@@ -5,7 +5,7 @@
  ![](actilla_2.png) 
  
 
-\newpage
+ewpage
  
  ![](resumen_2.png) 
  
