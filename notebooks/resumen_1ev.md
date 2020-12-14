@@ -1,15 +1,19 @@
 ---
-title: "Estadísticas" 
+title: "Estadísticas 1ªev." 
 author: IES Pedro Cerrada
-date: "2017-02-20"
-geometry: landscape,margin=1in
-keywords: [Markdown, Example]
-... 
-
+date: 4ºESO B
+titlepage: true
+logo: headerright
+geometry: margin=1in, landscape
+keywords: [Resumen]
+...
+A nivel de grupo, se tienen los siguientes datos: 
  
- ![](actilla_1.png) 
+* **nota media**: 5.79 
+* **número de suspensos**: 208 
+* **número de suspensos por alumno**: 7.7 
+  
+ ![](actilla_1ev.png)\newpage
  
-\newpage
- 
- ![](resumen_1.png) 
+ ![](resumen_1ev.png) 
  
