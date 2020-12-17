@@ -9,9 +9,9 @@ keywords: [Resumen]
 ...
 A nivel de grupo, se tienen los siguientes datos: 
  
-* **nota media**: 7.48 
-* **número de suspensos**: 13 
-* **número de suspensos por alumno**: 0.48 
+* **nota media**: 7.26 
+* **número de suspensos**: 24 
+* **número de suspensos por alumno**: 0.89 
   
  ![](actilla_1ev.png)\newpage
  
