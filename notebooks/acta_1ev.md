@@ -14,14 +14,14 @@ keywords: [Acta]
 ## Resultados generales: 
 A nivel de grupo, se tienen los siguientes datos: 
  
-* **nota media**: 7.26 
+* **nota media**: 7.27 
 * **número de suspensos**: 24 
 * **número de suspensos por alumno**: 0.89 
   
  El número de alumnos por suspensos se distribuyen de la siguiente manera: 
 
-* **0 susp.**: 16 
-* **1 susp.**: 6 
+* **0 susp.**: 17 
+* **1 susp.**: 5 
 * **2 susp.**: 1 
 * **3 ó 4 susp.**: 3 
 * **> 4 susp.**: 1 
@@ -37,45 +37,42 @@ A nivel de grupo, se tienen los siguientes datos:
 
 * Con **6** asignaturas: 
 
-    - Arcas Sánchez, Daniel (CCL , FQ , GH , IN , LE , MC ) 
+    - Arcas Sánchez, Daniel (GH, CCL, FQ, MC, LE, IN) 
  
 
 * Con **4** asignaturas: 
 
-    - Sanz Bona, Marcos (BG , FQ , LE , MC ) 
+    - Escanero Agustín, Sergio (LE, GHB, MC, BG) 
+ 
+
+    - Sanz Bona, Marcos (MC, FQ, LE, BG) 
  
 
 * Con **3** asignaturas: 
 
-    - Aparicio Maella, Ángel (FQ , LE , TC ) 
- 
-
-    - Escanero Agustín, Sergio (GHB , LE , MC ) 
+    - Aparicio Maella, Ángel (FQ, TC, LE) 
  
 
 * Con **2** asignaturas: 
 
-    - Doncheva Mavrova, Teodora (GHB , MC ) 
+    - Doncheva Mavrova, Teodora (GHB, MC) 
  
 
 * Con **1** asignaturas: 
 
-    - Cabeza Roche, Andrea (GHB ) 
+    - Cabeza Roche, Andrea (GHB) 
  
 
-    - Izquierdo Langarita, Laura (MC ) 
+    - Izquierdo Langarita, Laura (MC) 
  
 
-    - Izquierdo Langarita, Sandra (MC ) 
+    - Izquierdo Langarita, Sandra (MC) 
  
 
-    - Morato Sánchez, Juan José (MC ) 
+    - Morato Sánchez, Juan José (MC) 
  
 
-    - Muñoz Pelegrín, Mario (MC ) 
- 
-
-    - Villanueva Tejedor, Daniella (PL ) 
+    - Muñoz Pelegrín, Mario (MC) 
  
 El número de alumnos por nota media se distribuye de la siguiente manera: 
 
@@ -105,18 +102,16 @@ El número de alumnos por nota media se distribuye de la siguiente manera:
   
  
 
-* Suspensos: FQ , LE , TC  
+* Suspensos: FQ, TC, LE 
 
-|   Eval |   EC  |   EF  |   FQ  |   GH  |   IN  |   LE  |   MC  |   TC  |   VET  |
-|:------:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:------:|
-|      1 |     5 |     6 |     4 |     5 |     6 |     4 |     5 |     4 |      9 |
+|   Eval |   EC |   EF |   FQ |   GH |   IN |   LE |   MC |   TC |   VET |
+|:------:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:-----:|
+|      1 |    5 |    6 |    4 |    5 |    6 |    4 |    5 |    4 |     9 |
 
 
- * En concreto: **EC **: 5, **EF **: 6, **FQ **: 4, **GH **: 5, **IN **: 6, **LE **: 4, **MC **: 5, **TC **: 4, **VET **: 9 
+ * En concreto: **EC**: 5, **EF**: 6, **FQ**: 4, **GH**: 5, **IN**: 6, **LE**: 4, **MC**: 5, **TC**: 4, **VET**: 9 
   
  
-
- * Observaciones: Esto es una prueba
 
 ### Arcas Sánchez, Daniel 
 
@@ -124,14 +119,14 @@ El número de alumnos por nota media se distribuye de la siguiente manera:
   
  
 
-* Suspensos: CCL , FQ , GH , IN , LE , MC  
+* Suspensos: GH, CCL, FQ, MC, LE, IN 
 
-|   Eval |   CCL  |   EC  |   EF  |   FQ  |   GH  |   IN  |   LE  |   MC  |   TC  |   VET  |
-|:------:|:------:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:------:|
-|      1 |      4 |     5 |     7 |     3 |     2 |     3 |     3 |     2 |     5 |      8 |
+|   Eval |   CCL |   EC |   EF |   FQ |   GH |   IN |   LE |   MC |   TC |   VET |
+|:------:|:-----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:-----:|
+|      1 |     4 |    5 |    7 |    3 |    2 |    3 |    3 |    2 |    5 |     8 |
 
 
- * En concreto: **CCL **: 4, **EC **: 5, **EF **: 7, **FQ **: 3, **GH **: 2, **IN **: 3, **LE **: 3, **MC **: 2, **TC **: 5, **VET **: 8 
+ * En concreto: **CCL**: 4, **EC**: 5, **EF**: 7, **FQ**: 3, **GH**: 2, **IN**: 3, **LE**: 3, **MC**: 2, **TC**: 5, **VET**: 8 
   
  
 
@@ -141,14 +136,14 @@ El número de alumnos por nota media se distribuye de la siguiente manera:
   
  
 
-* Suspensos: GHB  
+* Suspensos: GHB 
 
-|   Eval |   ARE |   BG  |   EF  |   FQB  |   FR2  |   GHB  |   INB  |   LE  |   MC  |   VET  |
-|:------:|:-----:|:-----:|:-----:|:------:|:------:|:------:|:------:|:-----:|:-----:|:------:|
-|      1 |     8 |     9 |     8 |      6 |      7 |      4 |      7 |     7 |     6 |      8 |
+|   Eval |   ARE |   BG |   EF |   FQB |   FR2 |   GHB |   INB |   LE |   MC |   VET |
+|:------:|:-----:|:----:|:----:|:-----:|:-----:|:-----:|:-----:|:----:|:----:|:-----:|
+|      1 |     8 |    9 |    8 |     6 |     7 |     4 |     7 |    7 |    6 |     8 |
 
 
- * En concreto: **ARE**: 8, **BG **: 9, **EF **: 8, **FQB **: 6, **FR2 **: 7, **GHB **: 4, **INB **: 7, **LE **: 7, **MC **: 6, **VET **: 8 
+ * En concreto: **ARE**: 8, **BG**: 9, **EF**: 8, **FQB**: 6, **FR2**: 7, **GHB**: 4, **INB**: 7, **LE**: 7, **MC**: 6, **VET**: 8 
   
  
 
@@ -157,12 +152,12 @@ El número de alumnos por nota media se distribuye de la siguiente manera:
  * **Nota media**: 7.7, **Número de suspensos**: 0 
   
  
-|   Eval |   ARE |   BG  |   EF  |   FQB  |   FR2  |   GHB  |   INB  |   LE  |   MC  |   VET  |
-|:------:|:-----:|:-----:|:-----:|:------:|:------:|:------:|:------:|:-----:|:-----:|:------:|
-|      1 |     8 |     7 |     8 |      8 |      8 |      8 |      8 |     8 |     6 |      8 |
+|   Eval |   ARE |   BG |   EF |   FQB |   FR2 |   GHB |   INB |   LE |   MC |   VET |
+|:------:|:-----:|:----:|:----:|:-----:|:-----:|:-----:|:-----:|:----:|:----:|:-----:|
+|      1 |     8 |    7 |    8 |     8 |     8 |     8 |     8 |    8 |    6 |     8 |
 
 
- * En concreto: **ARE**: 8, **BG **: 7, **EF **: 8, **FQB **: 8, **FR2 **: 8, **GHB **: 8, **INB **: 8, **LE **: 8, **MC **: 6, **VET **: 8 
+ * En concreto: **ARE**: 8, **BG**: 7, **EF**: 8, **FQB**: 8, **FR2**: 8, **GHB**: 8, **INB**: 8, **LE**: 8, **MC**: 6, **VET**: 8 
   
  
 
@@ -171,12 +166,12 @@ El número de alumnos por nota media se distribuye de la siguiente manera:
  * **Nota media**: 6.11, **Número de suspensos**: 0 
   
  
-|   Eval |   EC  |   EF  |   FQ  |   GH  |   IN  |   LE  |   MC  |   PL  |   RC  |
-|:------:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|      1 |     8 |     5 |     6 |     6 |     6 |     6 |     5 |     7 |     6 |
+|   Eval |   EC |   EF |   FQ |   GH |   IN |   LE |   MC |   PL |   RC |
+|:------:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
+|      1 |    8 |    5 |    6 |    6 |    6 |    6 |    5 |    7 |    6 |
 
 
- * En concreto: **EC **: 8, **EF **: 5, **FQ **: 6, **GH **: 6, **IN **: 6, **LE **: 6, **MC **: 5, **PL **: 7, **RC **: 6 
+ * En concreto: **EC**: 8, **EF**: 5, **FQ**: 6, **GH**: 6, **IN**: 6, **LE**: 6, **MC**: 5, **PL**: 7, **RC**: 6 
   
  
 
@@ -186,31 +181,31 @@ El número de alumnos por nota media se distribuye de la siguiente manera:
   
  
 
-* Suspensos: GHB , MC  
+* Suspensos: GHB, MC 
 
-|   Eval |   BG  |   CC |   EF  |   FQB  |   GHB  |   INB  |   LE  |   MC  |   MU  |   VET  |
-|:------:|:-----:|:----:|:-----:|:------:|:------:|:------:|:-----:|:-----:|:-----:|:------:|
-|      1 |     7 |    8 |     7 |      8 |      4 |      9 |     6 |     4 |     9 |      8 |
+|   Eval |   BG |   CC |   EF |   FQB |   GHB |   INB |   LE |   MC |   MU |   VET |
+|:------:|:----:|:----:|:----:|:-----:|:-----:|:-----:|:----:|:----:|:----:|:-----:|
+|      1 |    7 |    8 |    7 |     8 |     4 |     9 |    6 |    4 |    9 |     8 |
 
 
- * En concreto: **BG **: 7, **CC**: 8, **EF **: 7, **FQB **: 8, **GHB **: 4, **INB **: 9, **LE **: 6, **MC **: 4, **MU **: 9, **VET **: 8 
+ * En concreto: **BG**: 7, **CC**: 8, **EF**: 7, **FQB**: 8, **GHB**: 4, **INB**: 9, **LE**: 6, **MC**: 4, **MU**: 9, **VET**: 8 
   
  
 
 ### Escanero Agustín, Sergio 
 
- * **Nota media**: 5.88, **Número de suspensos**: 3 
+ * **Nota media**: 5.67, **Número de suspensos**: 4 
   
  
 
-* Suspensos: GHB , LE , MC  
+* Suspensos: LE, GHB, MC, BG 
 
-|   Eval |   EF  |   FQB  |   GHB  |   INB  |   LE  |   MC  |   MU  |   RC  |
-|:------:|:-----:|:------:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
-|      1 |     7 |      6 |      4 |      6 |     4 |     4 |     8 |     8 |
+|   Eval |   BG |   EF |   FQB |   GHB |   INB |   LE |   MC |   MU |   RC |
+|:------:|:----:|:----:|:-----:|:-----:|:-----:|:----:|:----:|:----:|:----:|
+|      1 |    4 |    7 |     6 |     4 |     6 |    4 |    4 |    8 |    8 |
 
 
- * En concreto: **EF **: 7, **FQB **: 6, **GHB **: 4, **INB **: 6, **LE **: 4, **MC **: 4, **MU **: 8, **RC **: 8 
+ * En concreto: **BG**: 4, **EF**: 7, **FQB**: 6, **GHB**: 4, **INB**: 6, **LE**: 4, **MC**: 4, **MU**: 8, **RC**: 8 
   
  
 
@@ -219,12 +214,12 @@ El número de alumnos por nota media se distribuye de la siguiente manera:
  * **Nota media**: 6.56, **Número de suspensos**: 0 
   
  
-|   Eval |   ECB  |   EF  |   FQ  |   GHB  |   INB  |   LE  |   MC  |   TC  |   VET  |
-|:------:|:------:|:-----:|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:------:|
-|      1 |      9 |     8 |     5 |      5 |      7 |     5 |     5 |     7 |      8 |
+|   Eval |   ECB |   EF |   FQ |   GHB |   INB |   LE |   MC |   TC |   VET |
+|:------:|:-----:|:----:|:----:|:-----:|:-----:|:----:|:----:|:----:|:-----:|
+|      1 |     9 |    8 |    5 |     5 |     7 |    5 |    5 |    7 |     8 |
 
 
- * En concreto: **ECB **: 9, **EF **: 8, **FQ **: 5, **GHB **: 5, **INB **: 7, **LE **: 5, **MC **: 5, **TC **: 7, **VET **: 8 
+ * En concreto: **ECB**: 9, **EF**: 8, **FQ**: 5, **GHB**: 5, **INB**: 7, **LE**: 5, **MC**: 5, **TC**: 7, **VET**: 8 
   
  
 
@@ -233,12 +228,12 @@ El número de alumnos por nota media se distribuye de la siguiente manera:
  * **Nota media**: 6.78, **Número de suspensos**: 0 
   
  
-|   Eval |   ECB  |   EF  |   FQ  |   GHB  |   INB  |   LE  |   MC  |   TC  |   VET  |
-|:------:|:------:|:-----:|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:------:|
-|      1 |      6 |     6 |     7 |      7 |      8 |     7 |     5 |     7 |      8 |
+|   Eval |   ECB |   EF |   FQ |   GHB |   INB |   LE |   MC |   TC |   VET |
+|:------:|:-----:|:----:|:----:|:-----:|:-----:|:----:|:----:|:----:|:-----:|
+|      1 |     6 |    6 |    7 |     7 |     8 |    7 |    5 |    7 |     8 |
 
 
- * En concreto: **ECB **: 6, **EF **: 6, **FQ **: 7, **GHB **: 7, **INB **: 8, **LE **: 7, **MC **: 5, **TC **: 7, **VET **: 8 
+ * En concreto: **ECB**: 6, **EF**: 6, **FQ**: 7, **GHB**: 7, **INB**: 8, **LE**: 7, **MC**: 5, **TC**: 7, **VET**: 8 
   
  
 
@@ -247,12 +242,12 @@ El número de alumnos por nota media se distribuye de la siguiente manera:
  * **Nota media**: 8.33, **Número de suspensos**: 0 
   
  
-|   Eval |   BG  |   EF  |   FQB  |   FR2  |   GHB  |   INB  |   LE  |   MC  |   RC  |
-|:------:|:-----:|:-----:|:------:|:------:|:------:|:------:|:-----:|:-----:|:-----:|
-|      1 |     9 |     9 |      8 |      9 |      8 |      8 |     8 |     8 |     8 |
+|   Eval |   BG |   EF |   FQB |   FR2 |   GHB |   INB |   LE |   MC |   RC |
+|:------:|:----:|:----:|:-----:|:-----:|:-----:|:-----:|:----:|:----:|:----:|
+|      1 |    9 |    9 |     8 |     9 |     8 |     8 |    8 |    8 |    8 |
 
 
- * En concreto: **BG **: 9, **EF **: 9, **FQB **: 8, **FR2 **: 9, **GHB **: 8, **INB **: 8, **LE **: 8, **MC **: 8, **RC **: 8 
+ * En concreto: **BG**: 9, **EF**: 9, **FQB**: 8, **FR2**: 9, **GHB**: 8, **INB**: 8, **LE**: 8, **MC**: 8, **RC**: 8 
   
  
 
@@ -261,12 +256,12 @@ El número de alumnos por nota media se distribuye de la siguiente manera:
  * **Nota media**: 7.22, **Número de suspensos**: 0 
   
  
-|   Eval |   BG  |   EF  |   FQB  |   GHB  |   INB  |   LE  |   MC  |   RC  |   TC  |
-|:------:|:-----:|:-----:|:------:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
-|      1 |     7 |     8 |      7 |      7 |      8 |     7 |     5 |     8 |     8 |
+|   Eval |   BG |   EF |   FQB |   GHB |   INB |   LE |   MC |   RC |   TC |
+|:------:|:----:|:----:|:-----:|:-----:|:-----:|:----:|:----:|:----:|:----:|
+|      1 |    7 |    8 |     7 |     7 |     8 |    7 |    5 |    8 |    8 |
 
 
- * En concreto: **BG **: 7, **EF **: 8, **FQB **: 7, **GHB **: 7, **INB **: 8, **LE **: 7, **MC **: 5, **RC **: 8, **TC **: 8 
+ * En concreto: **BG**: 7, **EF**: 8, **FQB**: 7, **GHB**: 7, **INB**: 8, **LE**: 7, **MC**: 5, **RC**: 8, **TC**: 8 
   
  
 
@@ -275,12 +270,12 @@ El número de alumnos por nota media se distribuye de la siguiente manera:
  * **Nota media**: 7.78, **Número de suspensos**: 0 
   
  
-|   Eval |   BG  |   EF  |   FQB  |   FR2  |   GHB  |   INB  |   LE  |   MC  |   RC  |
-|:------:|:-----:|:-----:|:------:|:------:|:------:|:------:|:-----:|:-----:|:-----:|
-|      1 |     7 |     8 |      8 |      9 |      9 |      7 |     7 |     6 |     9 |
+|   Eval |   BG |   EF |   FQB |   FR2 |   GHB |   INB |   LE |   MC |   RC |
+|:------:|:----:|:----:|:-----:|:-----:|:-----:|:-----:|:----:|:----:|:----:|
+|      1 |    7 |    8 |     8 |     9 |     9 |     7 |    7 |    6 |    9 |
 
 
- * En concreto: **BG **: 7, **EF **: 8, **FQB **: 8, **FR2 **: 9, **GHB **: 9, **INB **: 7, **LE **: 7, **MC **: 6, **RC **: 9 
+ * En concreto: **BG**: 7, **EF**: 8, **FQB**: 8, **FR2**: 9, **GHB**: 9, **INB**: 7, **LE**: 7, **MC**: 6, **RC**: 9 
   
  
 
@@ -289,12 +284,12 @@ El número de alumnos por nota media se distribuye de la siguiente manera:
  * **Nota media**: 9.4, **Número de suspensos**: 0 
   
  
-|   Eval |   BG  |   EF  |   FIL  |   FQB  |   FR2  |   GHB  |   INB  |   LE  |   MC  |   RC  |
-|:------:|:-----:|:-----:|:------:|:------:|:------:|:------:|:------:|:-----:|:-----:|:-----:|
-|      1 |    10 |     9 |     10 |     10 |      9 |     10 |      9 |     9 |     9 |     9 |
+|   Eval |   BG |   EF |   FIL |   FQB |   FR2 |   GHB |   INB |   LE |   MC |   RC |
+|:------:|:----:|:----:|:-----:|:-----:|:-----:|:-----:|:-----:|:----:|:----:|:----:|
+|      1 |   10 |    9 |    10 |    10 |     9 |    10 |     9 |    9 |    9 |    9 |
 
 
- * En concreto: **BG **: 10, **EF **: 9, **FIL **: 10, **FQB **: 10, **FR2 **: 9, **GHB **: 10, **INB **: 9, **LE **: 9, **MC **: 9, **RC **: 9 
+ * En concreto: **BG**: 10, **EF**: 9, **FIL**: 10, **FQB**: 10, **FR2**: 9, **GHB**: 10, **INB**: 9, **LE**: 9, **MC**: 9, **RC**: 9 
   
  
 
@@ -304,14 +299,14 @@ El número de alumnos por nota media se distribuye de la siguiente manera:
   
  
 
-* Suspensos: MC  
+* Suspensos: MC 
 
-|   Eval |   BG  |   CC |   EF  |   FQB  |   FR2  |   GHB  |   INB  |   LE  |   MC  |   RC  |
-|:------:|:-----:|:----:|:-----:|:------:|:------:|:------:|:------:|:-----:|:-----:|:-----:|
-|      1 |     7 |    9 |     6 |      7 |      7 |      8 |      8 |     7 |     4 |     7 |
+|   Eval |   BG |   CC |   EF |   FQB |   FR2 |   GHB |   INB |   LE |   MC |   RC |
+|:------:|:----:|:----:|:----:|:-----:|:-----:|:-----:|:-----:|:----:|:----:|:----:|
+|      1 |    7 |    9 |    6 |     7 |     7 |     8 |     8 |    7 |    4 |    7 |
 
 
- * En concreto: **BG **: 7, **CC**: 9, **EF **: 6, **FQB **: 7, **FR2 **: 7, **GHB **: 8, **INB **: 8, **LE **: 7, **MC **: 4, **RC **: 7 
+ * En concreto: **BG**: 7, **CC**: 9, **EF**: 6, **FQB**: 7, **FR2**: 7, **GHB**: 8, **INB**: 8, **LE**: 7, **MC**: 4, **RC**: 7 
   
  
 
@@ -321,14 +316,14 @@ El número de alumnos por nota media se distribuye de la siguiente manera:
   
  
 
-* Suspensos: MC  
+* Suspensos: MC 
 
-|   Eval |   BG  |   CC |   EF  |   FQB  |   FR2  |   GHB  |   INB  |   LE  |   MC  |   RC  |
-|:------:|:-----:|:----:|:-----:|:------:|:------:|:------:|:------:|:-----:|:-----:|:-----:|
-|      1 |     7 |    9 |     9 |      7 |      8 |      7 |      8 |     7 |     4 |     8 |
+|   Eval |   BG |   CC |   EF |   FQB |   FR2 |   GHB |   INB |   LE |   MC |   RC |
+|:------:|:----:|:----:|:----:|:-----:|:-----:|:-----:|:-----:|:----:|:----:|:----:|
+|      1 |    7 |    9 |    9 |     7 |     8 |     7 |     8 |    7 |    4 |    8 |
 
 
- * En concreto: **BG **: 7, **CC**: 9, **EF **: 9, **FQB **: 7, **FR2 **: 8, **GHB **: 7, **INB **: 8, **LE **: 7, **MC **: 4, **RC **: 8 
+ * En concreto: **BG**: 7, **CC**: 9, **EF**: 9, **FQB**: 7, **FR2**: 8, **GHB**: 7, **INB**: 8, **LE**: 7, **MC**: 4, **RC**: 8 
   
  
 
@@ -337,12 +332,12 @@ El número de alumnos por nota media se distribuye de la siguiente manera:
  * **Nota media**: 8.2, **Número de suspensos**: 0 
   
  
-|   Eval |   BG  |   EF  |   FQB  |   FR2  |   GHB  |   INB  |   LE  |   MC  |   TIC  |   VET  |
-|:------:|:-----:|:-----:|:------:|:------:|:------:|:------:|:-----:|:-----:|:------:|:------:|
-|      1 |     8 |     7 |      9 |      9 |      8 |      7 |     9 |     8 |      8 |      9 |
+|   Eval |   BG |   EF |   FQB |   FR2 |   GHB |   INB |   LE |   MC |   TIC |   VET |
+|:------:|:----:|:----:|:-----:|:-----:|:-----:|:-----:|:----:|:----:|:-----:|:-----:|
+|      1 |    8 |    7 |     9 |     9 |     8 |     7 |    9 |    8 |     8 |     9 |
 
 
- * En concreto: **BG **: 8, **EF **: 7, **FQB **: 9, **FR2 **: 9, **GHB **: 8, **INB **: 7, **LE **: 9, **MC **: 8, **TIC **: 8, **VET **: 9 
+ * En concreto: **BG**: 8, **EF**: 7, **FQB**: 9, **FR2**: 9, **GHB**: 8, **INB**: 7, **LE**: 9, **MC**: 8, **TIC**: 8, **VET**: 9 
   
  
 
@@ -351,12 +346,12 @@ El número de alumnos por nota media se distribuye de la siguiente manera:
  * **Nota media**: 8.2, **Número de suspensos**: 0 
   
  
-|   Eval |   ECB  |   EF  |   FQ  |   GHB  |   INB  |   LE  |   MC  |   TC  |   TIC  |   VET  |
-|:------:|:------:|:-----:|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:------:|:------:|
-|      1 |      9 |     9 |     7 |      6 |      8 |     9 |     6 |    10 |      9 |      9 |
+|   Eval |   ECB |   EF |   FQ |   GHB |   INB |   LE |   MC |   TC |   TIC |   VET |
+|:------:|:-----:|:----:|:----:|:-----:|:-----:|:----:|:----:|:----:|:-----:|:-----:|
+|      1 |     9 |    9 |    7 |     6 |     8 |    9 |    6 |   10 |     9 |     9 |
 
 
- * En concreto: **ECB **: 9, **EF **: 9, **FQ **: 7, **GHB **: 6, **INB **: 8, **LE **: 9, **MC **: 6, **TC **: 10, **TIC **: 9, **VET **: 9 
+ * En concreto: **ECB**: 9, **EF**: 9, **FQ**: 7, **GHB**: 6, **INB**: 8, **LE**: 9, **MC**: 6, **TC**: 10, **TIC**: 9, **VET**: 9 
   
  
 
@@ -365,12 +360,12 @@ El número de alumnos por nota media se distribuye de la siguiente manera:
  * **Nota media**: 6.7, **Número de suspensos**: 0 
   
  
-|   Eval |   EC  |   EF  |   FIL  |   FQ  |   GH  |   IN  |   LE  |   MC  |   MU  |   RC  |
-|:------:|:-----:|:-----:|:------:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|      1 |     7 |     6 |      6 |     5 |     7 |     6 |     7 |     8 |     8 |     7 |
+|   Eval |   EC |   EF |   FIL |   FQ |   GH |   IN |   LE |   MC |   MU |   RC |
+|:------:|:----:|:----:|:-----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
+|      1 |    7 |    6 |     6 |    5 |    7 |    6 |    7 |    8 |    8 |    7 |
 
 
- * En concreto: **EC **: 7, **EF **: 6, **FIL **: 6, **FQ **: 5, **GH **: 7, **IN **: 6, **LE **: 7, **MC **: 8, **MU **: 8, **RC **: 7 
+ * En concreto: **EC**: 7, **EF**: 6, **FIL**: 6, **FQ**: 5, **GH**: 7, **IN**: 6, **LE**: 7, **MC**: 8, **MU**: 8, **RC**: 7 
   
  
 
@@ -379,12 +374,12 @@ El número de alumnos por nota media se distribuye de la siguiente manera:
  * **Nota media**: 8.9, **Número de suspensos**: 0 
   
  
-|   Eval |   BG  |   EF  |   FQB  |   GHB  |   INB  |   LE  |   MC  |   TC  |   TIC  |   VET  |
-|:------:|:-----:|:-----:|:------:|:------:|:------:|:-----:|:-----:|:-----:|:------:|:------:|
-|      1 |     9 |     9 |      9 |     10 |      9 |     9 |     8 |     8 |     10 |      8 |
+|   Eval |   BG |   EF |   FQB |   GHB |   INB |   LE |   MC |   TC |   TIC |   VET |
+|:------:|:----:|:----:|:-----:|:-----:|:-----:|:----:|:----:|:----:|:-----:|:-----:|
+|      1 |    9 |    9 |     9 |    10 |     9 |    9 |    8 |    8 |    10 |     8 |
 
 
- * En concreto: **BG **: 9, **EF **: 9, **FQB **: 9, **GHB **: 10, **INB **: 9, **LE **: 9, **MC **: 8, **TC **: 8, **TIC **: 10, **VET **: 8 
+ * En concreto: **BG**: 9, **EF**: 9, **FQB**: 9, **GHB**: 10, **INB**: 9, **LE**: 9, **MC**: 8, **TC**: 8, **TIC**: 10, **VET**: 8 
   
  
 
@@ -394,14 +389,14 @@ El número de alumnos por nota media se distribuye de la siguiente manera:
   
  
 
-* Suspensos: MC  
+* Suspensos: MC 
 
-|   Eval |   ECB  |   EF  |   FQ  |   FR2  |   GHB  |   INB  |   LE  |   MC  |   TIC  |   VET  |
-|:------:|:------:|:-----:|:-----:|:------:|:------:|:------:|:-----:|:-----:|:------:|:------:|
-|      1 |      9 |     9 |     7 |      7 |      7 |      9 |     6 |     4 |      9 |      7 |
+|   Eval |   ECB |   EF |   FQ |   FR2 |   GHB |   INB |   LE |   MC |   TIC |   VET |
+|:------:|:-----:|:----:|:----:|:-----:|:-----:|:-----:|:----:|:----:|:-----:|:-----:|
+|      1 |     9 |    9 |    7 |     7 |     7 |     9 |    6 |    4 |     9 |     7 |
 
 
- * En concreto: **ECB **: 9, **EF **: 9, **FQ **: 7, **FR2 **: 7, **GHB **: 7, **INB **: 9, **LE **: 6, **MC **: 4, **TIC **: 9, **VET **: 7 
+ * En concreto: **ECB**: 9, **EF**: 9, **FQ**: 7, **FR2**: 7, **GHB**: 7, **INB**: 9, **LE**: 6, **MC**: 4, **TIC**: 9, **VET**: 7 
   
  
 
@@ -411,14 +406,14 @@ El número de alumnos por nota media se distribuye de la siguiente manera:
   
  
 
-* Suspensos: MC  
+* Suspensos: MC 
 
-|   Eval |   EC  |   EF  |   FQ  |   GH  |   IN  |   LE  |   MC  |   RC  |   TC  |   TIC  |
-|:------:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:------:|
-|      1 |     7 |     6 |     5 |     5 |     5 |     6 |     4 |     7 |     6 |      7 |
+|   Eval |   EC |   EF |   FQ |   GH |   IN |   LE |   MC |   RC |   TC |   TIC |
+|:------:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:-----:|
+|      1 |    7 |    6 |    5 |    5 |    5 |    6 |    4 |    7 |    6 |     7 |
 
 
- * En concreto: **EC **: 7, **EF **: 6, **FQ **: 5, **GH **: 5, **IN **: 5, **LE **: 6, **MC **: 4, **RC **: 7, **TC **: 6, **TIC **: 7 
+ * En concreto: **EC**: 7, **EF**: 6, **FQ**: 5, **GH**: 5, **IN**: 5, **LE**: 6, **MC**: 4, **RC**: 7, **TC**: 6, **TIC**: 7 
   
  
 
@@ -427,12 +422,12 @@ El número de alumnos por nota media se distribuye de la siguiente manera:
  * **Nota media**: 9.2, **Número de suspensos**: 0 
   
  
-|   Eval |   ARE |   ECB  |   EF  |   FQ  |   FR2  |   GHB  |   INB  |   LE  |   MC  |   RC  |
-|:------:|:-----:|:------:|:-----:|:-----:|:------:|:------:|:------:|:-----:|:-----:|:-----:|
-|      1 |     8 |      9 |     9 |     9 |     10 |     10 |      9 |    10 |    10 |     8 |
+|   Eval |   ARE |   ECB |   EF |   FQ |   FR2 |   GHB |   INB |   LE |   MC |   RC |
+|:------:|:-----:|:-----:|:----:|:----:|:-----:|:-----:|:-----:|:----:|:----:|:----:|
+|      1 |     8 |     9 |    9 |    9 |    10 |    10 |     9 |   10 |   10 |    8 |
 
 
- * En concreto: **ARE**: 8, **ECB **: 9, **EF **: 9, **FQ **: 9, **FR2 **: 10, **GHB **: 10, **INB **: 9, **LE **: 10, **MC **: 10, **RC **: 8 
+ * En concreto: **ARE**: 8, **ECB**: 9, **EF**: 9, **FQ**: 9, **FR2**: 10, **GHB**: 10, **INB**: 9, **LE**: 10, **MC**: 10, **RC**: 8 
   
  
 
@@ -441,12 +436,12 @@ El número de alumnos por nota media se distribuye de la siguiente manera:
  * **Nota media**: 8.6, **Número de suspensos**: 0 
   
  
-|   Eval |   ARE |   BG  |   EF  |   FQB  |   FR2  |   GHB  |   INB  |   LE  |   MC  |   VET  |
-|:------:|:-----:|:-----:|:-----:|:------:|:------:|:------:|:------:|:-----:|:-----:|:------:|
-|      1 |     8 |     9 |     7 |     10 |      9 |      9 |      9 |     9 |     8 |      8 |
+|   Eval |   ARE |   BG |   EF |   FQB |   FR2 |   GHB |   INB |   LE |   MC |   VET |
+|:------:|:-----:|:----:|:----:|:-----:|:-----:|:-----:|:-----:|:----:|:----:|:-----:|
+|      1 |     8 |    9 |    7 |    10 |     9 |     9 |     9 |    9 |    8 |     8 |
 
 
- * En concreto: **ARE**: 8, **BG **: 9, **EF **: 7, **FQB **: 10, **FR2 **: 9, **GHB **: 9, **INB **: 9, **LE **: 9, **MC **: 8, **VET **: 8 
+ * En concreto: **ARE**: 8, **BG**: 9, **EF**: 7, **FQB**: 10, **FR2**: 9, **GHB**: 9, **INB**: 9, **LE**: 9, **MC**: 8, **VET**: 8 
   
  
 
@@ -456,14 +451,14 @@ El número de alumnos por nota media se distribuye de la siguiente manera:
   
  
 
-* Suspensos: BG , FQ , LE , MC  
+* Suspensos: MC, FQ, LE, BG 
 
-|   Eval |   BG  |   CC |   EF  |   FQ  |   GH  |   IN  |   LE  |   MC  |   RC  |   TC  |
-|:------:|:-----:|:----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|      1 |     4 |    7 |     7 |     4 |     6 |     8 |     4 |     2 |     6 |     5 |
+|   Eval |   BG |   CC |   EF |   FQ |   GH |   IN |   LE |   MC |   RC |   TC |
+|:------:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
+|      1 |    4 |    7 |    7 |    4 |    6 |    8 |    4 |    2 |    6 |    5 |
 
 
- * En concreto: **BG **: 4, **CC**: 7, **EF **: 7, **FQ **: 4, **GH **: 6, **IN **: 8, **LE **: 4, **MC **: 2, **RC **: 6, **TC **: 5 
+ * En concreto: **BG**: 4, **CC**: 7, **EF**: 7, **FQ**: 4, **GH**: 6, **IN**: 8, **LE**: 4, **MC**: 2, **RC**: 6, **TC**: 5 
   
  
 
@@ -472,29 +467,26 @@ El número de alumnos por nota media se distribuye de la siguiente manera:
  * **Nota media**: 7.7, **Número de suspensos**: 0 
   
  
-|   Eval |   EC  |   EF  |   FQ  |   GH  |   IN  |   LE  |   MC  |   RC  |   TC  |   TIC  |
-|:------:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:------:|
-|      1 |     9 |     6 |     6 |     8 |     7 |     8 |     9 |     7 |     9 |      8 |
+|   Eval |   EC |   EF |   FQ |   GH |   IN |   LE |   MC |   RC |   TC |   TIC |
+|:------:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:-----:|
+|      1 |    9 |    6 |    6 |    8 |    7 |    8 |    9 |    7 |    9 |     8 |
 
 
- * En concreto: **EC **: 9, **EF **: 6, **FQ **: 6, **GH **: 8, **IN **: 7, **LE **: 8, **MC **: 9, **RC **: 7, **TC **: 9, **TIC **: 8 
+ * En concreto: **EC**: 9, **EF**: 6, **FQ**: 6, **GH**: 8, **IN**: 7, **LE**: 8, **MC**: 9, **RC**: 7, **TC**: 9, **TIC**: 8 
   
  
 
 ### Villanueva Tejedor, Daniella 
 
- * **Nota media**: 8, **Número de suspensos**: 1 
+ * **Nota media**: 8.4, **Número de suspensos**: 0 
   
  
-
-* Suspensos: PL  
-
-|   Eval |   BG  |   EF  |   FQB  |   GHB  |   INB  |   LE  |   PL  |   TIC  |   VET  |
-|:------:|:-----:|:-----:|:------:|:------:|:------:|:-----:|:-----:|:------:|:------:|
-|      1 |     7 |     9 |      9 |      8 |      9 |     8 |     4 |      9 |      9 |
+|   Eval |   BG |   EF |   FQB |   GHB |   INB |   LE |   MC |   PL |   TIC |   VET |
+|:------:|:----:|:----:|:-----:|:-----:|:-----:|:----:|:----:|:----:|:-----:|:-----:|
+|      1 |    7 |    9 |     9 |     8 |     9 |    8 |    6 |   10 |     9 |     9 |
 
 
- * En concreto: **BG **: 7, **EF **: 9, **FQB **: 9, **GHB **: 8, **INB **: 9, **LE **: 8, **PL **: 4, **TIC **: 9, **VET **: 9 
+ * En concreto: **BG**: 7, **EF**: 9, **FQB**: 9, **GHB**: 8, **INB**: 9, **LE**: 8, **MC**: 6, **PL**: 10, **TIC**: 9, **VET**: 9 
   
  
 
@@ -503,11 +495,11 @@ El número de alumnos por nota media se distribuye de la siguiente manera:
  * **Nota media**: 7.9, **Número de suspensos**: 0 
   
  
-|   Eval |   ARE |   BG  |   EF  |   FQB  |   FR2  |   GHB  |   INB  |   LE  |   MC  |   VET  |
-|:------:|:-----:|:-----:|:-----:|:------:|:------:|:------:|:------:|:-----:|:-----:|:------:|
-|      1 |     8 |     8 |     7 |      8 |      9 |      8 |      8 |     9 |     6 |      8 |
+|   Eval |   ARE |   BG |   EF |   FQB |   FR2 |   GHB |   INB |   LE |   MC |   VET |
+|:------:|:-----:|:----:|:----:|:-----:|:-----:|:-----:|:-----:|:----:|:----:|:-----:|
+|      1 |     8 |    8 |    7 |     8 |     9 |     8 |     8 |    9 |    6 |     8 |
 
 
- * En concreto: **ARE**: 8, **BG **: 8, **EF **: 7, **FQB **: 8, **FR2 **: 9, **GHB **: 8, **INB **: 8, **LE **: 9, **MC **: 6, **VET **: 8 
+ * En concreto: **ARE**: 8, **BG**: 8, **EF**: 7, **FQB**: 8, **FR2**: 9, **GHB**: 8, **INB**: 8, **LE**: 9, **MC**: 6, **VET**: 8 
   
  
