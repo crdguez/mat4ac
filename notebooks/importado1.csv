@@ -1,28 +1,51 @@
-Nº,"Apellidos, Nombre",ARE,BG,CC,CCL,EC,ECB,EF,FIL,FQ,FQB,FR2,GH,GHB,IN,INB,LE,MC,MU,PL,RC,TC,TIC,VET,"Nº MNS"
-1,"Aparicio Maella, Ángel",,,,,5,,6,,4,,,5,,6,,4,5,,,,4,,9,4
+Nº,"Apellidos, Nombre","ARE
+4º","BG
+4º","CC
+4º","CCL
+4º","EC
+4º","ECB
+4º","EF
+4º","FIL
+4º","FQ
+4º","FQB
+4º","FR2
+4º","GH
+4º","GHB
+4º","IN
+4º","INB
+4º","LE
+4º","MC
+4º","MU
+4º","PL
+4º","RC
+4º","TC
+4º","TIC
+4º","VET
+4º","Nº MNS"
+1,"Aparicio Maella, Ángel",,,,,5,,6,,4,,,5,,6,,4,5,,,,4,4,9,4
 2,"Arcas Sánchez, Daniel",,,,4,5,,7,,3,,,2,,3,,3,2,,,,5,,8,6
 3,"Cabeza Roche, Andrea",8,9,,,,,8,,,6,7,,4,,7,7,6,,,,,,8,1
 4,"Campo García, Paula",8,7,,,,,8,,,8,8,,8,,8,8,6,,,,,,8,0
-5,"Damasceno Ossó, Óscar",,,,,8,,5,,6,,,6,,6,,6,5,,7,6,,,,1
+5,"Damasceno Ossó, Óscar",,,,,8,,5,,6,,,6,,6,,6,5,,7,6,,4,,1
 6,"Doncheva Mavrova, Teodora",,7,8,,,,7,,,8,,,4,,9,6,4,9,,,,,8,2
-7,"Escanero Agustín, Sergio",,4,,,,,7,,,6,,,4,,6,4,4,8,,8,,,,5
-8,"Espinosa Pérez, David",,,,,,9,8,,5,,,,5,,7,5,5,,,,7,,8,1
-9,"Esteban Muñoz, Cora",,,,,,6,6,,7,,,,7,,8,7,5,,,,7,,8,1
-10,"Fábrega Mata, Alejandra",,7,,,,,8,,,7,,,7,,8,7,5,,,8,8,,,1
-11,"Fatás Cantín, Marta",,9,,,,,9,,,8,9,,8,,8,8,8,,,8,,,,1
-12,"Giráldez Vicente, Lucía",,7,,,,,8,,,8,9,,9,,7,7,6,,,9,,,,1
+7,"Escanero Agustín, Sergio",,4,,,,,7,,,6,,,4,,6,4,4,8,,8,,3,,5
+8,"Espinosa Pérez, David",,,,,,9,8,,5,,,,5,,7,5,5,,,,7,7,8,0
+9,"Esteban Muñoz, Cora",,,,,,6,6,,7,,,,7,,8,7,5,,,,7,7,8,0
+10,"Fábrega Mata, Alejandra",,7,,,,,8,,,7,,,7,,8,7,5,,,8,8,7,,0
+11,"Fatás Cantín, Marta",,9,,,,,9,,,8,9,,8,,8,8,8,,,8,,9,,0
+12,"Giráldez Vicente, Lucía",,7,,,,,8,,,8,9,,9,,7,7,6,,,9,,4,,1
 13,"Gómez Izquierdo, María",,10,,,,,9,10,,10,9,,10,,9,9,9,,,9,,,,0
 14,"Izquierdo Langarita, Laura",,7,9,,,,6,,,7,7,,8,,8,7,4,,,7,,,,1
 15,"Izquierdo Langarita, Sandra",,7,9,,,,9,,,7,8,,7,,8,7,4,,,8,,,,1
 16,"Marín Gómez, Ibai",,,,,7,,6,6,5,,,7,,6,,7,8,8,,7,,,,0
-17,"Martínez Mariscal, Nayra",,8,,,,,7,,,9,9,,8,,7,9,8,,,,,8,9,0
+17,"Martínez Mariscal, Nayra",,8,,,,,9,,,9,9,,8,,7,9,8,,,,,8,9,0
 18,"Martínez Ruiz, Lucía",,,,,,9,9,,7,,,,6,,8,9,6,,,,10,9,9,0
 19,"Mateo Trejo, Ada",,9,,,,,9,,,9,,,10,,9,9,8,,,,8,10,8,0
 20,"Morato Sánchez, Juan José",,,,,,9,9,,7,,7,,7,,9,6,4,,,,,9,7,1
 21,"Muñoz Pelegrín, Mario",,,,,7,,6,,5,,,5,,5,,6,4,,,7,6,7,,1
 22,"Pulido Ruiz, Nuria",8,,,,,9,9,,9,,10,,10,,9,10,10,,,8,,,,0
-23,"Raja Herranz, Laura",8,9,,,,,7,,,10,9,,9,,9,9,8,,,,,,8,0
+23,"Raja Herranz, Laura",8,9,,,,,9,,,10,9,,9,,9,9,8,,,,,,8,0
 24,"Sánchez Paz, Daniel",,,,,9,,6,,6,,,8,,7,,8,9,,,7,9,8,,0
 25,"Sanz Bona, Marcos",,4,7,,,,7,,4,,,6,,8,,4,2,,,6,5,,,4
-26,"Villanueva Tejedor, Daniella",,7,,,,,9,,,9,,,8,,9,8,6,,10,,,9,9,1
-27,"Zueras Martínez, Marta",8,8,,,,,7,,,8,9,,8,,8,9,6,,,,,,8,0
+26,"Villanueva Tejedor, Daniella",,8,,,,,9,,,9,,,8,,9,8,6,,10,,,9,9,0
+27,"Zueras Martínez, Marta",8,8,,,,,9,,,8,9,,8,,8,9,6,,,,,,8,0

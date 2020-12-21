@@ -14,17 +14,17 @@ keywords: [Acta]
 ## Resultados generales: 
 A nivel de grupo, se tienen los siguientes datos: 
  
-* **nota media**: 7.27 
-* **número de suspensos**: 24 
-* **número de suspensos por alumno**: 0.89 
+* **nota media**: 7.24 
+* **número de suspensos**: 28 
+* **número de suspensos por alumno**: 1.04 
   
  El número de alumnos por suspensos se distribuyen de la siguiente manera: 
 
-* **0 susp.**: 17 
-* **1 susp.**: 5 
+* **0 susp.**: 15 
+* **1 susp.**: 7 
 * **2 susp.**: 1 
-* **3 ó 4 susp.**: 3 
-* **> 4 susp.**: 1 
+* **3 ó 4 susp.**: 2 
+* **> 4 susp.**: 2 
   
  
  
@@ -37,50 +37,56 @@ A nivel de grupo, se tienen los siguientes datos:
 
 * Con **6** asignaturas: 
 
-    - Arcas Sánchez, Daniel (GH, CCL, FQ, MC, LE, IN) 
+    - Arcas Sánchez, Daniel (GH 4º, IN 4º, CCL 4º, FQ 4º, LE 4º, MC 4º) 
+ 
+
+* Con **5** asignaturas: 
+
+    - Escanero Agustín, Sergio (BG 4º, TIC 4º, GHB 4º, MC 4º, LE 4º) 
  
 
 * Con **4** asignaturas: 
 
-    - Escanero Agustín, Sergio (LE, GHB, MC, BG) 
+    - Aparicio Maella, Ángel (LE 4º, TC 4º, TIC 4º, FQ 4º) 
  
 
-    - Sanz Bona, Marcos (MC, FQ, LE, BG) 
- 
-
-* Con **3** asignaturas: 
-
-    - Aparicio Maella, Ángel (FQ, TC, LE) 
+    - Sanz Bona, Marcos (BG 4º, FQ 4º, MC 4º, LE 4º) 
  
 
 * Con **2** asignaturas: 
 
-    - Doncheva Mavrova, Teodora (GHB, MC) 
+    - Doncheva Mavrova, Teodora (GHB 4º, MC 4º) 
  
 
 * Con **1** asignaturas: 
 
-    - Cabeza Roche, Andrea (GHB) 
+    - Cabeza Roche, Andrea (GHB 4º) 
  
 
-    - Izquierdo Langarita, Laura (MC) 
+    - Damasceno Ossó, Óscar (TIC 4º) 
  
 
-    - Izquierdo Langarita, Sandra (MC) 
+    - Giráldez Vicente, Lucía (TIC 4º) 
  
 
-    - Morato Sánchez, Juan José (MC) 
+    - Izquierdo Langarita, Laura (MC 4º) 
  
 
-    - Muñoz Pelegrín, Mario (MC) 
+    - Izquierdo Langarita, Sandra (MC 4º) 
+ 
+
+    - Morato Sánchez, Juan José (MC 4º) 
+ 
+
+    - Muñoz Pelegrín, Mario (MC 4º) 
  
 El número de alumnos por nota media se distribuye de la siguiente manera: 
 
 * **[0, 3)**: 0 
 * **[3, 4)**: 0 
 * **[4, 5)**: 1 
-* **[5, 6)**: 4 
-* **[6, 7)**: 4 
+* **[5, 6)**: 5 
+* **[6, 7)**: 3 
 * **[7, 9)**: 16 
 * **[9, 10)**: 2 
   
@@ -98,20 +104,22 @@ El número de alumnos por nota media se distribuye de la siguiente manera:
 
 ### Aparicio Maella, Ángel 
 
- * **Nota media**: 5.33, **Número de suspensos**: 3 
+ * **Nota media**: 5.2, **Número de suspensos**: 4 
   
  
 
-* Suspensos: FQ, TC, LE 
+* Suspensos: LE 4º, TC 4º, TIC 4º, FQ 4º 
 
-|   Eval |   EC |   EF |   FQ |   GH |   IN |   LE |   MC |   TC |   VET |
-|:------:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:-----:|
-|      1 |    5 |    6 |    4 |    5 |    6 |    4 |    5 |    4 |     9 |
+|   Eval |   EC 4º |   EF 4º |   FQ 4º |   GH 4º |   IN 4º |   LE 4º |   MC 4º |   TC 4º |   TIC 4º |   VET 4º |
+|:------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:--------:|:--------:|
+|      1 |       5 |       6 |       4 |       5 |       6 |       4 |       5 |       4 |        4 |        9 |
 
 
- * En concreto: **EC**: 5, **EF**: 6, **FQ**: 4, **GH**: 5, **IN**: 6, **LE**: 4, **MC**: 5, **TC**: 4, **VET**: 9 
+ * En concreto: **EC 4º**: 5, **EF 4º**: 6, **FQ 4º**: 4, **GH 4º**: 5, **IN 4º**: 6, **LE 4º**: 4, **MC 4º**: 5, **TC 4º**: 4, **TIC 4º**: 4, **VET 4º**: 9 
   
  
+
+ * Observaciones: Alumno poco trabajador, y además justo. No se tiene que descuidar
 
 ### Arcas Sánchez, Daniel 
 
@@ -119,16 +127,18 @@ El número de alumnos por nota media se distribuye de la siguiente manera:
   
  
 
-* Suspensos: GH, CCL, FQ, MC, LE, IN 
+* Suspensos: GH 4º, IN 4º, CCL 4º, FQ 4º, LE 4º, MC 4º 
 
-|   Eval |   CCL |   EC |   EF |   FQ |   GH |   IN |   LE |   MC |   TC |   VET |
-|:------:|:-----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:-----:|
-|      1 |     4 |    5 |    7 |    3 |    2 |    3 |    3 |    2 |    5 |     8 |
+|   Eval |   CCL 4º |   EC 4º |   EF 4º |   FQ 4º |   GH 4º |   IN 4º |   LE 4º |   MC 4º |   TC 4º |   VET 4º |
+|:------:|:--------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:--------:|
+|      1 |        4 |       5 |       7 |       3 |       2 |       3 |       3 |       2 |       5 |        8 |
 
 
- * En concreto: **CCL**: 4, **EC**: 5, **EF**: 7, **FQ**: 3, **GH**: 2, **IN**: 3, **LE**: 3, **MC**: 2, **TC**: 5, **VET**: 8 
+ * En concreto: **CCL 4º**: 4, **EC 4º**: 5, **EF 4º**: 7, **FQ 4º**: 3, **GH 4º**: 2, **IN 4º**: 3, **LE 4º**: 3, **MC 4º**: 2, **TC 4º**: 5, **VET 4º**: 8 
   
  
+
+ * Observaciones: Alumno con muchas dificultades que ha rechazado derivaciones en otras ocasiones.  En el grupo e itinerario actual lo tiene muy complicado
 
 ### Cabeza Roche, Andrea 
 
@@ -136,44 +146,53 @@ El número de alumnos por nota media se distribuye de la siguiente manera:
   
  
 
-* Suspensos: GHB 
+* Suspensos: GHB 4º 
 
-|   Eval |   ARE |   BG |   EF |   FQB |   FR2 |   GHB |   INB |   LE |   MC |   VET |
-|:------:|:-----:|:----:|:----:|:-----:|:-----:|:-----:|:-----:|:----:|:----:|:-----:|
-|      1 |     8 |    9 |    8 |     6 |     7 |     4 |     7 |    7 |    6 |     8 |
+|   Eval |   ARE 4º |   BG 4º |   EF 4º |   FQB 4º |   FR2 4º |   GHB 4º |   INB 4º |   LE 4º |   MC 4º |   VET 4º |
+|:------:|:--------:|:-------:|:-------:|:--------:|:--------:|:--------:|:--------:|:-------:|:-------:|:--------:|
+|      1 |        8 |       9 |       8 |        6 |        7 |        4 |        7 |       7 |       6 |        8 |
 
 
- * En concreto: **ARE**: 8, **BG**: 9, **EF**: 8, **FQB**: 6, **FR2**: 7, **GHB**: 4, **INB**: 7, **LE**: 7, **MC**: 6, **VET**: 8 
+ * En concreto: **ARE 4º**: 8, **BG 4º**: 9, **EF 4º**: 8, **FQB 4º**: 6, **FR2 4º**: 7, **GHB 4º**: 4, **INB 4º**: 7, **LE 4º**: 7, **MC 4º**: 6, **VET 4º**: 8 
   
  
+
+ * Observaciones: Si mejora el trabajo en casa, posiblemente mejore los resultados. Se ha dejado tareas para casa sin entregar (LE, MA, GHB)
 
 ### Campo García, Paula 
 
  * **Nota media**: 7.7, **Número de suspensos**: 0 
   
  
-|   Eval |   ARE |   BG |   EF |   FQB |   FR2 |   GHB |   INB |   LE |   MC |   VET |
-|:------:|:-----:|:----:|:----:|:-----:|:-----:|:-----:|:-----:|:----:|:----:|:-----:|
-|      1 |     8 |    7 |    8 |     8 |     8 |     8 |     8 |    8 |    6 |     8 |
+|   Eval |   ARE 4º |   BG 4º |   EF 4º |   FQB 4º |   FR2 4º |   GHB 4º |   INB 4º |   LE 4º |   MC 4º |   VET 4º |
+|:------:|:--------:|:-------:|:-------:|:--------:|:--------:|:--------:|:--------:|:-------:|:-------:|:--------:|
+|      1 |        8 |       7 |       8 |        8 |        8 |        8 |        8 |       8 |       6 |        8 |
 
 
- * En concreto: **ARE**: 8, **BG**: 7, **EF**: 8, **FQB**: 8, **FR2**: 8, **GHB**: 8, **INB**: 8, **LE**: 8, **MC**: 6, **VET**: 8 
+ * En concreto: **ARE 4º**: 8, **BG 4º**: 7, **EF 4º**: 8, **FQB 4º**: 8, **FR2 4º**: 8, **GHB 4º**: 8, **INB 4º**: 8, **LE 4º**: 8, **MC 4º**: 6, **VET 4º**: 8 
   
  
+
+ * Observaciones: Bastante trabajadora. En algunas asignaturas participa menos (MA, FQ) sin embargo en otras está más activa (ARE, Fr)
 
 ### Damasceno Ossó, Óscar 
 
- * **Nota media**: 6.11, **Número de suspensos**: 0 
+ * **Nota media**: 5.9, **Número de suspensos**: 1 
   
  
-|   Eval |   EC |   EF |   FQ |   GH |   IN |   LE |   MC |   PL |   RC |
-|:------:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
-|      1 |    8 |    5 |    6 |    6 |    6 |    6 |    5 |    7 |    6 |
+
+* Suspensos: TIC 4º 
+
+|   Eval |   EC 4º |   EF 4º |   FQ 4º |   GH 4º |   IN 4º |   LE 4º |   MC 4º |   PL 4º |   RC 4º |   TIC 4º |
+|:------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:--------:|
+|      1 |       8 |       5 |       6 |       6 |       6 |       6 |       5 |       7 |       6 |        4 |
 
 
- * En concreto: **EC**: 8, **EF**: 5, **FQ**: 6, **GH**: 6, **IN**: 6, **LE**: 6, **MC**: 5, **PL**: 7, **RC**: 6 
+ * En concreto: **EC 4º**: 8, **EF 4º**: 5, **FQ 4º**: 6, **GH 4º**: 6, **IN 4º**: 6, **LE 4º**: 6, **MC 4º**: 5, **PL 4º**: 7, **RC 4º**: 6, **TIC 4º**: 4 
   
  
+
+ * Observaciones: Ha trabajado más o menos bien, pero no se puede descuidar con las notas que tiene
 
 ### Doncheva Mavrova, Teodora 
 
@@ -181,117 +200,136 @@ El número de alumnos por nota media se distribuye de la siguiente manera:
   
  
 
-* Suspensos: GHB, MC 
+* Suspensos: GHB 4º, MC 4º 
 
-|   Eval |   BG |   CC |   EF |   FQB |   GHB |   INB |   LE |   MC |   MU |   VET |
-|:------:|:----:|:----:|:----:|:-----:|:-----:|:-----:|:----:|:----:|:----:|:-----:|
-|      1 |    7 |    8 |    7 |     8 |     4 |     9 |    6 |    4 |    9 |     8 |
+|   Eval |   BG 4º |   CC 4º |   EF 4º |   FQB 4º |   GHB 4º |   INB 4º |   LE 4º |   MC 4º |   MU 4º |   VET 4º |
+|:------:|:-------:|:-------:|:-------:|:--------:|:--------:|:--------:|:-------:|:-------:|:-------:|:--------:|
+|      1 |       7 |       8 |       7 |        8 |        4 |        9 |       6 |       4 |       9 |        8 |
 
 
- * En concreto: **BG**: 7, **CC**: 8, **EF**: 7, **FQB**: 8, **GHB**: 4, **INB**: 9, **LE**: 6, **MC**: 4, **MU**: 9, **VET**: 8 
+ * En concreto: **BG 4º**: 7, **CC 4º**: 8, **EF 4º**: 7, **FQB 4º**: 8, **GHB 4º**: 4, **INB 4º**: 9, **LE 4º**: 6, **MC 4º**: 4, **MU 4º**: 9, **VET 4º**: 8 
   
  
+
+ * Observaciones: Falta de trabajo sobre todo en casa. Debe cuidar este aspecto para llevar el curso al día, ya que es capaz
 
 ### Escanero Agustín, Sergio 
 
- * **Nota media**: 5.67, **Número de suspensos**: 4 
+ * **Nota media**: 5.4, **Número de suspensos**: 5 
   
  
 
-* Suspensos: LE, GHB, MC, BG 
+* Suspensos: BG 4º, TIC 4º, GHB 4º, MC 4º, LE 4º 
 
-|   Eval |   BG |   EF |   FQB |   GHB |   INB |   LE |   MC |   MU |   RC |
-|:------:|:----:|:----:|:-----:|:-----:|:-----:|:----:|:----:|:----:|:----:|
-|      1 |    4 |    7 |     6 |     4 |     6 |    4 |    4 |    8 |    8 |
+|   Eval |   BG 4º |   EF 4º |   FQB 4º |   GHB 4º |   INB 4º |   LE 4º |   MC 4º |   MU 4º |   RC 4º |   TIC 4º |
+|:------:|:-------:|:-------:|:--------:|:--------:|:--------:|:-------:|:-------:|:-------:|:-------:|:--------:|
+|      1 |       4 |       7 |        6 |        4 |        6 |       4 |       4 |       8 |       8 |        3 |
 
 
- * En concreto: **BG**: 4, **EF**: 7, **FQB**: 6, **GHB**: 4, **INB**: 6, **LE**: 4, **MC**: 4, **MU**: 8, **RC**: 8 
+ * En concreto: **BG 4º**: 4, **EF 4º**: 7, **FQB 4º**: 6, **GHB 4º**: 4, **INB 4º**: 6, **LE 4º**: 4, **MC 4º**: 4, **MU 4º**: 8, **RC 4º**: 8, **TIC 4º**: 3 
   
  
+
+ * Observaciones: Tiene que trabajar más si no quiere tener problemas a final de curso
 
 ### Espinosa Pérez, David 
 
- * **Nota media**: 6.56, **Número de suspensos**: 0 
+ * **Nota media**: 6.6, **Número de suspensos**: 0 
   
  
-|   Eval |   ECB |   EF |   FQ |   GHB |   INB |   LE |   MC |   TC |   VET |
-|:------:|:-----:|:----:|:----:|:-----:|:-----:|:----:|:----:|:----:|:-----:|
-|      1 |     9 |    8 |    5 |     5 |     7 |    5 |    5 |    7 |     8 |
+|   Eval |   ECB 4º |   EF 4º |   FQ 4º |   GHB 4º |   INB 4º |   LE 4º |   MC 4º |   TC 4º |   TIC 4º |   VET 4º |
+|:------:|:--------:|:-------:|:-------:|:--------:|:--------:|:-------:|:-------:|:-------:|:--------:|:--------:|
+|      1 |        9 |       8 |       5 |        5 |        7 |       5 |       5 |       7 |        7 |        8 |
 
 
- * En concreto: **ECB**: 9, **EF**: 8, **FQ**: 5, **GHB**: 5, **INB**: 7, **LE**: 5, **MC**: 5, **TC**: 7, **VET**: 8 
+ * En concreto: **ECB 4º**: 9, **EF 4º**: 8, **FQ 4º**: 5, **GHB 4º**: 5, **INB 4º**: 7, **LE 4º**: 5, **MC 4º**: 5, **TC 4º**: 7, **TIC 4º**: 7, **VET 4º**: 8 
   
  
+
+ * Observaciones: Alumno capaz, pero con falta de trabajo. Piensa que con atender es suficiente, necesita trabajar más para consolidar el conocimiento.
 
 ### Esteban Muñoz, Cora 
 
- * **Nota media**: 6.78, **Número de suspensos**: 0 
+ * **Nota media**: 6.8, **Número de suspensos**: 0 
   
  
-|   Eval |   ECB |   EF |   FQ |   GHB |   INB |   LE |   MC |   TC |   VET |
-|:------:|:-----:|:----:|:----:|:-----:|:-----:|:----:|:----:|:----:|:-----:|
-|      1 |     6 |    6 |    7 |     7 |     8 |    7 |    5 |    7 |     8 |
+|   Eval |   ECB 4º |   EF 4º |   FQ 4º |   GHB 4º |   INB 4º |   LE 4º |   MC 4º |   TC 4º |   TIC 4º |   VET 4º |
+|:------:|:--------:|:-------:|:-------:|:--------:|:--------:|:-------:|:-------:|:-------:|:--------:|:--------:|
+|      1 |        6 |       6 |       7 |        7 |        8 |       7 |       5 |       7 |        7 |        8 |
 
 
- * En concreto: **ECB**: 6, **EF**: 6, **FQ**: 7, **GHB**: 7, **INB**: 8, **LE**: 7, **MC**: 5, **TC**: 7, **VET**: 8 
+ * En concreto: **ECB 4º**: 6, **EF 4º**: 6, **FQ 4º**: 7, **GHB 4º**: 7, **INB 4º**: 8, **LE 4º**: 7, **MC 4º**: 5, **TC 4º**: 7, **TIC 4º**: 7, **VET 4º**: 8 
   
  
+
+ * Observaciones: Buena actitud y trabajo. Parece que va ganando en confianza
 
 ### Fatás Cantín, Marta 
 
- * **Nota media**: 8.33, **Número de suspensos**: 0 
+ * **Nota media**: 8.4, **Número de suspensos**: 0 
   
  
-|   Eval |   BG |   EF |   FQB |   FR2 |   GHB |   INB |   LE |   MC |   RC |
-|:------:|:----:|:----:|:-----:|:-----:|:-----:|:-----:|:----:|:----:|:----:|
-|      1 |    9 |    9 |     8 |     9 |     8 |     8 |    8 |    8 |    8 |
+|   Eval |   BG 4º |   EF 4º |   FQB 4º |   FR2 4º |   GHB 4º |   INB 4º |   LE 4º |   MC 4º |   RC 4º |   TIC 4º |
+|:------:|:-------:|:-------:|:--------:|:--------:|:--------:|:--------:|:-------:|:-------:|:-------:|:--------:|
+|      1 |       9 |       9 |        8 |        9 |        8 |        8 |       8 |       8 |       8 |        9 |
 
 
- * En concreto: **BG**: 9, **EF**: 9, **FQB**: 8, **FR2**: 9, **GHB**: 8, **INB**: 8, **LE**: 8, **MC**: 8, **RC**: 8 
+ * En concreto: **BG 4º**: 9, **EF 4º**: 9, **FQB 4º**: 8, **FR2 4º**: 9, **GHB 4º**: 8, **INB 4º**: 8, **LE 4º**: 8, **MC 4º**: 8, **RC 4º**: 8, **TIC 4º**: 9 
   
  
+
+ * Observaciones: Alumna participativa. En ocasiones tiene altibajos en su rendimiento (MC, FQ)
 
 ### Fábrega Mata, Alejandra 
 
- * **Nota media**: 7.22, **Número de suspensos**: 0 
+ * **Nota media**: 7.2, **Número de suspensos**: 0 
   
  
-|   Eval |   BG |   EF |   FQB |   GHB |   INB |   LE |   MC |   RC |   TC |
-|:------:|:----:|:----:|:-----:|:-----:|:-----:|:----:|:----:|:----:|:----:|
-|      1 |    7 |    8 |     7 |     7 |     8 |    7 |    5 |    8 |    8 |
+|   Eval |   BG 4º |   EF 4º |   FQB 4º |   GHB 4º |   INB 4º |   LE 4º |   MC 4º |   RC 4º |   TC 4º |   TIC 4º |
+|:------:|:-------:|:-------:|:--------:|:--------:|:--------:|:-------:|:-------:|:-------:|:-------:|:--------:|
+|      1 |       7 |       8 |        7 |        7 |        8 |       7 |       5 |       8 |       8 |        7 |
 
 
- * En concreto: **BG**: 7, **EF**: 8, **FQB**: 7, **GHB**: 7, **INB**: 8, **LE**: 7, **MC**: 5, **RC**: 8, **TC**: 8 
+ * En concreto: **BG 4º**: 7, **EF 4º**: 8, **FQB 4º**: 7, **GHB 4º**: 7, **INB 4º**: 8, **LE 4º**: 7, **MC 4º**: 5, **RC 4º**: 8, **TC 4º**: 8, **TIC 4º**: 7 
   
  
+
+ * Observaciones: Bien. Aunque empezó algo perdida al final ha mejorado
 
 ### Giráldez Vicente, Lucía 
 
- * **Nota media**: 7.78, **Número de suspensos**: 0 
+ * **Nota media**: 7.4, **Número de suspensos**: 1 
   
  
-|   Eval |   BG |   EF |   FQB |   FR2 |   GHB |   INB |   LE |   MC |   RC |
-|:------:|:----:|:----:|:-----:|:-----:|:-----:|:-----:|:----:|:----:|:----:|
-|      1 |    7 |    8 |     8 |     9 |     9 |     7 |    7 |    6 |    9 |
+
+* Suspensos: TIC 4º 
+
+|   Eval |   BG 4º |   EF 4º |   FQB 4º |   FR2 4º |   GHB 4º |   INB 4º |   LE 4º |   MC 4º |   RC 4º |   TIC 4º |
+|:------:|:-------:|:-------:|:--------:|:--------:|:--------:|:--------:|:-------:|:-------:|:-------:|:--------:|
+|      1 |       7 |       8 |        8 |        9 |        9 |        7 |       7 |       6 |       9 |        4 |
 
 
- * En concreto: **BG**: 7, **EF**: 8, **FQB**: 8, **FR2**: 9, **GHB**: 9, **INB**: 7, **LE**: 7, **MC**: 6, **RC**: 9 
+ * En concreto: **BG 4º**: 7, **EF 4º**: 8, **FQB 4º**: 8, **FR2 4º**: 9, **GHB 4º**: 9, **INB 4º**: 7, **LE 4º**: 7, **MC 4º**: 6, **RC 4º**: 9, **TIC 4º**: 4 
   
  
+
+ * Observaciones: Muy participativa y trabajadora. Por lo visto, está bastante más centrada que otros cursos
 
 ### Gómez Izquierdo, María 
 
  * **Nota media**: 9.4, **Número de suspensos**: 0 
   
  
-|   Eval |   BG |   EF |   FIL |   FQB |   FR2 |   GHB |   INB |   LE |   MC |   RC |
-|:------:|:----:|:----:|:-----:|:-----:|:-----:|:-----:|:-----:|:----:|:----:|:----:|
-|      1 |   10 |    9 |    10 |    10 |     9 |    10 |     9 |    9 |    9 |    9 |
+|   Eval |   BG 4º |   EF 4º |   FIL 4º |   FQB 4º |   FR2 4º |   GHB 4º |   INB 4º |   LE 4º |   MC 4º |   RC 4º |
+|:------:|:-------:|:-------:|:--------:|:--------:|:--------:|:--------:|:--------:|:-------:|:-------:|:-------:|
+|      1 |      10 |       9 |       10 |       10 |        9 |       10 |        9 |       9 |       9 |       9 |
 
 
- * En concreto: **BG**: 10, **EF**: 9, **FIL**: 10, **FQB**: 10, **FR2**: 9, **GHB**: 10, **INB**: 9, **LE**: 9, **MC**: 9, **RC**: 9 
+ * En concreto: **BG 4º**: 10, **EF 4º**: 9, **FIL 4º**: 10, **FQB 4º**: 10, **FR2 4º**: 9, **GHB 4º**: 10, **INB 4º**: 9, **LE 4º**: 9, **MC 4º**: 9, **RC 4º**: 9 
   
  
+
+ * Observaciones: Muy bien. Por poner un "pero" que sea más participativa
 
 ### Izquierdo Langarita, Laura 
 
@@ -299,16 +337,18 @@ El número de alumnos por nota media se distribuye de la siguiente manera:
   
  
 
-* Suspensos: MC 
+* Suspensos: MC 4º 
 
-|   Eval |   BG |   CC |   EF |   FQB |   FR2 |   GHB |   INB |   LE |   MC |   RC |
-|:------:|:----:|:----:|:----:|:-----:|:-----:|:-----:|:-----:|:----:|:----:|:----:|
-|      1 |    7 |    9 |    6 |     7 |     7 |     8 |     8 |    7 |    4 |    7 |
+|   Eval |   BG 4º |   CC 4º |   EF 4º |   FQB 4º |   FR2 4º |   GHB 4º |   INB 4º |   LE 4º |   MC 4º |   RC 4º |
+|:------:|:-------:|:-------:|:-------:|:--------:|:--------:|:--------:|:--------:|:-------:|:-------:|:-------:|
+|      1 |       7 |       9 |       6 |        7 |        7 |        8 |        8 |       7 |       4 |       7 |
 
 
- * En concreto: **BG**: 7, **CC**: 9, **EF**: 6, **FQB**: 7, **FR2**: 7, **GHB**: 8, **INB**: 8, **LE**: 7, **MC**: 4, **RC**: 7 
+ * En concreto: **BG 4º**: 7, **CC 4º**: 9, **EF 4º**: 6, **FQB 4º**: 7, **FR2 4º**: 7, **GHB 4º**: 8, **INB 4º**: 8, **LE 4º**: 7, **MC 4º**: 4, **RC 4º**: 7 
   
  
+
+ * Observaciones: Bien, trabajadora. Ciertas dificultades con MC y FQ
 
 ### Izquierdo Langarita, Sandra 
 
@@ -316,72 +356,82 @@ El número de alumnos por nota media se distribuye de la siguiente manera:
   
  
 
-* Suspensos: MC 
+* Suspensos: MC 4º 
 
-|   Eval |   BG |   CC |   EF |   FQB |   FR2 |   GHB |   INB |   LE |   MC |   RC |
-|:------:|:----:|:----:|:----:|:-----:|:-----:|:-----:|:-----:|:----:|:----:|:----:|
-|      1 |    7 |    9 |    9 |     7 |     8 |     7 |     8 |    7 |    4 |    8 |
+|   Eval |   BG 4º |   CC 4º |   EF 4º |   FQB 4º |   FR2 4º |   GHB 4º |   INB 4º |   LE 4º |   MC 4º |   RC 4º |
+|:------:|:-------:|:-------:|:-------:|:--------:|:--------:|:--------:|:--------:|:-------:|:-------:|:-------:|
+|      1 |       7 |       9 |       9 |        7 |        8 |        7 |        8 |       7 |       4 |       8 |
 
 
- * En concreto: **BG**: 7, **CC**: 9, **EF**: 9, **FQB**: 7, **FR2**: 8, **GHB**: 7, **INB**: 8, **LE**: 7, **MC**: 4, **RC**: 8 
+ * En concreto: **BG 4º**: 7, **CC 4º**: 9, **EF 4º**: 9, **FQB 4º**: 7, **FR2 4º**: 8, **GHB 4º**: 7, **INB 4º**: 8, **LE 4º**: 7, **MC 4º**: 4, **RC 4º**: 8 
   
  
+
+ * Observaciones: Bien, trabajadora. Ciertas dificultades con MC y FQ
 
 ### Martínez Mariscal, Nayra 
 
- * **Nota media**: 8.2, **Número de suspensos**: 0 
+ * **Nota media**: 8.4, **Número de suspensos**: 0 
   
  
-|   Eval |   BG |   EF |   FQB |   FR2 |   GHB |   INB |   LE |   MC |   TIC |   VET |
-|:------:|:----:|:----:|:-----:|:-----:|:-----:|:-----:|:----:|:----:|:-----:|:-----:|
-|      1 |    8 |    7 |     9 |     9 |     8 |     7 |    9 |    8 |     8 |     9 |
+|   Eval |   BG 4º |   EF 4º |   FQB 4º |   FR2 4º |   GHB 4º |   INB 4º |   LE 4º |   MC 4º |   TIC 4º |   VET 4º |
+|:------:|:-------:|:-------:|:--------:|:--------:|:--------:|:--------:|:-------:|:-------:|:--------:|:--------:|
+|      1 |       8 |       9 |        9 |        9 |        8 |        7 |       9 |       8 |        8 |        9 |
 
 
- * En concreto: **BG**: 8, **EF**: 7, **FQB**: 9, **FR2**: 9, **GHB**: 8, **INB**: 7, **LE**: 9, **MC**: 8, **TIC**: 8, **VET**: 9 
+ * En concreto: **BG 4º**: 8, **EF 4º**: 9, **FQB 4º**: 9, **FR2 4º**: 9, **GHB 4º**: 8, **INB 4º**: 7, **LE 4º**: 9, **MC 4º**: 8, **TIC 4º**: 8, **VET 4º**: 9 
   
  
+
+ * Observaciones: Buena actitud y trabajadora
 
 ### Martínez Ruiz, Lucía 
 
  * **Nota media**: 8.2, **Número de suspensos**: 0 
   
  
-|   Eval |   ECB |   EF |   FQ |   GHB |   INB |   LE |   MC |   TC |   TIC |   VET |
-|:------:|:-----:|:----:|:----:|:-----:|:-----:|:----:|:----:|:----:|:-----:|:-----:|
-|      1 |     9 |    9 |    7 |     6 |     8 |    9 |    6 |   10 |     9 |     9 |
+|   Eval |   ECB 4º |   EF 4º |   FQ 4º |   GHB 4º |   INB 4º |   LE 4º |   MC 4º |   TC 4º |   TIC 4º |   VET 4º |
+|:------:|:--------:|:-------:|:-------:|:--------:|:--------:|:-------:|:-------:|:-------:|:--------:|:--------:|
+|      1 |        9 |       9 |       7 |        6 |        8 |       9 |       6 |      10 |        9 |        9 |
 
 
- * En concreto: **ECB**: 9, **EF**: 9, **FQ**: 7, **GHB**: 6, **INB**: 8, **LE**: 9, **MC**: 6, **TC**: 10, **TIC**: 9, **VET**: 9 
+ * En concreto: **ECB 4º**: 9, **EF 4º**: 9, **FQ 4º**: 7, **GHB 4º**: 6, **INB 4º**: 8, **LE 4º**: 9, **MC 4º**: 6, **TC 4º**: 10, **TIC 4º**: 9, **VET 4º**: 9 
   
  
+
+ * Observaciones: Muy buena actitud y trabajadora
 
 ### Marín Gómez, Ibai 
 
  * **Nota media**: 6.7, **Número de suspensos**: 0 
   
  
-|   Eval |   EC |   EF |   FIL |   FQ |   GH |   IN |   LE |   MC |   MU |   RC |
-|:------:|:----:|:----:|:-----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
-|      1 |    7 |    6 |     6 |    5 |    7 |    6 |    7 |    8 |    8 |    7 |
+|   Eval |   EC 4º |   EF 4º |   FIL 4º |   FQ 4º |   GH 4º |   IN 4º |   LE 4º |   MC 4º |   MU 4º |   RC 4º |
+|:------:|:-------:|:-------:|:--------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
+|      1 |       7 |       6 |        6 |       5 |       7 |       6 |       7 |       8 |       8 |       7 |
 
 
- * En concreto: **EC**: 7, **EF**: 6, **FIL**: 6, **FQ**: 5, **GH**: 7, **IN**: 6, **LE**: 7, **MC**: 8, **MU**: 8, **RC**: 7 
+ * En concreto: **EC 4º**: 7, **EF 4º**: 6, **FIL 4º**: 6, **FQ 4º**: 5, **GH 4º**: 7, **IN 4º**: 6, **LE 4º**: 7, **MC 4º**: 8, **MU 4º**: 8, **RC 4º**: 7 
   
  
+
+ * Observaciones: Buena actitud y trabajo en general
 
 ### Mateo Trejo, Ada 
 
  * **Nota media**: 8.9, **Número de suspensos**: 0 
   
  
-|   Eval |   BG |   EF |   FQB |   GHB |   INB |   LE |   MC |   TC |   TIC |   VET |
-|:------:|:----:|:----:|:-----:|:-----:|:-----:|:----:|:----:|:----:|:-----:|:-----:|
-|      1 |    9 |    9 |     9 |    10 |     9 |    9 |    8 |    8 |    10 |     8 |
+|   Eval |   BG 4º |   EF 4º |   FQB 4º |   GHB 4º |   INB 4º |   LE 4º |   MC 4º |   TC 4º |   TIC 4º |   VET 4º |
+|:------:|:-------:|:-------:|:--------:|:--------:|:--------:|:-------:|:-------:|:-------:|:--------:|:--------:|
+|      1 |       9 |       9 |        9 |       10 |        9 |       9 |       8 |       8 |       10 |        8 |
 
 
- * En concreto: **BG**: 9, **EF**: 9, **FQB**: 9, **GHB**: 10, **INB**: 9, **LE**: 9, **MC**: 8, **TC**: 8, **TIC**: 10, **VET**: 8 
+ * En concreto: **BG 4º**: 9, **EF 4º**: 9, **FQB 4º**: 9, **GHB 4º**: 10, **INB 4º**: 9, **LE 4º**: 9, **MC 4º**: 8, **TC 4º**: 8, **TIC 4º**: 10, **VET 4º**: 8 
   
  
+
+ * Observaciones: Muy buen trabajo y actitud
 
 ### Morato Sánchez, Juan José 
 
@@ -389,16 +439,18 @@ El número de alumnos por nota media se distribuye de la siguiente manera:
   
  
 
-* Suspensos: MC 
+* Suspensos: MC 4º 
 
-|   Eval |   ECB |   EF |   FQ |   FR2 |   GHB |   INB |   LE |   MC |   TIC |   VET |
-|:------:|:-----:|:----:|:----:|:-----:|:-----:|:-----:|:----:|:----:|:-----:|:-----:|
-|      1 |     9 |    9 |    7 |     7 |     7 |     9 |    6 |    4 |     9 |     7 |
+|   Eval |   ECB 4º |   EF 4º |   FQ 4º |   FR2 4º |   GHB 4º |   INB 4º |   LE 4º |   MC 4º |   TIC 4º |   VET 4º |
+|:------:|:--------:|:-------:|:-------:|:--------:|:--------:|:--------:|:-------:|:-------:|:--------:|:--------:|
+|      1 |        9 |       9 |       7 |        7 |        7 |        9 |       6 |       4 |        9 |        7 |
 
 
- * En concreto: **ECB**: 9, **EF**: 9, **FQ**: 7, **FR2**: 7, **GHB**: 7, **INB**: 9, **LE**: 6, **MC**: 4, **TIC**: 9, **VET**: 7 
+ * En concreto: **ECB 4º**: 9, **EF 4º**: 9, **FQ 4º**: 7, **FR2 4º**: 7, **GHB 4º**: 7, **INB 4º**: 9, **LE 4º**: 6, **MC 4º**: 4, **TIC 4º**: 9, **VET 4º**: 7 
   
  
+
+ * Observaciones: En algunas asignaturas (EC) es muy participativo, en otras pasa más desapercibido. A veces es desordenado y caótico
 
 ### Muñoz Pelegrín, Mario 
 
@@ -406,44 +458,50 @@ El número de alumnos por nota media se distribuye de la siguiente manera:
   
  
 
-* Suspensos: MC 
+* Suspensos: MC 4º 
 
-|   Eval |   EC |   EF |   FQ |   GH |   IN |   LE |   MC |   RC |   TC |   TIC |
-|:------:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:-----:|
-|      1 |    7 |    6 |    5 |    5 |    5 |    6 |    4 |    7 |    6 |     7 |
+|   Eval |   EC 4º |   EF 4º |   FQ 4º |   GH 4º |   IN 4º |   LE 4º |   MC 4º |   RC 4º |   TC 4º |   TIC 4º |
+|:------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:--------:|
+|      1 |       7 |       6 |       5 |       5 |       5 |       6 |       4 |       7 |       6 |        7 |
 
 
- * En concreto: **EC**: 7, **EF**: 6, **FQ**: 5, **GH**: 5, **IN**: 5, **LE**: 6, **MC**: 4, **RC**: 7, **TC**: 6, **TIC**: 7 
+ * En concreto: **EC 4º**: 7, **EF 4º**: 6, **FQ 4º**: 5, **GH 4º**: 5, **IN 4º**: 5, **LE 4º**: 6, **MC 4º**: 4, **RC 4º**: 7, **TC 4º**: 6, **TIC 4º**: 7 
   
  
+
+ * Observaciones: Ha mejorado al final del trimestre. Tiene que organizarse mejor, sobre todo con el trabajo de casa
 
 ### Pulido Ruiz, Nuria 
 
  * **Nota media**: 9.2, **Número de suspensos**: 0 
   
  
-|   Eval |   ARE |   ECB |   EF |   FQ |   FR2 |   GHB |   INB |   LE |   MC |   RC |
-|:------:|:-----:|:-----:|:----:|:----:|:-----:|:-----:|:-----:|:----:|:----:|:----:|
-|      1 |     8 |     9 |    9 |    9 |    10 |    10 |     9 |   10 |   10 |    8 |
+|   Eval |   ARE 4º |   ECB 4º |   EF 4º |   FQ 4º |   FR2 4º |   GHB 4º |   INB 4º |   LE 4º |   MC 4º |   RC 4º |
+|:------:|:--------:|:--------:|:-------:|:-------:|:--------:|:--------:|:--------:|:-------:|:-------:|:-------:|
+|      1 |        8 |        9 |       9 |       9 |       10 |       10 |        9 |      10 |      10 |       8 |
 
 
- * En concreto: **ARE**: 8, **ECB**: 9, **EF**: 9, **FQ**: 9, **FR2**: 10, **GHB**: 10, **INB**: 9, **LE**: 10, **MC**: 10, **RC**: 8 
+ * En concreto: **ARE 4º**: 8, **ECB 4º**: 9, **EF 4º**: 9, **FQ 4º**: 9, **FR2 4º**: 10, **GHB 4º**: 10, **INB 4º**: 9, **LE 4º**: 10, **MC 4º**: 10, **RC 4º**: 8 
   
  
+
+ * Observaciones: Muy bien.
 
 ### Raja Herranz, Laura 
 
- * **Nota media**: 8.6, **Número de suspensos**: 0 
+ * **Nota media**: 8.8, **Número de suspensos**: 0 
   
  
-|   Eval |   ARE |   BG |   EF |   FQB |   FR2 |   GHB |   INB |   LE |   MC |   VET |
-|:------:|:-----:|:----:|:----:|:-----:|:-----:|:-----:|:-----:|:----:|:----:|:-----:|
-|      1 |     8 |    9 |    7 |    10 |     9 |     9 |     9 |    9 |    8 |     8 |
+|   Eval |   ARE 4º |   BG 4º |   EF 4º |   FQB 4º |   FR2 4º |   GHB 4º |   INB 4º |   LE 4º |   MC 4º |   VET 4º |
+|:------:|:--------:|:-------:|:-------:|:--------:|:--------:|:--------:|:--------:|:-------:|:-------:|:--------:|
+|      1 |        8 |       9 |       9 |       10 |        9 |        9 |        9 |       9 |       8 |        8 |
 
 
- * En concreto: **ARE**: 8, **BG**: 9, **EF**: 7, **FQB**: 10, **FR2**: 9, **GHB**: 9, **INB**: 9, **LE**: 9, **MC**: 8, **VET**: 8 
+ * En concreto: **ARE 4º**: 8, **BG 4º**: 9, **EF 4º**: 9, **FQB 4º**: 10, **FR2 4º**: 9, **GHB 4º**: 9, **INB 4º**: 9, **LE 4º**: 9, **MC 4º**: 8, **VET 4º**: 8 
   
  
+
+ * Observaciones: Muy bien, aunque a veces es demasiado exigente con ella misma. Debe aprender a gestionar esa presión
 
 ### Sanz Bona, Marcos 
 
@@ -451,55 +509,63 @@ El número de alumnos por nota media se distribuye de la siguiente manera:
   
  
 
-* Suspensos: MC, FQ, LE, BG 
+* Suspensos: BG 4º, FQ 4º, MC 4º, LE 4º 
 
-|   Eval |   BG |   CC |   EF |   FQ |   GH |   IN |   LE |   MC |   RC |   TC |
-|:------:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
-|      1 |    4 |    7 |    7 |    4 |    6 |    8 |    4 |    2 |    6 |    5 |
+|   Eval |   BG 4º |   CC 4º |   EF 4º |   FQ 4º |   GH 4º |   IN 4º |   LE 4º |   MC 4º |   RC 4º |   TC 4º |
+|:------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
+|      1 |       4 |       7 |       7 |       4 |       6 |       8 |       4 |       2 |       6 |       5 |
 
 
- * En concreto: **BG**: 4, **CC**: 7, **EF**: 7, **FQ**: 4, **GH**: 6, **IN**: 8, **LE**: 4, **MC**: 2, **RC**: 6, **TC**: 5 
+ * En concreto: **BG 4º**: 4, **CC 4º**: 7, **EF 4º**: 7, **FQ 4º**: 4, **GH 4º**: 6, **IN 4º**: 8, **LE 4º**: 4, **MC 4º**: 2, **RC 4º**: 6, **TC 4º**: 5 
   
  
+
+ * Observaciones: Pese a los malos resultados, parece que esta mejor que el año pasado. No obstante, todavía tiene que mejorar bastante si no quiere tener problemas.
 
 ### Sánchez Paz, Daniel 
 
  * **Nota media**: 7.7, **Número de suspensos**: 0 
   
  
-|   Eval |   EC |   EF |   FQ |   GH |   IN |   LE |   MC |   RC |   TC |   TIC |
-|:------:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:-----:|
-|      1 |    9 |    6 |    6 |    8 |    7 |    8 |    9 |    7 |    9 |     8 |
+|   Eval |   EC 4º |   EF 4º |   FQ 4º |   GH 4º |   IN 4º |   LE 4º |   MC 4º |   RC 4º |   TC 4º |   TIC 4º |
+|:------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:--------:|
+|      1 |       9 |       6 |       6 |       8 |       7 |       8 |       9 |       7 |       9 |        8 |
 
 
- * En concreto: **EC**: 9, **EF**: 6, **FQ**: 6, **GH**: 8, **IN**: 7, **LE**: 8, **MC**: 9, **RC**: 7, **TC**: 9, **TIC**: 8 
+ * En concreto: **EC 4º**: 9, **EF 4º**: 6, **FQ 4º**: 6, **GH 4º**: 8, **IN 4º**: 7, **LE 4º**: 8, **MC 4º**: 9, **RC 4º**: 7, **TC 4º**: 9, **TIC 4º**: 8 
   
  
+
+ * Observaciones: Muy buena actitud y trabajo
 
 ### Villanueva Tejedor, Daniella 
 
- * **Nota media**: 8.4, **Número de suspensos**: 0 
+ * **Nota media**: 8.5, **Número de suspensos**: 0 
   
  
-|   Eval |   BG |   EF |   FQB |   GHB |   INB |   LE |   MC |   PL |   TIC |   VET |
-|:------:|:----:|:----:|:-----:|:-----:|:-----:|:----:|:----:|:----:|:-----:|:-----:|
-|      1 |    7 |    9 |     9 |     8 |     9 |    8 |    6 |   10 |     9 |     9 |
+|   Eval |   BG 4º |   EF 4º |   FQB 4º |   GHB 4º |   INB 4º |   LE 4º |   MC 4º |   PL 4º |   TIC 4º |   VET 4º |
+|:------:|:-------:|:-------:|:--------:|:--------:|:--------:|:-------:|:-------:|:-------:|:--------:|:--------:|
+|      1 |       8 |       9 |        9 |        8 |        9 |       8 |       6 |      10 |        9 |        9 |
 
 
- * En concreto: **BG**: 7, **EF**: 9, **FQB**: 9, **GHB**: 8, **INB**: 9, **LE**: 8, **MC**: 6, **PL**: 10, **TIC**: 9, **VET**: 9 
+ * En concreto: **BG 4º**: 8, **EF 4º**: 9, **FQB 4º**: 9, **GHB 4º**: 8, **INB 4º**: 9, **LE 4º**: 8, **MC 4º**: 6, **PL 4º**: 10, **TIC 4º**: 9, **VET 4º**: 9 
   
  
+
+ * Observaciones: Buena actitud y trabajo, a veces va un poco a remolque. La situación familiar que ha pasado tampoco le ha ayudado mucho.
 
 ### Zueras Martínez, Marta 
 
- * **Nota media**: 7.9, **Número de suspensos**: 0 
+ * **Nota media**: 8.1, **Número de suspensos**: 0 
   
  
-|   Eval |   ARE |   BG |   EF |   FQB |   FR2 |   GHB |   INB |   LE |   MC |   VET |
-|:------:|:-----:|:----:|:----:|:-----:|:-----:|:-----:|:-----:|:----:|:----:|:-----:|
-|      1 |     8 |    8 |    7 |     8 |     9 |     8 |     8 |    9 |    6 |     8 |
+|   Eval |   ARE 4º |   BG 4º |   EF 4º |   FQB 4º |   FR2 4º |   GHB 4º |   INB 4º |   LE 4º |   MC 4º |   VET 4º |
+|:------:|:--------:|:-------:|:-------:|:--------:|:--------:|:--------:|:--------:|:-------:|:-------:|:--------:|
+|      1 |        8 |       8 |       9 |        8 |        9 |        8 |        8 |       9 |       6 |        8 |
 
 
- * En concreto: **ARE**: 8, **BG**: 8, **EF**: 7, **FQB**: 8, **FR2**: 9, **GHB**: 8, **INB**: 8, **LE**: 9, **MC**: 6, **VET**: 8 
+ * En concreto: **ARE 4º**: 8, **BG 4º**: 8, **EF 4º**: 9, **FQB 4º**: 8, **FR2 4º**: 9, **GHB 4º**: 8, **INB 4º**: 8, **LE 4º**: 9, **MC 4º**: 6, **VET 4º**: 8 
   
  
+
+ * Observaciones: Buena actitud y trabajo en general
