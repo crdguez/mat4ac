@@ -11,6 +11,7 @@
 \usepackage{color}
 \usepackage{multicol}
 \usepackage{verbatim}
+\usepackage{tikz}
 
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
@@ -48,6 +49,8 @@
 \firstpageheader{\includegraphics[width=0.2\columnwidth]{header_left}}{\textbf{Departamento de Matemáticas\linebreak \class}\linebreak \examnum}{\includegraphics[width=0.1\columnwidth]{header_right}}
 \runningheader{\class}{\examnum}{Página \thepage\ of \numpages}
 \runningheadrule
+
+\DeclareUnicodeCharacter{2212}{-}
 
 \begin{document}
 
@@ -116,14 +119,19 @@
 
 
 \question Resolver los siguientes sistemas de inecuaciones con dos incógnitas:
-\begin{multicols}{2}
+%\begin{multicols}{1}
 \begin{parts}
 \part[]  $\left\{ {\begin{matrix}
    {y <  - 2x + 4}  \\ 
    {y \geqslant x}  \\ 
 
  \end{matrix} } \right.$
-\begin{solution} \input{sistema_0.pgf} \end{solution}
+ 
+
+
+
+\begin{solution} \scalebox{.6}{\input{sistema_0.pgf}}
+\end{solution}
 \part[]  $\left\{ {\begin{matrix}
    {y \leqslant 2}  \\ 
    {x + y \leqslant 3}  \\ 
@@ -131,12 +139,14 @@
    {y \geqslant 0}  \\ 
 
  \end{matrix} } \right.$
+\begin{solution} \scalebox{.6}{\input{sistema_2.pgf}} \end{solution} 
+ 
 \part[] $\left\{ {\begin{matrix}
    {6x - 5y \leqslant 30}  \\ 
    {4x + 3y \leqslant 0}  \\ 
 
  \end{matrix} } \right.$
-\begin{solution} \end{solution}
+\begin{solution} \scalebox{.6}{\input{sistema_1.pgf}} \end{solution}
 \part[] $\left\{ {\begin{matrix}
    {x + y \leqslant 5}  \\ 
    {x + 3y \geqslant 9}  \\ 
@@ -145,11 +155,11 @@
    {y \geqslant 0}  \\ 
 
  \end{matrix} } \right.$
-\begin{solution} \end{solution}
+\begin{solution} \scalebox{.6}{\input{sistema_3.pgf}} \end{solution}
 
-\begin{solution} \end{solution}
+
 \end{parts}
-\end{multicols}
+%\end{multicols}
 
 \question Resuelve los siguientes problemas
 \begin{multicols}{2}
