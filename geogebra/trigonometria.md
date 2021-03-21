@@ -1,10 +1,12 @@
 # Trigonometría con geogebra 
 
-Conjunto de applets de geogebra para entender los conceptos básicos de trigonometría. Este trabajo está basado en el fantástico trabajo de **Pablo J. Triviño Rodríguez** y que se encuentra recopilado en su "libro" de geogebra [Trigonometría](https://www.geogebra.org/m/fDrEtZ6b)
+Este documento contiene un conjunto de applets de geogebra para entender los conceptos básicos de trigonometría. 
+
+Este trabajo está basado en el fantástico trabajo de **Pablo J. Triviño Rodríguez** y que se encuentra recopilado en su "libro" de geogebra [Trigonometría](https://www.geogebra.org/m/fDrEtZ6b)
 
 ## Definición de razones trigonométricas en un ángulo agudo a partir de un triángulo rectángulo
 
-Observa que las razones no dependen del tamaño del triángulo sino de los ángulos que tenga:
+Observa que **las razones no dependen del tamaño del triángulo sino de los ángulos** que tenga:
 
 <iframe src="https://www.geogebra.org/classic/mhpbpj3b?embed" width="800" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
 
