@@ -19,5 +19,7 @@ Muchos documentos están creados en LaTeX. Aunque en el repositorio también apa
 
 Por defecto aparecen los iconos del instituto (IES Pedro Cerrada) y de la comunidad en la que uno de los autores trabaja (Aragón).
 Para poder personalizar nuestros documentos, será necesario reemplazar los ficheros de la carpeta [*./img*](https://github.com/crdguez/mat4ac/tree/master/img) (*header_left.png* y *header_right.png*) y compilar los ficheros con *texmaker* o el editor LaTeX que utilices.
- 
+
+<iframe src="https://www.geogebra.org/classic/mgzcedad?embed" width="800" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe> 
+
 
