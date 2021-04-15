@@ -1,6 +1,6 @@
 \documentclass[addpoints,spanish, 12pt,a4paper]{exam}
 %\documentclass[answers, spanish, 12pt,a4paper]{exam}
-  \printanswers
+%   \printanswers
 \pointpoints{punto}{puntos}
 \hpword{Puntos:}
 \vpword{Puntos:}
@@ -78,12 +78,18 @@ La nota final de la prueba será la parte proporcional de la puntuación obtenid
 % \addpoints
 
 
-\question Resuelve la siguiente inecuación racional:\begin{parts} 
-\part[2] $\dfrac{x^{2} - 4}{x^{2} - 9} \geq  0$\begin{solution} $\left(-\infty, -3\right) \cup \left[-2, 2\right] \cup \left(3, \infty\right)$\end{solution} 
-% \part[2] $\dfrac{x^{2} -4x +4}{x^{2} - 1} \geq  0$\begin{solution} $\left(-\infty, -1\right) \cup \left(1, \infty\right)$\end{solution} 
-% \part[2] $\dfrac{x^{2} - 4}{x^{2} - 9} \leq  0$\begin{solution} $\left(-3, -2\right] \cup \left[2, 3\right)$\end{solution} 
-% \part[2] $\dfrac{x^{2} -2x +1}{x^{2} - 9} \leq  0$\begin{solution} $\left(-3, 3\right)$\end{solution} 
-\end{parts} 
+\question Resuelve, justificadamente, los siguientes sistemas de inecuaciones:
+\begin{parts}
+% \part[1] $\left\{\begin{matrix}\frac{x}{10-x}\geq 0 \\ x^2-9 >0\end{matrix}\right.$\begin{solution} \\ $\left(3, 10\right)$\end{solution}
+\part[1] $\left\{\begin{matrix}4x+2y \geq 8 \\ -x+2y < 4  \\ -x < -2\end{matrix}\right.$\begin{solution} \\ \scalebox{.99}{\includegraphics[width=1\columnwidth]{sistema_ine_ex0.png}}\end{solution}
+\end{parts}
+
+% \question Resuelve la siguiente inecuación racional:\begin{parts} 
+% \part[2] $\dfrac{x^{2} - 4}{x^{2} - 9} \geq  0$\begin{solution} $\left(-\infty, -3\right) \cup \left[-2, 2\right] \cup \left(3, \infty\right)$\end{solution} 
+% % \part[2] $\dfrac{x^{2} -4x +4}{x^{2} - 1} \geq  0$\begin{solution} $\left(-\infty, -1\right) \cup \left(1, \infty\right)$\end{solution} 
+% % \part[2] $\dfrac{x^{2} - 4}{x^{2} - 9} \leq  0$\begin{solution} $\left(-3, -2\right] \cup \left[2, 3\right)$\end{solution} 
+% % \part[2] $\dfrac{x^{2} -2x +1}{x^{2} - 9} \leq  0$\begin{solution} $\left(-3, 3\right)$\end{solution} 
+% \end{parts} 
 
 
 \question Resuelve la siguiente inecuación con valor absoluto:\begin{parts} 
@@ -152,16 +158,16 @@ La nota final de la prueba será la parte proporcional de la puntuación obtenid
 % \end{itemize}
 % \end{parts}
 
-\question Dada la función: $$y=\begin{cases} 2 x - 3 & \text{si}\: x < -1 \\- x^{2} + 2 x & \text{si}\: x\geq -1 \end{cases}$$
-\begin{parts}
-\part[2] Representa la función (puedes usar el plano cartesiano que se adjunta)
-\begin{solution} \scalebox{.6}{\includegraphics[width=1\columnwidth]{ex_funcion_a_trozos_2}}\end{solution}\part[1] Indica: \begin{itemize}
-    \item Dominio y Recorrido
-    \item Intervalos de crecimiento y decrecimiento
-    \item Máximos y mínimos relativos
-    \item Discontinuidades
-\end{itemize}
-\end{parts}
+% \question Dada la función: $$y=\begin{cases} 2 x - 3 & \text{si}\: x < -1 \\- x^{2} + 2 x & \text{si}\: x\geq -1 \end{cases}$$
+% \begin{parts}
+% \part[2] Representa la función (puedes usar el plano cartesiano que se adjunta)
+% \begin{solution} \scalebox{.6}{\includegraphics[width=1\columnwidth]{ex_funcion_a_trozos_2}}\end{solution}\part[1] Indica: \begin{itemize}
+%     \item Dominio y Recorrido
+%     \item Intervalos de crecimiento y decrecimiento
+%     \item Máximos y mínimos relativos
+%     \item Discontinuidades
+% \end{itemize}
+% \end{parts}
 
 % \question Dada la función: $$y=\begin{cases} 2 x + 2 & \text{si}\: x \leq -1 \\x^{2} - 2 x &  \text{si} \: x > -1 \end{cases}$$
 % \begin{parts}
@@ -186,29 +192,36 @@ La nota final de la prueba será la parte proporcional de la puntuación obtenid
 %     \item Discontinuidades
 % \end{itemize}
 
-\question Dada la función: $$f(x)=\begin{cases} 2 x - 4 & \text{for}\: x < -2 \\- x^{2} + 4 x - 3 & \text{for}\: x < 3 \\3 & \text{for}\: x > 3 \end{cases}$$
+\question Dada la función: $$f(x)=\begin{cases} 2 x - 4 & \text{si}\: x < -2 \\- x^{2} + 4 x - 3 & \text{si}\: -2 \leq x < 3 \\3 & \text{si}\: x > 3 \end{cases}$$
 \begin{parts}
 \part[2] Representa la función (puedes usar el plano cartesiano que se adjunta)
 \begin{solution} \scalebox{.6}{\includegraphics[width=1\columnwidth]{ex_funcion_a_trozos_6}}\end{solution}
 \part[1] Indica: \begin{itemize}
     \item Dominio y Recorrido
-    \item Intervalos de crecimiento y decrecimiento
-    \item Máximos y mínimos relativos
-    \item Discontinuidades
+    % \item Intervalos de crecimiento y decrecimiento
+    % \item Máximos y mínimos relativos
+    % \item Discontinuidades
 \end{itemize}
 \end{parts}
 
 
-\question[1] Responde a las siguientes cuestiones:
+% \question[1] Responde a las siguientes cuestiones:
+% \begin{parts}
+% \part Indica la ecuación o la expresión analítica correspondiente a una recta que pasa por el punto de coordenadas $\left(0,1\right)$ y cuya pendiente vale 3
+% \begin{solution}
+% $y=3x+1$
+% \end{solution}
+% \part Razona, sin representar ni calcular puntos de la gráfica, el número de puntos de corte de la función $y=(x-1)^2+1$ con el eje $OX$ 
+% \begin{solution}
+% Ninguno, porque $y\geq 1 \ \forall x$
+% \end{solution}
+% \end{parts}
+
+\question[1] Responde y justifica las siguientes cuestiones:
 \begin{parts}
-\part Indica la ecuación o la expresión analítica correspondiente a una recta que pasa por el punto de coordenadas $\left(0,1\right)$ y cuya pendiente vale 3
-\begin{solution}
-$y=3x+1$
-\end{solution}
-\part Razona, sin representar ni calcular puntos de la gráfica, el número de puntos de corte de la función $y=(x-1)^2+1$ con el eje $OX$ 
-\begin{solution}
-Ninguno, porque $y\geq 1 \ \forall x$
-\end{solution}
+\part ¿Existe alguna función lineal que solo corte al eje $OX$ por $\left(3,0\right)$ y no al eje $OY$? En caso afirmativo da la ecuación de dicha función.  
+\part ¿Existe alguna función lineal que solo corte al eje $OY$ por $\left(0,3\right)$ y no al eje $OX$? En caso afirmativo da la ecuación de dicha función.
+
 \end{parts}
 
 \newpage 
