@@ -6,5 +6,5 @@ Este documento contiene un conjunto de applets de geogebra para entender los con
 
 Observa que una recta queda perfectamente definida por **un punto y un vector director**:
 
-<iframe src="https://www.geogebra.org/m/wrmd43aw" width="800" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
+<iframe src="https://www.geogebra.org/geometry/wrmd43aw" width="800" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
 

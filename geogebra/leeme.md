@@ -4,7 +4,7 @@ Para ver los applets de geogebra, se necesita la apliación. Si no, podemos verl
 
 Listado de **ficheros html**:
 
-* [ trigonometria.html](https://htmlpreview.github.io/?https://github.com/crdguez/mat4ac/blob/master/geogebra/trigonometria.html]
+* [ trigonometria.html](https://htmlpreview.github.io/?https://github.com/crdguez/mat4ac/blob/master/geogebra/trigonometria.html)
 * [geometria.html](https://htmlpreview.github.io/?https://github.com/crdguez/mat4ac/blob/master/geogebra/geometria.html)
 
 ## Fuentes de los ficheros html:
