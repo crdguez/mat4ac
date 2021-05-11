@@ -1,0 +1,128 @@
+
+\documentclass[spanish, 11pt]{exam}
+
+%These tell TeX which packages to use.
+\usepackage{array,epsfig}
+\usepackage{amsmath, textcomp}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsxtra}
+\usepackage{amsthm}
+\usepackage{mathrsfs}
+\usepackage{color}
+\usepackage{multicol, xparse}
+\usepackage{verbatim}
+
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{eurosym}
+
+\usepackage{graphicx}
+\graphicspath{{../img/}}
+
+
+
+\printanswers
+\nopointsinmargin
+\pointformat{}
+
+%Pagination stuff.
+%\setlength{\topmargin}{-.3 in}
+%\setlength{\oddsidemargin}{0in}
+%\setlength{\evensidemargin}{0in}
+%\setlength{\textheight}{9.in}
+%\setlength{\textwidth}{6.5in}
+%\pagestyle{empty}
+
+\let\multicolmulticols\multicols
+\let\endmulticolmulticols\endmulticols
+\RenewDocumentEnvironment{multicols}{mO{}}
+ {%
+  \ifnum#1=1
+    #2%
+  \else % More than 1 column
+    \multicolmulticols{#1}[#2]
+  \fi
+ }
+ {%
+  \ifnum#1=1
+  \else % More than 1 column
+    \endmulticolmulticols
+  \fi
+ }
+\renewcommand{\solutiontitle}{\noindent\textbf{Sol:}\enspace}
+
+\newcommand{\samedir}{\mathbin{\!/\mkern-5mu/\!}}
+
+\newcommand{\class}{4º ESO}
+\newcommand{\examdate}{\today}
+
+\newcommand{\tipo}{A}
+
+
+\newcommand{\timelimit}{50 minutos}
+
+
+
+\pagestyle{head}
+\firstpageheader{\includegraphics[width=0.2\columnwidth]{header_left}}{\textbf{Departamento de Matemáticas\linebreak \class}\linebreak \examnum}{\includegraphics[width=0.1\columnwidth]{header_right}}
+\runningheader{\class}{\examnum}{Página \thepage\ of \numpages}
+\runningheadrule
+
+\newcommand{\examnum}{Autoevaluación - Trimestre 3}
+\begin{document}
+\begin{questions}
+
+\question Representa y calcula las coordenadas de las siguientes combinaciones de $\overrightarrow{u}$ y $\overrightarrow{v}$:\begin{parts} \part[1] $2 \overrightarrow{u} - 3 \overrightarrow{v}$, $- 2 \overrightarrow{u}$, $- 2 \overrightarrow{u} - 2 \overrightarrow{v}$. Siendo $\overrightarrow{u}$ y $\overrightarrow{v}$: \\ \scalebox{.65}{\includegraphics[width=1\columnwidth]{comb_vectores_0.png}}\begin{solution} $2 \overrightarrow{u} - 3 \overrightarrow{v}$, $- 2 \overrightarrow{u}$, $- 2 \overrightarrow{u} - 2 \overrightarrow{v}$\end{solution} \end{parts}
+
+
+\question Calcular, usando las identidades fundamentales de la trigonometría, las razones trigonométricas de un ángulo agudo $x$ sabiendo que:
+\begin{multicols}{3}
+\begin{parts} \part[1] $\cos{x}=\dfrac{1}{2}$\begin{solution}  \\ $\sin{x}=\dfrac{\sqrt{3}}{2}, \cos{x}=\dfrac{1}{2}, \tan{x}=\sqrt{3}$. \\ El ángulo agudo que cumple esas razones es $60^{\circ}$.\end{solution} \part[1] $\tan{x}=\dfrac{1}{2}$\begin{solution}  \\ $\sin{x}=\dfrac{\sqrt{5}}{5}, \cos{x}=\dfrac{2 \sqrt{5}}{5}, \tan{x}=\dfrac{1}{2}$. \\ El ángulo agudo que cumple esas razones es $26.57^{\circ}$.\end{solution} \part[1] $\cos{x}=\dfrac{1}{3}$\begin{solution}  \\ $\sin{x}=\dfrac{2 \sqrt{2}}{3}, \cos{x}=\dfrac{1}{3}, \tan{x}=2 \sqrt{2}$. \\ El ángulo agudo que cumple esas razones es $70.53^{\circ}$.\end{solution} \part[1] $\tan{x}=3$\begin{solution}  \\ $\sin{x}=\dfrac{3 \sqrt{10}}{10}, \cos{x}=\dfrac{\sqrt{10}}{10}, \tan{x}=3$. \\ El ángulo agudo que cumple esas razones es $71.57^{\circ}$.\end{solution} \part[1] $\sin{x}=\dfrac{4}{5}$\begin{solution}  \\ $\sin{x}=\dfrac{4}{5}, \cos{x}=\dfrac{3}{5}, \tan{x}=\dfrac{4}{3}$. \\ El ángulo agudo que cumple esas razones es $53.13^{\circ}$.\end{solution} \part[1] $\tan{x}=5$\begin{solution}  \\ $\sin{x}=\dfrac{5 \sqrt{26}}{26}, \cos{x}=\dfrac{\sqrt{26}}{26}, \tan{x}=5$. \\ El ángulo agudo que cumple esas razones es $78.69^{\circ}$.\end{solution} \end{parts} 
+\end{multicols}
+
+
+\question Resuelve los triángulos rectángulos:
+\begin{multicols}{3}
+\begin{parts}
+\part[1] Sabiendo que los catetos miden 8 y 15 cm.\begin{solution} Los lados del triángulo miden: $8$, $15$, $17$ cm. Y los ángulos: $28.07$, $61.93$, $90$ º\end{solution} \part[1] Sabiendo que un cateto mide 12 cm. y su ángulo opuesto 30º\begin{solution} Los lados del triángulo miden: $12$, $20.78$, $24$ cm. Y los ángulos: $30$, $60$, $90$ º\end{solution} \part[1] Sabiendo que un cateto mide 8 cm. y su ángulo opuesto 45º\begin{solution} Los lados del triángulo miden: $8$, $8$, $11.31$ cm. Y los ángulos: $45$, $45$, $90$ º\end{solution} \part[1] Sabiendo que la hipotenusa mide 18 cm. y un ángulo 60º\begin{solution} Los lados del triángulo miden: $15.59$, $9$, $18$ cm. Y los ángulos: $60$, $30$, $90$ º\end{solution} \part[1] Sabiendo que un cateto mide 18 cm. y el ángulo opuesto al otro cateto 30º\begin{solution} Los lados del triángulo miden: $18$, $10.39$, $20.78$ cm. Y los ángulos: $60$, $30$, $90$ º\end{solution} \end{parts}
+\end{multicols} 
+
+
+\question Calcular las razones trigonométricas de un ángulo $\alpha$ si:
+\begin{multicols}{3}
+\begin{parts} \part[1] $\cos{\alpha}=-\dfrac{\sqrt{3}}{2} \land \alpha \in III$ \begin{solution} $\sin{\alpha}=- \dfrac{1}{2}, \cos{\alpha}=- \dfrac{\sqrt{3}}{2}, \tan{\alpha}=\dfrac{\sqrt{3}}{3}$. \\ El ángulo que cumple las condiciones del ejercicio es: $210^{\circ}$\end{solution} \part[1] $\sin{\alpha}=\dfrac{\sqrt{3}}{2} \land \alpha \in II$ \begin{solution} $\sin{\alpha}=\dfrac{\sqrt{3}}{2}, \cos{\alpha}=- \dfrac{1}{2}, \tan{\alpha}=- \sqrt{3}$. \\ El ángulo que cumple las condiciones del ejercicio es: $120^{\circ}$\end{solution} \part[1] $\sin{\alpha}=\dfrac{1}{2} \land \alpha \in II$ \begin{solution} $\sin{\alpha}=\dfrac{1}{2}, \cos{\alpha}=- \dfrac{\sqrt{3}}{2}, \tan{\alpha}=- \dfrac{\sqrt{3}}{3}$. \\ El ángulo que cumple las condiciones del ejercicio es: $150^{\circ}$\end{solution} \part[1] $\cos{\alpha}=-\dfrac{1}{2} \land \alpha \in III$ \begin{solution} $\sin{\alpha}=- \dfrac{\sqrt{3}}{2}, \cos{\alpha}=- \dfrac{1}{2}, \tan{\alpha}=\sqrt{3}$. \\ El ángulo que cumple las condiciones del ejercicio es: $240^{\circ}$\end{solution} \part[1] $\tan{\alpha}=1 \land \alpha \in III$ \begin{solution} $\sin{\alpha}=- \dfrac{\sqrt{2}}{2}, \cos{\alpha}=- \dfrac{\sqrt{2}}{2}, \tan{\alpha}=1$. \\ El ángulo que cumple las condiciones del ejercicio es: $225^{\circ}$\end{solution} \part[1] $\sin{\alpha}=-\dfrac{\sqrt{2}}{2} \land \alpha \in IV$ \begin{solution} $\sin{\alpha}=- \dfrac{\sqrt{2}}{2}, \cos{\alpha}=\dfrac{\sqrt{2}}{2}, \tan{\alpha}=-1$. \\ El ángulo que cumple las condiciones del ejercicio es: $315^{\circ}$\end{solution} \end{parts}
+\end{multicols} 
+
+\question Calcular las razones trigonométricas de un ángulo $\alpha$ si:
+\begin{multicols}{2}
+\begin{parts} \part[1] $\cos{\alpha}=-\dfrac{\sqrt{3}}{2} \land \tan{\alpha}>0$ \begin{solution}  \\ $\sin{\alpha}=- \dfrac{1}{2}, \cos{\alpha}=- \dfrac{\sqrt{3}}{2}, \tan{\alpha}=\dfrac{\sqrt{3}}{3}$. \\ El ángulo que cumple las condiciones del ejercicio es: $210^{\circ}$\end{solution} \part[1] $\sin{\alpha}=\dfrac{\sqrt{3}}{2} \land \tan{\alpha}<0$ \begin{solution}  \\ $\sin{\alpha}=\dfrac{\sqrt{3}}{2}, \cos{\alpha}=- \dfrac{1}{2}, \tan{\alpha}=- \sqrt{3}$. \\ El ángulo que cumple las condiciones del ejercicio es: $120^{\circ}$\end{solution} \part[1] $\sin{\alpha}=\dfrac{1}{2} \land \cos{\alpha}<0$ \begin{solution}  \\ $\sin{\alpha}=\dfrac{1}{2}, \cos{\alpha}=- \dfrac{\sqrt{3}}{2}, \tan{\alpha}=- \dfrac{\sqrt{3}}{3}$. \\ El ángulo que cumple las condiciones del ejercicio es: $150^{\circ}$\end{solution} \part[1] $\cos{\alpha}=-\dfrac{1}{2} \land \tan{\alpha}>0$ \begin{solution}  \\ $\sin{\alpha}=- \dfrac{\sqrt{3}}{2}, \cos{\alpha}=- \dfrac{1}{2}, \tan{\alpha}=\sqrt{3}$. \\ El ángulo que cumple las condiciones del ejercicio es: $240^{\circ}$\end{solution} \part[1] $\tan{\alpha}=1 \land \cos{\alpha}<0$ \begin{solution}  \\ $\sin{\alpha}=- \dfrac{\sqrt{2}}{2}, \cos{\alpha}=- \dfrac{\sqrt{2}}{2}, \tan{\alpha}=1$. \\ El ángulo que cumple las condiciones del ejercicio es: $225^{\circ}$\end{solution} \part[1] $\sin{\alpha}=-\dfrac{\sqrt{2}}{2} \land \tan{\alpha}<0$ \begin{solution}  \\ $\sin{\alpha}=- \dfrac{\sqrt{2}}{2}, \cos{\alpha}=\dfrac{\sqrt{2}}{2}, \tan{\alpha}=-1$. \\ El ángulo que cumple las condiciones del ejercicio es: $315^{\circ}$\end{solution} \end{parts} 
+\end{multicols} 
+
+\question Resuelve las siguientes ecuaciones
+\begin{multicols}{2}
+\begin{parts} \part[1] $\cos{x}=\dfrac{\sqrt{3}}{2}$\begin{solution} $x=30^{\circ}, x=330^{\circ}$\end{solution} \part[1] $\cos{x}=-\dfrac{\sqrt{3}}{2}$\begin{solution} $x=150^{\circ}, x=210^{\circ}$\end{solution} \part[1] $4(\cos{x})^2-1=0$\begin{solution} $x=60^{\circ}, x=120^{\circ}, x=240^{\circ}, x=300^{\circ}$\end{solution} \part[1] $2(\sin{x})^2-\sin{x}-1=0$\begin{solution} $x=-30^{\circ}, x=90^{\circ}, x=210^{\circ}$\end{solution} \end{parts} 
+\end{multicols}
+
+\question Resuelve los siguientes problemas: \begin{parts} 
+\part[1] El lado de un rombo mide 30 cm y el ángulo menor es de 40°. ¿Cuánto miden las
+      diagonales del rombo?\begin{solution} las diagonales miden $20.52$ y $56.38$ respectivamente\end{solution}
+\part[1] Desde el punto donde estoy, la visual al punto más alto de una torre que tengo 
+        enfrente forma un ángulo de 30° con la horizontal. Si me acerco 100 m, el ángulo es de 60°.
+        ¿Cuál es la altura del edificio?\begin{solution} $ \left\{\begin{matrix}\tan{\left(60 \right)} = \dfrac{y}{x} \\ \tan{\left(30 \right)} = \dfrac{y}{x + 100} \\ \end{matrix}\right. \to \left\{ x : 50.0043301290378, \  y : 86.6125002165064\right\}$\end{solution} 
+\part[1] Dos torres distan entre sí 200 m. Desde un punto que está entre las torres
+vemos que las visuales a los puntos más altos de estos forman con la horizontal ángulos
+de 45° y 60°. ¿Cuál es la altura de las torres si sabemos que uno es 40 m más alto que el
+otro?\begin{solution}  \\ Si la mayor altura se corresponde con el ángulo 45°: \\ $ \left\{\begin{matrix}\tan{\left(60 \right)} = \frac{y}{200 - x} \\ \tan{\left(45 \right)} = \frac{y + 40}{x} \\ \end{matrix}\right. \to \left\{ x : 141.436989861279, \  y : 101.436989861279\right\}\to 101.436989861279$ \ Si la mayor altura se corresponde con el ángulo 60°: \\ $ \left\{\begin{matrix}\tan{\left(60 \right)} = \frac{y + 40}{200 - x} \\ \tan{\left(45 \right)} = \frac{y}{x} \\ \end{matrix}\right. \to \left\{ x : 112.155484791918, \  y : 112.155484791918\right\}\to 112.155484791918$\end{solution}        
+\part[1] Halla el área de un paralelogramo cuyos lados miden 40 cm y 45 cm y forman un
+ángulo de 60°.\begin{solution} La altura mide mide $34.64$ cm y por tanto el área es $1559.0$ cm2\end{solution}
+
+\end{parts} 
+
+
+
+
+
+\end{questions}
+\end{document}
