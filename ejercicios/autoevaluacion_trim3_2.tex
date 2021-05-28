@@ -76,120 +76,60 @@
 
 %\question Representa y calcula las coordenadas de las siguientes combinaciones de $\overrightarrow{u}$ y $\overrightarrow{v}$:\begin{parts} \part[1] $2 \overrightarrow{u} - 3 \overrightarrow{v}$, $- 2 \overrightarrow{u}$, $- 2 \overrightarrow{u} - 2 \overrightarrow{v}$. Siendo $\overrightarrow{u}$ y $\overrightarrow{v}$: \\ \scalebox{.65}{\includegraphics[width=1\columnwidth]{comb_vectores_0.png}}\begin{solution} $2 \overrightarrow{u} - 3 \overrightarrow{v}$, $- 2 \overrightarrow{u}$, $- 2 \overrightarrow{u} - 2 \overrightarrow{v}$\end{solution} \end{parts}
 
-
-\question Responde a las siguientes cuestiones:\begin{parts} \part[1] Las calificaciones de un grupo de 34 alumnos han sido: 9 6 5 0 1 5 7 9 10 7 5 1 2 5 7 6 3 4 6 8 8 6 4 4 6 5 3 5 7 7 8 7 2 2. \begin{itemize} \item Realiza una tabla de frecuencias \item Realiza un diagrama de barras \item Calcular los parámetros de centralización \item Calcular los parámetros de posición P70, Q1, Q3, D4 \item Calcular los parámetros de dispersión \item Realiza un diagrama de caja. \end{itemize}\begin{solution} $\begin{tabular}{rrrrrrrrr}
+\question Responde a las siguientes cuestiones:\begin{parts} \part[1] Las calificaciones de un grupo de 34 alumnos han sido: 9 6 5 0 1 5 7 9 10 7 5 1 2 5 7 6 3 4 6 8 8 6 4 4 6 5 3 5 7 7 8 7 2 2. \begin{itemize} \item Realiza una tabla de frecuencias \item Realiza un diagrama de barras \item Calcular los parámetros de centralización \item Calcular los parámetros de posición P70, Q1, Q3 \item Calcular los parámetros de dispersión \item Realiza un diagrama de caja. \end{itemize}\begin{solution} $\begin{tabular}{rrrrrrr}
 \hline
-   $x_i$ &   $f_i$ &   $F_i$ &     $h_i$ &       $H_i$ &      \%_i &     \%A_i &   $x_if_i$ &   $x^2_if_i$ \\
+   $x_i$ &   $f_i$ &   $F_i$ &      \%_i &     \%A_i &   $x_if_i$ &   $x^2_if_i$ \\
 \hline
-       0 &       1 &       1 & 0.0294118 &   0.0294118 &   2.94118 &   2.94118 &          0 &            0 \\
-       1 &       2 &       3 & 0.0588235 &   0.0882353 &   5.88235 &   8.82353 &          2 &            2 \\
-       2 &       3 &       6 & 0.0882353 &   0.176471  &   8.82353 &  17.6471  &          6 &           12 \\
-       3 &       2 &       8 & 0.0588235 &   0.235294  &   5.88235 &  23.5294  &          6 &           18 \\
-       4 &       3 &      11 & 0.0882353 &   0.323529  &   8.82353 &  32.3529  &         12 &           48 \\
-       5 &       6 &      17 & 0.176471  &   0.5       &  17.6471  &  50       &         30 &          150 \\
-       6 &       5 &      22 & 0.147059  &   0.647059  &  14.7059  &  64.7059  &         30 &          180 \\
-       7 &       6 &      28 & 0.176471  &   0.823529  &  17.6471  &  82.3529  &         42 &          294 \\
-       8 &       3 &      31 & 0.0882353 &   0.911765  &   8.82353 &  91.1765  &         24 &          192 \\
-       9 &       2 &      33 & 0.0588235 &   0.970588  &   5.88235 &  97.0588  &         18 &          162 \\
-      10 &       1 &      34 & 0.0294118 &   1         &   2.94118 & 100       &         10 &          100 \\
-     nan &      34 &     nan & 1         & nan         & 100       & nan       &        180 &         1158 \\
+       0 &       1 &       1 &   2.94118 &   2.94118 &          0 &            0 \\
+       1 &       2 &       3 &   5.88235 &   8.82353 &          2 &            2 \\
+       2 &       3 &       6 &   8.82353 &  17.6471  &          6 &           12 \\
+       3 &       2 &       8 &   5.88235 &  23.5294  &          6 &           18 \\
+       4 &       3 &      11 &   8.82353 &  32.3529  &         12 &           48 \\
+       5 &       6 &      17 &  17.6471  &  50       &         30 &          150 \\
+       6 &       5 &      22 &  14.7059  &  64.7059  &         30 &          180 \\
+       7 &       6 &      28 &  17.6471  &  82.3529  &         42 &          294 \\
+       8 &       3 &      31 &   8.82353 &  91.1765  &         24 &          192 \\
+       9 &       2 &      33 &   5.88235 &  97.0588  &         18 &          162 \\
+      10 &       1 &      34 &   2.94118 & 100       &         10 &          100 \\
+     nan &      34 &     nan & 100       & nan       &        180 &         1158 \\
 \hline
-\end{tabular}$\\ \includegraphics[width=1\columnwidth]{diagrama_prueba0} \\ $\left\{ Me : 5.5, \  Mo : \left( [5], \  [6]\right), \  media : 5.29\right\}$ \\$\left\{ D4 : 5.0, \  P70 : 7.0, \  Q1 : 4.0, \  Q3 : 7.0\right\}$ \\$\left\{ C.V : 0.46, \  desv.tip : 2.46, \  rango : 10, \  var : 6.03\right\}$\\ \includegraphics[width=1\columnwidth]{caja_prueba0}\end{solution} \part[1] Dada la siguiente distribución de datos: 0 1 1 2 2 6 6 7 7 7 2 3 3 4 4 7 8 8 8 8 4 4 5 5 5 9 9 9 10 10. \begin{itemize} \item Realiza una tabla de frecuencias \item Realiza un diagrama de barras \item Calcular los parámetros de centralización \item Calcular los parámetros de posición P70, Q1, Q3, D4 \item Calcular los parámetros de dispersión \item Realiza un diagrama de caja. \end{itemize}\begin{solution} $\begin{tabular}{rrrrrrrrr}
+\end{tabular}$\\ \includegraphics[width=0.7\columnwidth]{diagrama_prueba0} \\ $\left\{ Me : 5.5, \  Mo : \left( [5], \  [6]\right), \  media : 5.29\right\}$ \\$\left\{ P70 : 7.0, \  Q1 : 4.0, \  Q3 : 7.0\right\}$ \\$\left\{ C.V : 0.46, \  desv.tip : 2.46, \  rango : 10, \  var : 6.03\right\}$\\ \includegraphics[width=0.7\columnwidth]{caja_prueba0}\end{solution} \part[1] Dada la siguiente distribución de datos: 0 1 1 2 2 6 6 7 7 7 2 3 3 3 4 7 8 8 8 8 4 4 5 5 5 9 9 9 10 10. \begin{itemize} \item Realiza una tabla de frecuencias \item Realiza un diagrama de barras \item Calcular los parámetros de centralización \item Calcular los parámetros de posición P70, Q1, Q3 \item Calcular los parámetros de dispersión \item Realiza un diagrama de caja. \end{itemize}\begin{solution} $\begin{tabular}{rrrrrrr}
 \hline
-   $x_i$ &   $f_i$ &   $F_i$ &     $h_i$ &       $H_i$ &      \%_i &     \%A_i &   $x_if_i$ &   $x^2_if_i$ \\
+   $x_i$ &   $f_i$ &   $F_i$ &      \%_i &     \%A_i &   $x_if_i$ &   $x^2_if_i$ \\
 \hline
-       0 &       1 &       1 & 0.0333333 &   0.0333333 &   3.33333 &   3.33333 &          0 &            0 \\
-       1 &       2 &       3 & 0.0666667 &   0.1       &   6.66667 &  10       &          2 &            2 \\
-       2 &       3 &       6 & 0.1       &   0.2       &  10       &  20       &          6 &           12 \\
-       3 &       2 &       8 & 0.0666667 &   0.266667  &   6.66667 &  26.6667  &          6 &           18 \\
-       4 &       4 &      12 & 0.133333  &   0.4       &  13.3333  &  40       &         16 &           64 \\
-       5 &       3 &      15 & 0.1       &   0.5       &  10       &  50       &         15 &           75 \\
-       6 &       2 &      17 & 0.0666667 &   0.566667  &   6.66667 &  56.6667  &         12 &           72 \\
-       7 &       4 &      21 & 0.133333  &   0.7       &  13.3333  &  70       &         28 &          196 \\
-       8 &       4 &      25 & 0.133333  &   0.833333  &  13.3333  &  83.3333  &         32 &          256 \\
-       9 &       3 &      28 & 0.1       &   0.933333  &  10       &  93.3333  &         27 &          243 \\
-      10 &       2 &      30 & 0.0666667 &   1         &   6.66667 & 100       &         20 &          200 \\
-     nan &      30 &     nan & 1         & nan         & 100       & nan       &        164 &         1138 \\
+       0 &       1 &       1 &   3.33333 &   3.33333 &          0 &            0 \\
+       1 &       2 &       3 &   6.66667 &  10       &          2 &            2 \\
+       2 &       3 &       6 &  10       &  20       &          6 &           12 \\
+       3 &       3 &       9 &  10       &  30       &          9 &           27 \\
+       4 &       3 &      12 &  10       &  40       &         12 &           48 \\
+       5 &       3 &      15 &  10       &  50       &         15 &           75 \\
+       6 &       2 &      17 &   6.66667 &  56.6667  &         12 &           72 \\
+       7 &       4 &      21 &  13.3333  &  70       &         28 &          196 \\
+       8 &       4 &      25 &  13.3333  &  83.3333  &         32 &          256 \\
+       9 &       3 &      28 &  10       &  93.3333  &         27 &          243 \\
+      10 &       2 &      30 &   6.66667 & 100       &         20 &          200 \\
+     nan &      30 &     nan & 100       & nan       &        163 &         1131 \\
 \hline
-\end{tabular}$\\ \includegraphics[width=1\columnwidth]{diagrama_prueba1} \\ $\left\{ Me : 5.5, \  Mo : \left( [4], \  [4]\right), \  media : 5.47\right\}$ \\$\left\{ D4 : 4.600000000000001, \  P70 : 7.299999999999997, \  Q1 : 3.25, \  Q3 : 8.0\right\}$ \\$\left\{ C.V : 0.52, \  desv.tip : 2.84, \  rango : 10, \  var : 8.05\right\}$\\ \includegraphics[width=1\columnwidth]{caja_prueba1}\end{solution} \end{parts} 
+\end{tabular}$\\ \includegraphics[width=0.7\columnwidth]{diagrama_prueba1} \\ $\left\{ Me : 5.5, \  Mo : \left( [7], \  [4]\right), \  media : 5.43\right\}$ \\$\left\{ P70 : 7.299999999999997, \  Q1 : 3.0, \  Q3 : 8.0\right\}$ \\$\left\{ C.V : 0.53, \  desv.tip : 2.86, \  rango : 10, \  var : 8.18\right\}$\\ \includegraphics[width=0.7\columnwidth]{caja_prueba1}\end{solution} \part[1] Se ha preguntado a los estudiantes de una clase por el número de personas que viven en casa. Los resultados son: 3 5 4 5 8 3 5 6 4 5 4 4 3 4 5 6 5 6 4 3 4 4 5 7 4 3 4 4 6 7. \begin{itemize} \item Realiza una tabla de frecuencias \item Realiza un diagrama de barras \item Calcular los parámetros de centralización \item Calcular los parámetros de posición P70, Q1, Q3 \item Calcular los parámetros de dispersión \item Realiza un diagrama de caja. \end{itemize}\begin{solution} $\begin{tabular}{rrrrrrr}
+\hline
+   $x_i$ &   $f_i$ &   $F_i$ &      \%_i &    \%A_i &   $x_if_i$ &   $x^2_if_i$ \\
+\hline
+       3 &       5 &       5 &  16.6667  &  16.6667 &         15 &           45 \\
+       4 &      11 &      16 &  36.6667  &  53.3333 &         44 &          176 \\
+       5 &       7 &      23 &  23.3333  &  76.6667 &         35 &          175 \\
+       6 &       4 &      27 &  13.3333  &  90      &         24 &          144 \\
+       7 &       2 &      29 &   6.66667 &  96.6667 &         14 &           98 \\
+       8 &       1 &      30 &   3.33333 & 100      &          8 &           64 \\
+     nan &      30 &     nan & 100       & nan      &        140 &          702 \\
+\hline
+\end{tabular}$\\ \includegraphics[width=0.7\columnwidth]{diagrama_prueba2} \\ $\left\{ Me : 4.0, \  Mo : \left( [4], \  [11]\right), \  media : 4.67\right\}$ \\$\left\{ P70 : 5.0, \  Q1 : 4.0, \  Q3 : 5.0\right\}$ \\$\left\{ C.V : 0.27, \  desv.tip : 1.27, \  rango : 5, \  var : 1.62\right\}$\\ \includegraphics[width=0.7\columnwidth]{caja_prueba2}\end{solution} \end{parts} 
 
 
  
  
-\question Las calificaciones de un grupo de 34 alumnos han sido: 9 6 5 0 1 5 7 9 10 7 5 1 2 5 7 6 3 4 6 8 8 6 4 4 6 5 3 5 7 7 8 7 2 2. 
-\begin{itemize}\item Realiza una tabla de frecuencias \item Realiza un diagrama de barras \item Calcular los parámetros de centralización \item Calcular los parámetros de posición P70, Q1, Q3, D4 \item Calcular los parámetros de dispersión \item Realiza un diagrama de caja. \end{itemize}
-\begin{solution}
-$\begin{tabular}{rrrrrrr}
-\hline
-   x\_i &   f\_i &   F\_i &       h\_i &       H\_i &      \%\_i &      \%A\_i \\
-\hline
-     0 &     1 &     1 & 0.0294118 & 0.0294118 &  2.94118 &   2.94118 \\
-     1 &     2 &     3 & 0.0588235 & 0.0882353 &  5.88235 &   8.82353 \\
-     2 &     3 &     6 & 0.0882353 & 0.176471  &  8.82353 &  17.6471  \\
-     3 &     2 &     8 & 0.0588235 & 0.235294  &  5.88235 &  23.5294  \\
-     4 &     3 &    11 & 0.0882353 & 0.323529  &  8.82353 &  32.3529  \\
-     5 &     6 &    17 & 0.176471  & 0.5       & 17.6471  &  50       \\
-     6 &     5 &    22 & 0.147059  & 0.647059  & 14.7059  &  64.7059  \\
-     7 &     6 &    28 & 0.176471  & 0.823529  & 17.6471  &  82.3529  \\
-     8 &     3 &    31 & 0.0882353 & 0.911765  &  8.82353 &  91.1765  \\
-     9 &     2 &    33 & 0.0588235 & 0.970588  &  5.88235 &  97.0588  \\
-    10 &     1 &    34 & 0.0294118 & 1         &  2.94118 & 100       \\
-\hline
-\end{tabular}$\\ \includegraphics[width=1\columnwidth]{diagrama0} \\ $\left\{ Me : 5.5, \  Mo : \left( [5], \  [6]\right), \  media : 5.29\right\}$ \\$\left\{ D4 : 5.0, \  P70 : 7.0, \  Q1 : 4.0, \  Q3 : 7.0\right\}$ \\$\left\{ C.V : 0.46, \  desv.tip : 2.46, \  rango : 10, \  var : 6.03\right\}$
-\end{solution}
 
 
-\question Calcula el punto medio del segmento que une los puntos:
-\begin{multicols}{3}
-\begin{parts} \part[1] $A\left( -5, \  1\right) y \ B\left( 3, \  7\right)$ \begin{solution} $M\left( -1, \  4\right)$\end{solution} \part[1] $A\left( 4, \  -1\right) y \ B\left( -2, \  -4\right)$ \begin{solution} $M\left( 1, \  - \frac{5}{2}\right)$\end{solution} \part[1] $A\left( 1, \  -5\right) y \ B\left( 5, \  -3\right)$ \begin{solution} $M\left( 3, \  -4\right)$\end{solution} \end{parts} 
-\end{multicols}
 
-\question Halla el valor de z para que los puntos A  , B    y C estén alineados. Siendo:
-\begin{multicols}{3}
-\begin{parts} \part[1] $A\left( 1, \  -2\right)$, $B \left( 3, \  1\right)$ y $C\left( 4, \  z\right)$ \begin{solution} $Point2D\left(2, 3\right)\parallel Point2D\left(3, z + 2\right) \to z=\left[ \frac{5}{2}\right]$\end{solution} \part[1] $A\left( 2, \  -4\right)$, $B \left( 5, \  3\right)$ y $C\left( 6, \  z\right)$ \begin{solution} $Point2D\left(3, 7\right)\parallel Point2D\left(4, z + 4\right) \to z=\left[ \frac{16}{3}\right]$\end{solution} \part[1] $A\left( 5, \  4\right)$, $B \left( -5, \  -2\right)$ y $C\left( 1, \  z\right)$ \begin{solution} $Point2D\left(-10, -6\right)\parallel Point2D\left(-4, z - 4\right) \to z=\left[ \frac{8}{5}\right]$\end{solution} \end{parts} 
-\end{multicols}
-
-
-\question Calcula el punto simétrico:
-\begin{multicols}{2}
-\begin{parts} \part[1] De $A\left( 7, \  6\right)$ respecto  de  $M\left( 2, \  1\right)$ \begin{solution} $Point2D\left(\dfrac{x}{2} + \dfrac{7}{2}, \dfrac{y}{2} + 3\right) = Point2D\left(2, 1\right)\to A'\left(-3,-4\right)$\end{solution} \part[1] De $A\left( 5, \  -3\right)$ respecto  de  $M\left( 1, \  3\right)$ \begin{solution} $Point2D\left(\dfrac{x}{2} + \dfrac{5}{2}, \dfrac{y}{2} - \dfrac{3}{2}\right) = Point2D\left(1, 3\right)\to A'\left(-3,9\right)$\end{solution} \part[1] De $A\left( 6, \  -5\right)$ respecto  de  $M\left( -3, \  2\right)$ \begin{solution} $Point2D\left(\dfrac{x}{2} + 3, \dfrac{y}{2} - \dfrac{5}{2}\right) = Point2D\left(-3, 2\right)\to A'\left(-12,9\right)$\end{solution} \part[1] De $A\left( -6, \  -2\right)$ respecto  de  $M\left( 4, \  1\right)$ \begin{solution} $Point2D\left(\dfrac{x}{2} - 3, \dfrac{y}{2} - 1\right) = Point2D\left(4, 1\right)\to A'\left(14,4\right)$\end{solution} \end{parts}
-\end{multicols}
-
-\question Halla las coordenadas del punto D, de modo que ABCD sea un paralelogramo siendo\begin{parts} \part[1] Siendo $A$, $B$ y $C$ respectivamente: $\left( 2, \  -3\right) $, $\left( 0, \  1\right) $, $\left( 4, \  3\right)$\begin{solution} $\overrightarrow{AB} = \overrightarrow{DC} \to Point2D\left(-2, 4\right) = Point2D\left(4 - x, 3 - y\right) \to D\left( 6, \  -1\right)$\end{solution} \part[1] Siendo $A$, $B$ y $C$ respectivamente: $\left( 1, \  -1\right) $, $\left( 1, \  1\right) $, $\left( 2, \  3\right)$\begin{solution} $\overrightarrow{AB} = \overrightarrow{DC} \to Point2D\left(0, 2\right) = Point2D\left(2 - x, 3 - y\right) \to D\left( 2, \  1\right)$\end{solution} 
-%\part[1] Siendo $A$, $B$ y $C$ respectivamente: $\left( -2, \  -3\right) $, $\left( -2, \  2\right) $, $\left( 5, \  4\right)$\begin{solution} $\overrightarrow{AB} = \overrightarrow{DC} \to Point2D\left(0, 5\right) = Point2D\left(5 - x, 4 - y\right) \to D\left( 5, \  -1\right)$\end{solution} 
-\end{parts} 
-
-\question Escribe las ecuaciones vectorial, paramétricas, en forma continua y explícita de la recta que:\begin{parts} \part[1] Pasa por el punto $P$ y tiene por vector dirección $\overrightarrow{d}$ respectivamente: $\left( 3, \  -1\right) $, $\left( -2, \  5\right)$\begin{solution} Solución orientativa: $Point2D\left(x, y\right) = Point2D\left(3 - 2 t, 5 t - 1\right) \to - 5 x - 2 y + 13 = 0 \to y = \dfrac{13}{2} - \dfrac{5 x}{2}$\end{solution} \part[1] Pasa por el punto $P$ y tiene por vector dirección $\overrightarrow{d}$ respectivamente: $\left( 1, \  -3\right) $, $\left( 3, \  -2\right)$\begin{solution} Solución orientativa: $Point2D\left(x, y\right) = Point2D\left(3 t + 1, - 2 t - 3\right) \to 2 x + 3 y + 7 = 0 \to y = - \dfrac{2 x}{3} - \dfrac{7}{3}$\end{solution} \part[1] Pasa por el punto $P$ y tiene por vector dirección $\overrightarrow{d}$ respectivamente: $\left( 2, \  3\right) $, $\left( -3, \  5\right)$\begin{solution} Solución orientativa: $Point2D\left(x, y\right) = Point2D\left(2 - 3 t, 5 t + 3\right) \to - 5 x - 3 y + 19 = 0 \to y = \dfrac{19}{3} - \dfrac{5 x}{3}$\end{solution} \end{parts}
-
-\question Escribe las ecuaciones vectorial, paramétricas, en forma continua y explícita de la recta que:\begin{parts} \part[1] Pasa por los puntos $P$ y $Q$ respectivamente: $\left( 2, \  -1\right) $, $\left( -2, \  5\right)$\begin{solution} Solución orientativa: $Point2D\left(x, y\right) = Point2D\left(2 - 4 t, 6 t - 1\right) \to - 6 x - 4 y + 8 = 0 \to y = 2 - \dfrac{3 x}{2}$\end{solution} \part[1] Pasa por los puntos $P$ y $Q$ respectivamente: $\left( 2, \  -3\right) $, $\left( 3, \  -2\right)$\begin{solution} Solución orientativa: $Point2D\left(x, y\right) = Point2D\left(t + 2, t - 3\right) \to - x + y + 5 = 0 \to y = x - 5$\end{solution} 
-%\part[1] Pasa por los puntos $P$ y $Q$ respectivamente: $\left( -4, \  3\right) $, $\left( -3, \  5\right)$\begin{solution} Solución orientativa: $Point2D\left(x, y\right) = Point2D\left(t - 4, 2 t + 3\right) \to - 2 x + y - 11 = 0 \to y = 2 x + 11$\end{solution} 
-\end{parts} 
-
-\question Calcula la recta $s$ que:
-%\begin{multicols}{2}
-\begin{parts} \part[1] pasa por P$\left( 3, \  1\right)$ y es paralela a $r \equiv 4 x - 2 y + 1 = 0$\begin{solution} $s\equiv y = 2 x - 5$\end{solution} \part[1] pasa por P$\left( -1, \  2\right)$ y es paralela a $r \equiv 2 x - 3 y + 1 = 0$\begin{solution} $s\equiv y = \dfrac{2 x}{3} + \dfrac{8}{3}$\end{solution} \end{parts} 
-%\end{multicols}
-
-\question Calcula la recta $s$ que:\begin{parts} \part[1] pasa por P$\left( -1, \  2\right)$ y es perpendicular a $\overrightarrow{v}\left( -2, \  1\right)$\begin{solution} $s\equiv 2 x - y + 4 = 0$\end{solution} \part[1] pasa por P$\left( 1, \  -2\right)$ y es perpendicular a $\overrightarrow{v}\left( 5, \  -4\right)$\begin{solution} $s\equiv - 5 x + 4 y + 13 = 0$\end{solution} \part[1] pasa por P$\left( 1, \  -2\right)$ y es perpendicular a $\overrightarrow{v}\left( -1, \  0\right)$\begin{solution} $s\equiv x - 1 = 0$\end{solution} \end{parts}
-
-\question Calcula la recta $s$ que:
-\begin{multicols}{2}
-\begin{parts} \part[1] pasa por P$\left( 3, \  1\right)$ y es perpendicular a $r \equiv 4 x - 2 y + 1 = 0$\begin{solution} $s\equiv y = \dfrac{5}{2} - \dfrac{x}{2}$\end{solution} \part[1] pasa por P$\left( -1, \  2\right)$ y es perpendicular a $r \equiv 2 x - 3 y + 1 = 0$\begin{solution} $s\equiv y = \dfrac{1}{2} - \dfrac{3 x}{2}$\end{solution} \end{parts} 
-\end{multicols}
-
-\question Obtén las ecuaciones de las rectas $r$ y $s$ y su punto de intersección sabiendo que:
-\begin{multicols}{2}
-\begin{parts} \part[1] r pasa por $\left( 1, \  -2\right)$ y es perpendicular a $6 x - 3 y + 6 = 0$. Y s pasa por $\left( 3, \  1\right)$ y es paralela a $2 x + y - 7= 0$\begin{solution} Solución: \\ $r\equiv y = - \dfrac{x}{2} - \dfrac{3}{2}$ \\ $s\equiv y = 7 - 2 x\to  $$\left[ Point2D\left(\dfrac{17}{3}, - \dfrac{13}{3}\right)\right] $ \end{solution} \part[1] r pasa por $\left( 1, \  3\right)$ y es perpendicular a $4 x - 2 y + 1 = 0$. Y s pasa por $\left( 3, \  1\right)$ y es paralela a $2 x + y - 3= 0$\begin{solution} Solución: \\ $r\equiv y = \dfrac{7}{2} - \dfrac{x}{2}$ \\ $s\equiv y = 7 - 2 x\to  $$\left[ Point2D\left(\dfrac{7}{3}, \dfrac{7}{3}\right)\right] $ \end{solution} \end{parts}
-\end{multicols} 
-
-\question Calcula la distancia entre $P$ y $Q$ siendo:
-\begin{multicols}{2}
-\begin{parts} \part[1] Siendo $P\left( -2, \  0\right)$ y $Q\left( 12, \  0\right)$\begin{solution} $dist(P,Q)=|Point2D\left(14, 0\right)|=14$\end{solution} \part[1] Siendo $P\left( -1, \  1\right)$ y $Q\left( 3, \  1\right)$\begin{solution} $dist(P,Q)=|Point2D\left(4, 0\right)|=4$\end{solution} 
-%\part[1] Siendo $P\left( -2, \  2\right)$ y $Q\left( 3, \  -4\right)$\begin{solution} $dist(P,Q)=|Point2D\left(5, -6\right)|=\sqrt{61}$\end{solution} 
-\end{parts}
-\end{multicols}
-
-\question Calcula el perímetro del triángulo de vértices $A$, $B$ y $C$ siendo:\begin{parts} \part[1] Siendo $A\left( -2, \  1\right)$, $B\left( 4, \  1\right)$ y $C\left( -1, \  -2\right)$\begin{solution} Los lados miden $6$, $\sqrt{10}$ y $\sqrt{34}\to$ Perímetro $ \approx14.99$\end{solution} \end{parts}
 
 \end{questions}
 
