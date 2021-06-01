@@ -1,0 +1,490 @@
+
+\documentclass[spanish, 11pt]{exam}
+
+%These tell TeX which packages to use.
+\usepackage{array,epsfig}
+\usepackage{amsmath, textcomp}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsxtra}
+\usepackage{amsthm}
+\usepackage{mathrsfs}
+\usepackage{color}
+\usepackage{multicol, xparse}
+\usepackage{verbatim}
+\usepackage{pgf,tikz}
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{eurosym}
+
+\usepackage{graphicx}
+\graphicspath{{../img/}}
+
+
+
+\printanswers
+\nopointsinmargin
+\pointformat{}
+
+%Pagination stuff.
+%\setlength{\topmargin}{-.3 in}
+%\setlength{\oddsidemargin}{0in}
+%\setlength{\evensidemargin}{0in}
+%\setlength{\textheight}{9.in}
+%\setlength{\textwidth}{6.5in}
+%\pagestyle{empty}
+
+\let\multicolmulticols\multicols
+\let\endmulticolmulticols\endmulticols
+\RenewDocumentEnvironment{multicols}{mO{}}
+ {%
+  \ifnum#1=1
+    #2%
+  \else % More than 1 column
+    \multicolmulticols{#1}[#2]
+  \fi
+ }
+ {%
+  \ifnum#1=1
+  \else % More than 1 column
+    \endmulticolmulticols
+  \fi
+ }
+\renewcommand{\solutiontitle}{\noindent\textbf{Sol:}\enspace}
+
+\newcommand{\samedir}{\mathbin{\!/\mkern-5mu/\!}}
+
+\newcommand{\class}{4º ESO}
+\newcommand{\examdate}{\today}
+
+\newcommand{\tipo}{A}
+
+
+\newcommand{\timelimit}{50 minutos}
+
+
+
+\pagestyle{head}
+\firstpageheader{\includegraphics[width=0.2\columnwidth]{header_left}}{\textbf{Departamento de Matemáticas\linebreak \class}\linebreak \examnum}{\includegraphics[width=0.1\columnwidth]{header_right}}
+\runningheader{\class}{\examnum}{Página \thepage\ of \numpages}
+\runningheadrule
+
+\newcommand{\examnum}{Preparación Estraordinaria}
+
+\DeclareUnicodeCharacter{2212}{-}
+\begin{document}
+\begin{questions}
+
+\section*{1ª Evaluación}   
+
+    \question Calcula la Unión y la Intersección de los siguientes conjuntos (da el resultado en forma de intervalo y de desigualdad):
+        \begin{multicols}{1} 
+        \begin{parts} \part[1] $A=\left[2, 10\right)$ y $B=\left(7, 12\right)$  \begin{solution}   Unión: \\ $A\cup B=\left[2, 12\right)$ ó $A\cup B= \{x|2 \leq x  < 12\}$ \\Intersección: \\ $A\cap B =\left(7, 10\right)$ ó $A\cap B=\{x|7 < x < 10\}$ \end{solution} 
+        \end{parts}
+        \end{multicols}
+        
+        \question Opera las siguientes potencias con variables::
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $(\dfrac{8p^5d^2}{3q})^3\cdot(\dfrac{12p^4q^3}{32d})^4$  \begin{solution}   $\dfrac{3 d^{2} p^{31} q^{9}}{8}$  \end{solution} 
+        \part[1]  $(\dfrac{12a^6b^4}{36c})^2\cdot(\dfrac{4a^6b^3}{12c})^3$  \begin{solution}  $\dfrac{a^{30} b^{17}}{243 c^{5}}$  \end{solution} 
+        \end{parts}
+        \end{multicols}
+        \question Opera en notación científica:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $\dfrac{50000000\cdot12000\cdot0.00002\cdot0.0001}{400000\cdot0.00003}$  \begin{solution}  $1\cdot 10^{2}$  \end{solution} \part[1] $\dfrac{36000000\cdot1000000\cdot0.00002\cdot0.0001}{900000\cdot0.00004}$  \begin{solution}  $2\cdot 10^{3}$  \end{solution} 
+        \end{parts}
+        \end{multicols}
+        \question Opera y simplifica:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $\sqrt[4]{\dfrac{49}{4}\sqrt[3]{\dfrac{4}{49}}}$  \begin{solution}  $\sqrt[3]{\dfrac{7}{2}}$  \end{solution} \part[1]  $ 3\sqrt{20}-3\sqrt{80}+7\sqrt{125}-2\sqrt{5}$  \begin{solution}  $27 \sqrt{5}$  \end{solution}
+        \part[1]  $\sqrt{148}\cdot2\sqrt{16}$  \begin{solution}  $16 \sqrt{37}$  \end{solution} \part[1]  $\dfrac{1}{4}\sqrt {3125}  - 4\sqrt {20}  -\dfrac{3}{4}\sqrt {45} $  \begin{solution}  $ - 4 \sqrt{5} $  \end{solution}
+        \part[1]  $ 2\sqrt {3125}  + 3\sqrt {20}  - 12\sqrt {45} $  \begin{solution}  $ 20 \sqrt{5} $  \end{solution} \part[1] $\sqrt{\dfrac{1}{2}}+\sqrt{8}$   \begin{solution} $\dfrac{5 \sqrt{2}}{2}$   \end{solution}
+        \part[1] $(2+x)\cdot\sqrt{\dfrac{2-x}{2+x}}$   \begin{solution} $\sqrt{4-x^2}$   \end{solution}
+        \part[1]  $\sqrt[3]{\dfrac{x}{2}\sqrt{\dfrac{2}{x}}}$   \begin{solution} $\sqrt[6]{\dfrac{x}{2}}$   \end{solution}
+        \end{parts}
+        \end{multicols}
+        \question Calcula aplicando la definición de logaritmo:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  $\log_3{81}$  \begin{solution}  $4$  \end{solution} \part[1]  $\log_2{0.25}$  \begin{solution}  $-2$  \end{solution} \part[1] $\log_3{1/27}$  \begin{solution}  $-3$  \end{solution} \part[1]  $\log_9{3}$  \begin{solution}  $\dfrac{1}{2}$  \end{solution} 
+        \part[1]   $\log_{0.5}{1/16}$  \begin{solution}  $4$  \end{solution} 
+        \part[1]  $\log_{0.5}{16}$  \begin{solution}  $-4$  \end{solution} 
+        \part[1] $\log_2\dfrac{1}{4} -  \log_5 0.2 +\log_4\dfrac{1}{16} - \log_2 0.5$  \begin{solution}  $\log_2\dfrac{1}{4} -  \log_5 0.2 +\log_4\dfrac{1}{16} - \log_2 0.5= (-2.0 )+( 1.0 )+( -2.0 )+( 1.0)=-2.0$  \end{solution} 
+        
+        \end{parts}
+        \end{multicols}
+        \question Calcula utilizando las propiedades de los logaritmos:
+        \begin{multicols}{1} 
+        \begin{parts} \part[1]  Sabiendo que $\log x=2$ y $\log y=-1$, calcula 
+        $$\log (\dfrac{100\cdot x^2}{\sqrt{x\cdot y}})$$  
+        \begin{solution}  $\log (\dfrac{100\cdot x^2}{\sqrt{x\cdot y}})=\dfrac{3 \log{\left (x \right )}}{2} -\dfrac{\log{\left (y \right )}}{2} + 2=2 -\dfrac{-1}{2} +\dfrac{3 \cdot 2}{2}=\dfrac{11}{2}$  \end{solution}         \end{parts}
+        \end{multicols}
+        
+        \question Calcular:
+            \begin{multicols}{1}
+            \begin{parts}
+            \part[] ${\log _2}{2^3 \cdot 2^5}$ \begin{solution} $ {\log _2}{2^3\cdot2^5} = {\log _2}{2^8} = 8 \cdot \log _2 2 = 8$ \end{solution}
+            \part[] ${\log _5}{5^2\cdot5^3} $ \begin{solution} ${\log _5}{5^2\cdot5^3} = \log _5 {5^5} = 5\cdot \log _5 5 = 5$ \end{solution}
+            \part[] ${\log _{{\raise0.7ex\hbox{$1$} \!\mathord{\left/
+             {\vphantom {1 5}}\right.\kern-\nulldelimiterspace}
+            \!\lower0.7ex\hbox{$5$}}}}{5^4}$ \begin{solution} ${\log _{{\raise0.7ex\hbox{$1$} \!\mathord{\left/
+             {\vphantom {1 5}}\right.\kern-\nulldelimiterspace}
+            \!\lower0.7ex\hbox{$5$}}}}{5^4} = 4{\log _{{\raise0.7ex\hbox{$1$} \!\mathord{\left/
+             {\vphantom {1 5}}\right.\kern-\nulldelimiterspace}
+            \!\lower0.7ex\hbox{$5$}}}}5 = 4\frac{{{{\log }_5}5}}{{{{\log }_5}\frac{1}{5}}} = 4\frac{1}{{{{\log }_5}1 - {{\log }_5}5}} = \frac{4}{{0 - 1}} =  - 4$ \end{solution}
+            \end{parts}
+            
+        \question Escribe las siguientes expresiones como el logaritmo de una sola expresión, lo más simple posible:
+            \begin{parts}
+            \part[] $\log a + 2\log b - \frac{3}{2}\log c + \frac{5}{2}\log d $ \begin{solution} $\log a + 2\log b - \frac{3}{2}\log c + \frac{5}{2}\log d = \log {a^3} + \log {b^2} - \log {c^{{\raise0.7ex\hbox{$3$} \!\mathord{\left/
+             {\vphantom {3 2}}\right.\kern-\nulldelimiterspace}
+            \!\lower0.7ex\hbox{$2$}}}} + \log {d^{\frac{5}{2}}} = \log \frac{{{a^3}{b^2}}}{{{c^{{\raise0.7ex\hbox{$3$} \!\mathord{\left/
+             {\vphantom {3 2}}\right.\kern-\nulldelimiterspace}
+            \!\lower0.7ex\hbox{$2$}}}}}} + \log {d^{\frac{5}{2}}} =  \hfill \\
+               = \log (\frac{{{a^3}{b^2}}}{{c\sqrt c }} \cdot \sqrt[2]{{{d^5}}}) = \log \frac{{{a^2}{b^2}{d^2}\sqrt d }}{{c\sqrt c }}$ \end{solution}
+            \part[] $\frac{1}{2}\log \left( {{x^2} + 4} \right) + \frac{1}{2}\log \left( {x + 3} \right) + \frac{1}{2}\log \left( {x - 3} \right)$ \begin{solution} $\frac{1}{2}\log \left( {{x^2} + 4} \right) + \frac{1}{2}\log \left( {x + 3} \right) + \frac{1}{2}\log \left( {x - 3} \right) = \log \sqrt {{x^2} + 4}  + \log \sqrt {x + 3}  + \log \sqrt {x - 3}  =  \hfill \\
+               = \log \sqrt {\left( {{x^2} + 4} \right)\left( {x + 3} \right)\left( {x - 3} \right)}  = \log \sqrt {\left( {{x^2} + 4} \right)\left( {{x^2} - 9} \right)}  = \log \sqrt {{x^4} - 5{x^2} - 36}$ \end{solution}
+            \end{parts}
+            
+            \question Calcula los siguientes logaritmos:
+            \begin{parts}
+            \part[] $\log _9 \frac{1}{\sqrt[5]{3}} + log _{0.5}\sqrt{128}-log_{32}\frac{1}{\sqrt{8}}$ \begin{solution} $ -\frac{33}{10}$ \end{solution}
+            \part[] $3\cdot \log _4 \sqrt{512} +2 \cdot \log _8 0.25 - 8\cdot log _9 \frac{1}{\sqrt[4]{3}}+ 3\cdot \log \sqrt{0.00001}$ \begin{solution} $-\frac{13}{12}$ \end{solution}
+            \part[] $\frac{1}{2}\cdot \log_8\sqrt[3]{0,25}+2\log_{25}\frac{1}{5}-\log_{81}3-\log_{49}\sqrt{7\sqrt[3]{7}}$ \begin{solution} $-\frac{61}{36}$ \end{solution}
+            \end{parts}
+
+\end{multicols}
+
+
+\section*{2ª Evaluación} 
+
+    \question Halla el valor de k para que:
+    \begin{multicols}{2}
+    \begin{parts}
+    \part[] ${x^2} + kx + 6$ sea divisible por $x - 2$ \begin{solution} $k=-5$ \end{solution}
+    \part[] $5{x^4} + k{x^3} + 2x - 3$ tenga como factor $x + 1$ \begin{solution} $k=0$ \end{solution}
+    \part[] $\left( {{x^5} - {x^4} + x + 3k} \right)$ : $\left( {x - 2} \right)$ tenga como resto $5$ \begin{solution} $k=-\frac{13}{3}$ \end{solution}
+    \end{parts}
+    \end{multicols}
+    
+    	
+    \question Halla el resto de la división del polinomio $P(x) = {x^4} - 2{x^3} + 4x - 5$ entre $x + 2$ . Calcula $P(-2)$ aplicando el teorema del resto.
+    \begin{solution} Resto: $19$ \end{solution}
+    
+    \question Factoriza los siguientes polinomios, diciendo también sus raíces:
+    \begin{multicols}{2}
+    \begin{parts}
+    \part[] $P\left( x \right) = 8{x^4} - 6{x^3} - 5{x^2} + 3x$ \begin{solution} $8x\left(x-1\right)\left(x-\frac{1}{2}\right)\left(x+\frac{3}{4}\right)=$ \\
+    $=x\left(x-1\right)\left(2x-1\right)\left(4x+3\right)$ \end{solution}
+    \part[] $P\left( x \right) = {x^4} + {x^3} + 3{x^2} + 5x - 10$ \begin{solution} $=\left(x-1\right)\left(x^3+2x^2+5x+10\right)=\left(x-1\right)\left(x+2\right)\left(x^2+5\right)$ \end{solution}
+    \part[] $P(x) = 2{x^3} - 2{x^2} - 8x + 8$ \begin{solution} $=2\left(x-1\right)\left(x^2-4\right)=2\left(x-1\right)\left(x+2\right)\left(x-2\right) $ \end{solution}
+    \part[] $P(x) = 6{x^3} + 11{x^2} - 3x - 2$ \begin{solution} $=\left(x+2\right)\left(6x^2-x-1\right)=6\left(x+2\right)\left(x-\frac{1}{2}\right)\left(x+\frac{1}{3}\right)=\left(x+2\right)\left(2x-1\right)\left(3x+1\right)$ \end{solution}
+    \end{parts}
+    \end{multicols}
+    
+    \question Simplifica las siguientes fracciones algebraicas (recuerda que antes hay que factorizar, en caso de que no lo esté):
+    \begin{multicols}{3}
+    \begin{parts}
+    \part[] $$\frac{{x{{\left( {x + 2} \right)}^2}{{\left( {x - 3} \right)}^2}\left( {x - 1} \right)}}{{{x^2}{{\left( {x + 2} \right)}^3}\left( {x - 3} \right)\left( {x - 1} \right)}}$$ \begin{solution} $=\frac{{{\left( {x - 3} \right)}}}{{{x}{\left( {x + 2} \right)}}}$ \end{solution}
+    \part[] $$\frac{{12{x^2} - 12xy}}{{12xy - 12{y^2}}}$$ \begin{solution} $=\frac{12x\left(x - y\right)}{12y\left(x-y\right)}=\frac{x}{y} $ \end{solution}
+    \part[] $$\frac{{{a^2} - ab}}{{{a^4} - {a^2}{b^2}}}$$ \begin{solution} $=\frac{a\left(a-b\right)}{a^2\left(a^2-b^2\right)}=\frac{\left(a-b\right)}{a\left(a+b\right)\left(a-b\right)}=\frac{1}{a\left(a+b\right)}$ \end{solution}
+    \part[] $$\frac{{2{x^4} + 2{x^3} + 2{x^2} + 2x}}{{4{x^2} + 8x + 4}}$$ \begin{solution} $=\frac{2x\left(x^3+x^2+x+1\right)}{4\left(x+1\right)^2}=\frac{2x\left(x+1\right)\left(x^2+1\right)}{4\left(x+1\right)^2}=\frac{x\left(x^2+1\right)}{2\left(x+1\right)}$ \end{solution}
+    \end{parts}
+    \end{multicols}
+    
+    \question Halla el \textit{m.c.m} y \textit{m.c.d} de los siguientes polinomios:
+    \begin{parts}
+    \part[] $P(x) = {x^2} - 4$, $Q(x) = {x^4} + 9{x^3} + 30{x^2}$  y  $R(x) = {x^2} + 4x + 4$ \begin{solution} $P(x)=(x+2)(x-2)$, $Q(x)=x^2(x^2+9x+30)$, $R(x)=(x+2)^2$ \\
+    $m.c.m(P,Q,R)=x^2(x-2)(x+2)^2(x^2+9x+30)$\\
+    $M.C.D(P,Q,R)=1$ \end{solution}
+    \part[] $P(x) = 2{x^2} + 2x$  y  $L(x) = {x^3} - {x^2} - x + 1$  \begin{solution} $P(x)=2x(x+1)$, $L(x)=(x-1)(x^2-1)=(x-1)^2(x+1)$ \\  
+    $m.c.m(P,L)=2x(x-1)^2(x+1)$\\
+    $M.C.D(P,L)=(x+1)$ 
+    \end{solution}
+    \end{parts}
+    
+    
+    \question Opera y simplifica:
+    \begin{multicols}{3}
+    
+    \begin{parts}
+    \part[] $$\frac{x}{{x - 2}} - \frac{x}{{x - 1}} - \frac{x}{{{x^2} - 3x + 2}}$$ \begin{solution} $=\frac{x(x-1)-x(x-2)-x}{(x-1)(x-2)}=\frac{x^2-x-x^2+2x-x}{(x-1)(x-2)}=\frac{0}{(x-1)(x-2)}=0$ \end{solution}
+    \part[] $$\frac{1}{{{x^2} - x}} + \frac{{2x - 1}}{{x - 1}} - \frac{{3x - 1}}{x}$$ \begin{solution} $=\frac{1+(2x^2-x)-(3x-1)(x-1)}{x(x-1)}=\frac{1+2x^2-x-3x^2+4x-1}{x(x-1)}=\frac{-x^2-3x}{x(x-1)})\frac{-x(x+3)}{x(x-1)}=-\frac{x+3}{x-1}$ \end{solution}
+    \part[] $$\frac{{2{x^3} - 5{x^2} + 3x}}{{2{x^2} + x - 6}}$$ \begin{solution} $\frac{x(2x-3)(x-1)}{(x+2)(2x-3)}=\frac{x(x-1)}{x+2}$ \end{solution}
+    \part[] $$\frac{{3{x^3} - 3x}}{{{x^5} - x}}$$ \begin{solution} $=\frac{3x(x+1)(x-1)}{x(x^2+1)(x+1)(x-1)}=\frac{3}{x^2+1}$ \end{solution}
+    \part[] $$\left( {\frac{1}{x} + x} \right)\left( {1 - \frac{1}{{x + 1}}} \right)$$ \begin{solution} $=\frac{x^2+1}{x}\cdot\frac{x}{x+1}=\frac{x^2+1}{x+1}$ \end{solution}
+    \part[] $$1 + \frac{1}{{2x - 1}} - \frac{{2x}}{{4{x^2} - 1}}$$ \begin{solution} $\frac{4 x^{2}}{4 x^{2} - 1}$
+    \end{solution}
+    \end{parts}
+    \end{multicols}
+    
+    \question Resuelve las siguientes inecuaciones:
+        \begin{multicols}{2} 
+        \begin{parts} \part[1]  $x\cdot(x+3) - 2x > 4x + 4$  \begin{solution}  $\left(-\infty, -1\right) \cup \left(4, \infty\right)$  \end{solution} 
+        \part[1] $2x^2 - 4x - 6 > 0$  \begin{solution}  $\left(-\infty, -1\right) \cup \left(3, \infty\right)$  \end{solution}
+        \part[] $x^4 + 2x^2 - 3x < 0$
+        \begin{solution}
+        $\left(0, 1\right)$
+        \end{solution}
+        \part[] $- x^{5} + 2x \leq x$
+        \begin{solution}
+        $\left[-1, 0\right] \cup \left[1, \infty\right)$
+        \end{solution}
+        \part[1] $\frac{x^{2} - 3 x + 2}{x^{2} - 1} \leq 0$
+        \begin{solution}
+        $\left(-1, 1\right) \cup \left(1, 2\right]$
+        \end{solution}
+        \part[1] $\frac{x^{2} + x - 2}{x^{2} - 4} \geq  0 $
+        \begin{solution}
+        $\left(-\infty, -2\right) \cup \left(-2, 1\right] \cup \left(2, \infty\right)$
+        \end{solution}
+        \part[1] $\frac{x^{2} - 3 x + 2}{x^{2} + x - 2} \leq 0$
+        \begin{solution}
+        $\left(-2, 1\right) \cup \left(1, 2\right]$
+        \end{solution}
+        \part[1] $| {3x - 4} | \leq 9$
+        \begin{solution}
+        $\left[- \frac{5}{3}, \frac{13}{3}\right]$
+        \end{solution}
+        \part[1] $| {4x + 3} |> 1$
+        \begin{solution}
+        $\left(-\infty, -1\right) \cup \left(- \frac{1}{2}, \infty\right)$
+        \end{solution}
+        \part[1] $| {3 - 8x} | \geq 4$
+        \begin{solution}
+        $\left(-\infty, - \frac{1}{8}\right] \cup \left[\frac{7}{8}, \infty\right)$
+        \end{solution}
+        \end{parts}
+        \end{multicols}
+
+    \question Resuelve los siguientes sistemas de inecuaciones:
+        \begin{multicols}{2} 
+        \begin{parts} \part $\left\{\begin{matrix}2x + 8 > 0 \\ x + \frac{1}{2} \geq \frac{x}{3}\end{matrix}\right.$ \begin{solution}$\left[- \frac{3}{4}, \infty\right)$\end{solution}  \part $\left\{\begin{matrix}\frac{x}{3} - \frac{x}{2} \leq 1 \\ {( {x + 1} )^2} - {x^2} \geq 1\end{matrix}\right.$  \begin{solution}$\left[0, \infty\right)$\end{solution}  \part $\left\{\begin{matrix}\frac{{x - 4}}{2} - \frac{{x - 2}}{3} \leq 12 \\  \frac{x}{3} - \frac{x}{2} \geq 6\end{matrix}\right.$  \begin{solution}$\left(-\infty, -36\right]$\end{solution}  \part $\left\{\begin{matrix}2x + 6 > 8 \\ x + \frac{1}{3} \leq \frac{x}{2}\end{matrix}\right.$  \begin{solution}$\emptyset$\end{solution}
+        \end{parts}
+        \end{multicols}
+        
+        
+    \question Resuelve los siguientes sistemas de inecuaciones con dos incógnitas:
+\begin{multicols}{2}
+\begin{parts}
+\part[1] $\left\{\begin{matrix}2x+y \leq 6 \\ -3x+4y > 2\end{matrix}\right.$
+\begin{solution} \\
+\scalebox{.99}{\includegraphics[width=1\columnwidth]{sistema_ine_4.png}}
+\end{solution}
+\part[1] $\left\{\begin{matrix}3x+2y \leq 4 \\ 6x-y > 6 \\ y>-2 \\ x>0\end{matrix}\right.$
+\begin{solution} \\
+\scalebox{.99}{\includegraphics[width=1\columnwidth]{sistema_ine_5.png}}
+\end{solution}
+\end{parts}
+\end{multicols}
+        
+        
+        \question Resuelve los siguientes sistemas no lineales
+        \begin{multicols}{3}
+        \begin{parts}
+        \part $\left\{\begin{matrix}x^2+y^2=625 \\ x + y = 35\end{matrix}\right.$
+        \begin{solution}
+            $ \to \left[ \left\{ x = 15, \  y = 20\right\}, \  \left\{ x = 20, \  y = 15\right\}\right]$
+        \end{solution}
+        \part $\left\{\begin{matrix}3xy-4y^2=0 \\ 3x-2y=1\end{matrix}\right. $
+        \begin{solution}
+            $ \to \left[ \left\{ x = \frac{1}{3}, \  y = 0\right\}, \  \left\{ x = \frac{2}{3}, \  y = \frac{1}{2}\right\}\right]$
+        \end{solution}
+        \part $\left\{\begin{matrix}x^2 + y^2 = 25 \\ xy+12=0\end{matrix}\right. $
+        \begin{solution}
+            $ \to \left[ \left\{ x = -4, \  y = 3\right\}, \  \left\{ x = -3, \  y = 4\right\}, \  \left\{ x = 3, \  y = -4\right\}, \  \left\{ x = 4, \  y = -3\right\}\right]$
+        \end{solution}
+        \part  $\left\{\begin{matrix}\sqrt{x-2}+y=3 \\ -5+2x=x-y\end{matrix}\right. $
+        \begin{solution}
+            $ \to \left[ \left\{ x = 2, \  y = 3\right\}, \  \left\{ x = 3, \  y = 2\right\}\right]$    
+        \end{solution}
+        \part $\left\{\begin{matrix}3y-x=1 \\ \frac{1}{x}-\frac{1}{y}=-\frac{1}{2}\end{matrix}\right. $
+        \begin{solution}
+            $ \to \left[ \left\{ x = 1, \  y = \frac{2}{3}\right\}, \  \left\{ x = 2, \  y = 1\right\}\right]$
+        \end{solution}
+        \part $\left\{\begin{matrix}5^{x+y}=25^3 \\ 5^{x-y}=25\end{matrix}\right. $
+        \begin{solution}
+            $ \to \left[ \left\{ x = 4, \  y = 2\right\}\right]$
+        \end{solution}
+        \part $\left\{\begin{matrix}x+y=33 \\ \log_{10} x-\log_{10} y =1\end{matrix}\right. $
+        \begin{solution}
+            $ \to \left[ \left\{ x = 30, \  y = 3\right\}\right]$
+        \end{solution}
+        \end{parts}
+                
+        \end{multicols}
+
+        
+        
+        \question Un ganadero vende 7 cerdos y 9 corderos por 660 euros y luego vende 10 cerdos y 5 corderos por el mismo dinero. Calcula el precio de cada animal.
+\begin{solution} $\left\{\begin{matrix}7x+9y=660 \\ 10x+5y=660\end{matrix}\right. \to  x = 48, \  y = 36 \to$ 48 cerdos y 36 corderos \end{solution}
+
+\question Las dos cifras de un número suman 10 y la diferencia entre el número y el que resulta de invertir el orden de sus cifras es 36. Averigua de que número se trata.
+
+\begin{solution}  $\left\{\begin{matrix}x+y=10 \\ 10x+y-(10y+x)=36\end{matrix}\right. \to  x = 7, \  y = 3 \to$ Número 73\end{solution}
+
+\question La suma de las cifras de un número de tres cifras es 18. La cifra de las unidades es 8 y las de las centenas es dos unidades mayor que la de las decenas. Halla dicho número. 
+\begin{solution} $\left\{\begin{matrix}x+y+8=18 \\ x=y+2\end{matrix}\right. \to  x = 6, \  y = 4 \to$ Número 648 \end{solution}
+
+\question Una persona lleva en el monedero 50 monedas diversas, de uno y de cinco euros, por un valor de 190 euros. ¿Cuántas monedas lleva de un euro?
+\begin{solution} $\left\{\begin{matrix}x+y=50 \\ x+5y=190\end{matrix}\right. \to  x = 15, \  y = 35 |to$ 15 monedas de un euro y 35 monedas de cinco euros \end{solution}
+
+\question Determina una fracción tal que si le sumamos una unidad al numerador se transforma en una fracción equivalente a 1/2 y si aumentásemos en dos unidades el denominador se transformaría en otra equivalente a 1/3.
+
+\begin{solution} $\left\{\begin{matrix}(x+1)/y=1/2 \\ x/(y+2)=1/3\end{matrix}\right. \to  x = 4, \  y = 10 \to$ Fracción 4/10 \end{solution}
+
+\question En una hucha hay 55 monedas de cinco y dos euros. Si en total hay 212 euros. ¿Cuántas monedas hay de cada clase?
+\begin{solution} $\left\{\begin{matrix}x+y=55 \\ 5x+2y=212\end{matrix}\right. \to  x = 34, \  y = 21 \to$ 34 monedas de cinco euros y 21 monedas de dos euros \end{solution}
+
+\question Halla una fracción equivalente a 3/5 cuya suma de sus términos sea 32.
+\begin{solution} $\left\{\begin{matrix}x/y=3/5 \\ x+y=32\end{matrix}\right. \to  x = 12, \  y = 20 \to$ Fracción 12/20 \end{solution}
+
+\question Con dos clases de café de 5,4 euros/kg y 7,2 euros/kg se quiere obtener una mezcla cuyo precio resulte a 6 euros/kg. Calcula la cantidad que hay que poner de cada uno para lograr 600 kg de mezcla.
+
+\begin{solution} $\left\{\begin{matrix}5.4x+7.2y=6 \cdot 600 \\ x+y=600\end{matrix}\right. \to  x = 400.0, \  y = 200.0 \to$ 400 kg de 5,4 euros/kg y 200 kg de 7,2 euros/kg \end{solution}
+
+\question En un corral hay conejos y gallinas en total hay 59 cabezas y 202 patas. ¿cuántos conejos y gallinas hay?
+\begin{solution} $\left\{\begin{matrix}x+y=59 \\ 4x+2y=202\end{matrix}\right. \to  x = 42, \  y = 17 \to$ 42 conejos y 17 gallinas \end{solution}
+
+
+\question Calcular el dominio de las siguientes funciones:
+\begin{multicols}{2}
+\begin{parts} 
+\part[1] $f(x)=\frac{1}{x^2+2x+1}$ \begin{solution}$\left(-\infty, -1\right) \cup \left(-1, \infty\right)$\end{solution} 
+\part[1] $f(x)=\sqrt{x^2+2x-2}$ \begin{solution} $\left(-\infty, - \sqrt{3} - 1\right] \cup \left[-1 + \sqrt{3}, \infty\right)$\end{solution} 
+\part[1] $f(x)=\sqrt{\frac{x^2+x}{x-2}}$ \begin{solution} $\left[-1, 0\right] \cup \left(2, \infty\right)$\end{solution} 
+\part[1] $f(x)=\dfrac{x^4+2x+5}{x^4-9x^2+4x+12}$\begin{solution} $\left(-\infty, -3\right) \cup \left(-3, -1\right) \cup \left(-1, 2\right) \cup \left(2, \infty\right)$\end{solution} \end{parts} 
+\end{multicols}
+
+
+\question Representa las siguientes funciones e indica sus propiedades:
+\begin{multicols}{2}
+\begin{parts} 
+%\part[1] $f(x)=x^2-4x-5$\begin{solution} \scalebox{.6}{\input{funcion_0.pgf}}\end{solution} \part[1] $f(x)=-x^2-5x+6$\begin{solution} \scalebox{.6}{\input{funcion_1.pgf}}\end{solution} \part[1] $f(x)=-x^2+4x+5$\begin{solution} \scalebox{.6}{\input{funcion_2.pgf}}\end{solution} 
+\part[1] $f(x)=-x^2+4x+5$\begin{solution} \\ \scalebox{.99}{\includegraphics[width=1\columnwidth]{funcion_3.png}}\end{solution} 
+%\part[1] $f(x)=\dfrac{2x-1}{x+1}$\begin{solution} \scalebox{.6}{\input{funcion_4.pgf}}\end{solution} 
+% \part[1] $f(x)=- 2 x^{2} - 2 x + 4$\begin{solution} \\ \scalebox{.99}{\includegraphics[width=1\columnwidth]{funcion_5.png}}\end{solution} 
+\part[1] $f(x)=x^2-2x+4$\begin{solution} \\ \scalebox{.99}{\includegraphics[width=1\columnwidth]{funcion_6.png}}\end{solution} \end{parts} 
+\end{multicols}
+
+\question Representa las siguientes funciones a trozos e indica sus propiedades:
+\begin{multicols}{2}
+\begin{parts} 
+%\part[1] $f(x)=\begin{cases} 4 & \text{for}\: x < -2 \\- x^{2} & \text{for}\: x < 4 \\2 x - 3 & \text{otherwise} \end{cases}$\begin{solution} \scalebox{.6}{\includegraphics[width=1\columnwidth]{funcion_a_trozos_0}}\end{solution} \part[1] $f(x)=\begin{cases} 2 x & \text{for}\: x < -3 \\x^{2} - 2 x - 8 & \text{for}\: x \leq 3 \\2 x - 3 & \text{otherwise} \end{cases}$\begin{solution} \scalebox{.6}{\includegraphics[width=1\columnwidth]{funcion_a_trozos_1}}\end{solution} \part[1] $f(x)=\begin{cases} x + 1 & \text{for}\: x \leq 0 \\x^{2} - 4 x + 3 & \text{otherwise} \end{cases}$\begin{solution} \scalebox{.6}{\includegraphics[width=1\columnwidth]{funcion_a_trozos_2}}\end{solution} 
+\part[1] $f(x)=\begin{cases} -2 & \text{si}\: x < -2 \\- x^{2} & \text{si}\: -2 \leq x < 3 \\2 x - 3 & \text{si}\:  x \geq 3 \end{cases}$
+\begin{solution} \\ \scalebox{1}{\includegraphics[width=.8\columnwidth]{funcion_a_trozos_3}}\end{solution} 
+\part[1] $f(x)=\begin{cases} - 3 x & \text{si}\: x < -2 \\x^{2} - 2 x - 8 & \text{si}\: -2 \leq  x \leq 4 \\2 x - 1 & \text{si}\: x > 4 \end{cases}$\begin{solution} \\ \scalebox{.99}{\includegraphics[width=1\columnwidth]{funcion_a_trozos_4}}\end{solution} \part[1] $f(x)=\begin{cases} x + 1 & \text{si} \: x \leq -1 \\x^{2} - 4 x + 3 & \text{si}\: x > -1 \end{cases}$\begin{solution} \\ \scalebox{.99}{\includegraphics[width=1\columnwidth]{funcion_a_trozos_5}}\end{solution} \end{parts}
+\end{multicols}
+
+
+
+
+
+\section*{3ª Evaluación}  
+
+
+\question Calcular, usando las identidades fundamentales de la trigonometría, las razones trigonométricas de un ángulo agudo $x$ sabiendo que:
+\begin{multicols}{3}
+\begin{parts} \part[1] $\cos{x}=\dfrac{1}{2}$\begin{solution}  \\ $\sin{x}=\dfrac{\sqrt{3}}{2}, \cos{x}=\dfrac{1}{2}, \tan{x}=\sqrt{3}$. \\ El ángulo agudo que cumple esas razones es $60^{\circ}$.\end{solution} \part[1] $\tan{x}=\dfrac{1}{2}$\begin{solution}  \\ $\sin{x}=\dfrac{\sqrt{5}}{5}, \cos{x}=\dfrac{2 \sqrt{5}}{5}, \tan{x}=\dfrac{1}{2}$. \\ El ángulo agudo que cumple esas razones es $26.57^{\circ}$.\end{solution} \part[1] $\cos{x}=\dfrac{1}{3}$\begin{solution}  \\ $\sin{x}=\dfrac{2 \sqrt{2}}{3}, \cos{x}=\dfrac{1}{3}, \tan{x}=2 \sqrt{2}$. \\ El ángulo agudo que cumple esas razones es $70.53^{\circ}$.\end{solution} \part[1] $\tan{x}=3$\begin{solution}  \\ $\sin{x}=\dfrac{3 \sqrt{10}}{10}, \cos{x}=\dfrac{\sqrt{10}}{10}, \tan{x}=3$. \\ El ángulo agudo que cumple esas razones es $71.57^{\circ}$.\end{solution} \part[1] $\sin{x}=\dfrac{4}{5}$\begin{solution}  \\ $\sin{x}=\dfrac{4}{5}, \cos{x}=\dfrac{3}{5}, \tan{x}=\dfrac{4}{3}$. \\ El ángulo agudo que cumple esas razones es $53.13^{\circ}$.\end{solution} \part[1] $\tan{x}=5$\begin{solution}  \\ $\sin{x}=\dfrac{5 \sqrt{26}}{26}, \cos{x}=\dfrac{\sqrt{26}}{26}, \tan{x}=5$. \\ El ángulo agudo que cumple esas razones es $78.69^{\circ}$.\end{solution} \end{parts} 
+\end{multicols}
+
+
+\question Resuelve los triángulos rectángulos:
+\begin{multicols}{3}
+\begin{parts}
+\part[1] Sabiendo que los catetos miden 8 y 15 cm.\begin{solution} Los lados del triángulo miden: $8$, $15$, $17$ cm. Y los ángulos: $28.07$, $61.93$, $90$ º\end{solution} \part[1] Sabiendo que un cateto mide 12 cm. y su ángulo opuesto 30º\begin{solution} Los lados del triángulo miden: $12$, $20.78$, $24$ cm. Y los ángulos: $30$, $60$, $90$ º\end{solution} \part[1] Sabiendo que un cateto mide 8 cm. y su ángulo opuesto 45º\begin{solution} Los lados del triángulo miden: $8$, $8$, $11.31$ cm. Y los ángulos: $45$, $45$, $90$ º\end{solution} \part[1] Sabiendo que la hipotenusa mide 18 cm. y un ángulo 60º\begin{solution} Los lados del triángulo miden: $15.59$, $9$, $18$ cm. Y los ángulos: $60$, $30$, $90$ º\end{solution} \part[1] Sabiendo que un cateto mide 18 cm. y el ángulo opuesto al otro cateto 30º\begin{solution} Los lados del triángulo miden: $18$, $10.39$, $20.78$ cm. Y los ángulos: $60$, $30$, $90$ º\end{solution} \end{parts}
+\end{multicols} 
+
+
+\question Calcular las razones trigonométricas de un ángulo $\alpha$ si:
+\begin{multicols}{3}
+\begin{parts} \part[1] $\cos{\alpha}=-\dfrac{\sqrt{3}}{2} \land \alpha \in III$ \begin{solution} $\sin{\alpha}=- \dfrac{1}{2}, \cos{\alpha}=- \dfrac{\sqrt{3}}{2}, \tan{\alpha}=\dfrac{\sqrt{3}}{3}$. \\ El ángulo que cumple las condiciones del ejercicio es: $210^{\circ}$\end{solution} \part[1] $\sin{\alpha}=\dfrac{\sqrt{3}}{2} \land \alpha \in II$ \begin{solution} $\sin{\alpha}=\dfrac{\sqrt{3}}{2}, \cos{\alpha}=- \dfrac{1}{2}, \tan{\alpha}=- \sqrt{3}$. \\ El ángulo que cumple las condiciones del ejercicio es: $120^{\circ}$\end{solution} \part[1] $\sin{\alpha}=\dfrac{1}{2} \land \alpha \in II$ \begin{solution} $\sin{\alpha}=\dfrac{1}{2}, \cos{\alpha}=- \dfrac{\sqrt{3}}{2}, \tan{\alpha}=- \dfrac{\sqrt{3}}{3}$. \\ El ángulo que cumple las condiciones del ejercicio es: $150^{\circ}$\end{solution} \part[1] $\cos{\alpha}=-\dfrac{1}{2} \land \alpha \in III$ \begin{solution} $\sin{\alpha}=- \dfrac{\sqrt{3}}{2}, \cos{\alpha}=- \dfrac{1}{2}, \tan{\alpha}=\sqrt{3}$. \\ El ángulo que cumple las condiciones del ejercicio es: $240^{\circ}$\end{solution} \part[1] $\tan{\alpha}=1 \land \alpha \in III$ \begin{solution} $\sin{\alpha}=- \dfrac{\sqrt{2}}{2}, \cos{\alpha}=- \dfrac{\sqrt{2}}{2}, \tan{\alpha}=1$. \\ El ángulo que cumple las condiciones del ejercicio es: $225^{\circ}$\end{solution} \part[1] $\sin{\alpha}=-\dfrac{\sqrt{2}}{2} \land \alpha \in IV$ \begin{solution} $\sin{\alpha}=- \dfrac{\sqrt{2}}{2}, \cos{\alpha}=\dfrac{\sqrt{2}}{2}, \tan{\alpha}=-1$. \\ El ángulo que cumple las condiciones del ejercicio es: $315^{\circ}$\end{solution} \end{parts}
+\end{multicols} 
+
+
+\question Resuelve las siguientes ecuaciones
+\begin{multicols}{2}
+\begin{parts} \part[1] $\cos{x}=\dfrac{\sqrt{3}}{2}$\begin{solution} $x=30^{\circ}, x=330^{\circ}$\end{solution} \part[1] $\cos{x}=-\dfrac{\sqrt{3}}{2}$\begin{solution} $x=150^{\circ}, x=210^{\circ}$\end{solution} \part[1] $4(\cos{x})^2-1=0$\begin{solution} $x=60^{\circ}, x=120^{\circ}, x=240^{\circ}, x=300^{\circ}$\end{solution} \part[1] $2(\sin{x})^2-\sin{x}-1=0$\begin{solution} $x=-30^{\circ}, x=90^{\circ}, x=210^{\circ}$\end{solution} \end{parts} 
+\end{multicols}
+
+\question Resuelve los siguientes problemas: \begin{parts} 
+\part[1] El lado de un rombo mide 30 cm y el ángulo menor es de 40°. ¿Cuánto miden las
+      diagonales del rombo?\begin{solution} las diagonales miden $20.52$ y $56.38$ respectivamente\end{solution}
+\part[1] Desde el punto donde estoy, la visual al punto más alto de una torre que tengo 
+        enfrente forma un ángulo de 30° con la horizontal. Si me acerco 100 m, el ángulo es de 60°.
+        ¿Cuál es la altura del edificio?\begin{solution} $ \left\{\begin{matrix}\tan{\left(60 \right)} = \dfrac{y}{x} \\ \tan{\left(30 \right)} = \dfrac{y}{x + 100} \\ \end{matrix}\right. \to \left\{ x : 50.0043301290378, \  y : 86.6125002165064\right\}$\end{solution} 
+\part[1] Dos torres distan entre sí 200 m. Desde un punto que está entre las torres
+vemos que las visuales a los puntos más altos de estos forman con la horizontal ángulos
+de 45° y 60°. ¿Cuál es la altura de las torres si sabemos que uno es 40 m más alto que el
+otro?\begin{solution}  \\ Si la mayor altura se corresponde con el ángulo 45°: \\ $ \left\{\begin{matrix}\tan{\left(60 \right)} = \frac{y}{200 - x} \\ \tan{\left(45 \right)} = \frac{y + 40}{x} \\ \end{matrix}\right. \to \left\{ x : 141.436989861279, \  y : 101.436989861279\right\}\to 101.436989861279$ \ Si la mayor altura se corresponde con el ángulo 60°: \\ $ \left\{\begin{matrix}\tan{\left(60 \right)} = \frac{y + 40}{200 - x} \\ \tan{\left(45 \right)} = \frac{y}{x} \\ \end{matrix}\right. \to \left\{ x : 112.155484791918, \  y : 112.155484791918\right\}\to 112.155484791918$\end{solution}        
+\part[1] Halla el área de un paralelogramo cuyos lados miden 40 cm y 45 cm y forman un
+ángulo de 60°.\begin{solution} La altura mide mide $34.64$ cm y por tanto el área es $1559.0$ cm2\end{solution}
+
+\end{parts}
+
+\question Representa y calcula las coordenadas de las siguientes combinaciones de $\overrightarrow{u}$ y $\overrightarrow{v}$: \begin{parts} 
+%\part[1] $\overrightarrow{u} + \overrightarrow{v}$, $\overrightarrow{u} + 2 \overrightarrow{v}$, $- 2 \overrightarrow{u}$. Siendo $\overrightarrow{u}$ y $\overrightarrow{v}$: \\\scalebox{.6}{\includegraphics[width=1\columnwidth]{comb_lineal_0.png}} \\ \begin{solution} \scalebox{.63}{\includegraphics[width=1\columnwidth]{comb_lineal_sol_0.png}}\\ $Point2D\left(9, -4\right)$, $Point2D\left(15, -12\right)$, $Point2D\left(-6, -8\right)$\end{solution} 
+\part[1] $\overrightarrow{u} + \overrightarrow{v}$, $\overrightarrow{u} - \overrightarrow{v}$, $\overrightarrow{u} + 2 \overrightarrow{v}$, $2 \overrightarrow{u} - \overrightarrow{v}$, $- 2 \overrightarrow{u}$. Siendo $\overrightarrow{u}$ y $\overrightarrow{v}$: \\\scalebox{.63}{\includegraphics[width=1\columnwidth]{comb_lineal_1.png}} \\ \begin{solution} \scalebox{.63}{\includegraphics[width=1\columnwidth]{comb_lineal_sol_1.png}}\\ $Point2D\left(1, 7\right)$, $Point2D\left(-7, 1\right)$, $Point2D\left(5, 10\right)$, $Point2D\left(-10, 5\right)$, $Point2D\left(6, -8\right)$\end{solution} 
+\end{parts} 
+
+\question Calcula el punto medio del segmento que une los puntos:
+\begin{multicols}{3}
+\begin{parts} \part[1] $A\left( -5, \  1\right) y \ B\left( 3, \  7\right)$ \begin{solution} $M\left( -1, \  4\right)$\end{solution} \part[1] $A\left( 4, \  -1\right) y \ B\left( -2, \  -4\right)$ \begin{solution} $M\left( 1, \  - \frac{5}{2}\right)$\end{solution} \part[1] $A\left( 1, \  -5\right) y \ B\left( 5, \  -3\right)$ \begin{solution} $M\left( 3, \  -4\right)$\end{solution} \end{parts} 
+\end{multicols}
+
+\question Halla el valor de z para que los puntos A  , B    y C estén alineados. Siendo:
+\begin{multicols}{3}
+\begin{parts} \part[1] $A\left( 1, \  -2\right)$, $B \left( 3, \  1\right)$ y $C\left( 4, \  z\right)$ \begin{solution} $Point2D\left(2, 3\right)\parallel Point2D\left(3, z + 2\right) \to z=\left[ \frac{5}{2}\right]$\end{solution} \part[1] $A\left( 2, \  -4\right)$, $B \left( 5, \  3\right)$ y $C\left( 6, \  z\right)$ \begin{solution} $Point2D\left(3, 7\right)\parallel Point2D\left(4, z + 4\right) \to z=\left[ \frac{16}{3}\right]$\end{solution} \part[1] $A\left( 5, \  4\right)$, $B \left( -5, \  -2\right)$ y $C\left( 1, \  z\right)$ \begin{solution} $Point2D\left(-10, -6\right)\parallel Point2D\left(-4, z - 4\right) \to z=\left[ \frac{8}{5}\right]$\end{solution} \end{parts} 
+\end{multicols}
+
+
+\question Calcula el punto simétrico:
+\begin{multicols}{2}
+\begin{parts} \part[1] De $A\left( 7, \  6\right)$ respecto  de  $M\left( 2, \  1\right)$ \begin{solution} $Point2D\left(\dfrac{x}{2} + \dfrac{7}{2}, \dfrac{y}{2} + 3\right) = Point2D\left(2, 1\right)\to A'\left(-3,-4\right)$\end{solution} \part[1] De $A\left( 5, \  -3\right)$ respecto  de  $M\left( 1, \  3\right)$ \begin{solution} $Point2D\left(\dfrac{x}{2} + \dfrac{5}{2}, \dfrac{y}{2} - \dfrac{3}{2}\right) = Point2D\left(1, 3\right)\to A'\left(-3,9\right)$\end{solution} \part[1] De $A\left( 6, \  -5\right)$ respecto  de  $M\left( -3, \  2\right)$ \begin{solution} $Point2D\left(\dfrac{x}{2} + 3, \dfrac{y}{2} - \dfrac{5}{2}\right) = Point2D\left(-3, 2\right)\to A'\left(-12,9\right)$\end{solution} \part[1] De $A\left( -6, \  -2\right)$ respecto  de  $M\left( 4, \  1\right)$ \begin{solution} $Point2D\left(\dfrac{x}{2} - 3, \dfrac{y}{2} - 1\right) = Point2D\left(4, 1\right)\to A'\left(14,4\right)$\end{solution} \end{parts}
+\end{multicols}
+
+\question Halla las coordenadas del punto D, de modo que ABCD sea un paralelogramo siendo\begin{parts} \part[1] Siendo $A$, $B$ y $C$ respectivamente: $\left( 2, \  -3\right) $, $\left( 0, \  1\right) $, $\left( 4, \  3\right)$\begin{solution} $\overrightarrow{AB} = \overrightarrow{DC} \to Point2D\left(-2, 4\right) = Point2D\left(4 - x, 3 - y\right) \to D\left( 6, \  -1\right)$\end{solution} \part[1] Siendo $A$, $B$ y $C$ respectivamente: $\left( 1, \  -1\right) $, $\left( 1, \  1\right) $, $\left( 2, \  3\right)$\begin{solution} $\overrightarrow{AB} = \overrightarrow{DC} \to Point2D\left(0, 2\right) = Point2D\left(2 - x, 3 - y\right) \to D\left( 2, \  1\right)$\end{solution} 
+%\part[1] Siendo $A$, $B$ y $C$ respectivamente: $\left( -2, \  -3\right) $, $\left( -2, \  2\right) $, $\left( 5, \  4\right)$\begin{solution} $\overrightarrow{AB} = \overrightarrow{DC} \to Point2D\left(0, 5\right) = Point2D\left(5 - x, 4 - y\right) \to D\left( 5, \  -1\right)$\end{solution} 
+\end{parts} 
+
+\question Escribe las ecuaciones vectorial, paramétricas, en forma continua y explícita de la recta que:\begin{parts} \part[1] Pasa por el punto $P$ y tiene por vector dirección $\overrightarrow{d}$ respectivamente: $\left( 3, \  -1\right) $, $\left( -2, \  5\right)$\begin{solution} Solución orientativa: $Point2D\left(x, y\right) = Point2D\left(3 - 2 t, 5 t - 1\right) \to - 5 x - 2 y + 13 = 0 \to y = \dfrac{13}{2} - \dfrac{5 x}{2}$\end{solution} \part[1] Pasa por el punto $P$ y tiene por vector dirección $\overrightarrow{d}$ respectivamente: $\left( 1, \  -3\right) $, $\left( 3, \  -2\right)$\begin{solution} Solución orientativa: $Point2D\left(x, y\right) = Point2D\left(3 t + 1, - 2 t - 3\right) \to 2 x + 3 y + 7 = 0 \to y = - \dfrac{2 x}{3} - \dfrac{7}{3}$\end{solution} 
+% \part[1] Pasa por el punto $P$ y tiene por vector dirección $\overrightarrow{d}$ respectivamente: $\left( 2, \  3\right) $, $\left( -3, \  5\right)$\begin{solution} Solución orientativa: $Point2D\left(x, y\right) = Point2D\left(2 - 3 t, 5 t + 3\right) \to - 5 x - 3 y + 19 = 0 \to y = \dfrac{19}{3} - \dfrac{5 x}{3}$\end{solution} 
+\end{parts}
+
+\question Escribe las ecuaciones vectorial, paramétricas, en forma continua y explícita de la recta que:\begin{parts} \part[1] Pasa por los puntos $P$ y $Q$ respectivamente: $\left( 2, \  -1\right) $, $\left( -2, \  5\right)$\begin{solution} Solución orientativa: $Point2D\left(x, y\right) = Point2D\left(2 - 4 t, 6 t - 1\right) \to - 6 x - 4 y + 8 = 0 \to y = 2 - \dfrac{3 x}{2}$\end{solution} \part[1] Pasa por los puntos $P$ y $Q$ respectivamente: $\left( 2, \  -3\right) $, $\left( 3, \  -2\right)$\begin{solution} Solución orientativa: $Point2D\left(x, y\right) = Point2D\left(t + 2, t - 3\right) \to - x + y + 5 = 0 \to y = x - 5$\end{solution} 
+%\part[1] Pasa por los puntos $P$ y $Q$ respectivamente: $\left( -4, \  3\right) $, $\left( -3, \  5\right)$\begin{solution} Solución orientativa: $Point2D\left(x, y\right) = Point2D\left(t - 4, 2 t + 3\right) \to - 2 x + y - 11 = 0 \to y = 2 x + 11$\end{solution} 
+\end{parts} 
+
+\question Calcula la recta $s$ que:
+%\begin{multicols}{2}
+\begin{parts} \part[1] pasa por P$\left( 3, \  1\right)$ y es paralela a $r \equiv 4 x - 2 y + 1 = 0$\begin{solution} $s\equiv y = 2 x - 5$\end{solution} \part[1] pasa por P$\left( -1, \  2\right)$ y es paralela a $r \equiv 2 x - 3 y + 1 = 0$\begin{solution} $s\equiv y = \dfrac{2 x}{3} + \dfrac{8}{3}$\end{solution} \end{parts} 
+%\end{multicols}
+
+\question Calcula la recta $s$ que:\begin{parts} \part[1] pasa por P$\left( -1, \  2\right)$ y es perpendicular a $\overrightarrow{v}\left( -2, \  1\right)$\begin{solution} $s\equiv 2 x - y + 4 = 0$\end{solution} \part[1] pasa por P$\left( 1, \  -2\right)$ y es perpendicular a $\overrightarrow{v}\left( 5, \  -4\right)$\begin{solution} $s\equiv - 5 x + 4 y + 13 = 0$\end{solution} 
+% \part[1] pasa por P$\left( 1, \  -2\right)$ y es perpendicular a $\overrightarrow{v}\left( -1, \  0\right)$\begin{solution} $s\equiv x - 1 = 0$\end{solution} 
+\end{parts}
+
+\question Calcula la recta $s$ que:
+\begin{multicols}{2}
+\begin{parts} \part[1] pasa por P$\left( 3, \  1\right)$ y es perpendicular a $r \equiv 4 x - 2 y + 1 = 0$\begin{solution} $s\equiv y = \dfrac{5}{2} - \dfrac{x}{2}$\end{solution} \part[1] pasa por P$\left( -1, \  2\right)$ y es perpendicular a $r \equiv 2 x - 3 y + 1 = 0$\begin{solution} $s\equiv y = \dfrac{1}{2} - \dfrac{3 x}{2}$\end{solution} \end{parts} 
+\end{multicols}
+
+\question Se ha preguntado a los estudiantes de una clase por el número de personas que viven en casa. Los resultados son: 3 5 4 5 8 3 5 6 4 5 4 4 3 4 5 6 5 6 4 3 4 4 5 7 4 3 4 4 6 7. \begin{itemize} \item Realiza una tabla de frecuencias \item Realiza un diagrama de barras \item Calcular los parámetros de centralización \item Calcular los parámetros de posición P70, Q1, Q3 \item Calcular los parámetros de dispersión \item Realiza un diagrama de caja. \end{itemize}\begin{solution} $\begin{tabular}{rrrrrrr}
+\hline
+   $x_i$ &   $f_i$ &   $F_i$ &      $\%_i$ &    $\%A_i$ &   $x_if_i$ &   $x^2_if_i$ \\
+\hline
+       3 &       5 &       5 &  16.6667  &  16.6667 &         15 &           45 \\
+       4 &      11 &      16 &  36.6667  &  53.3333 &         44 &          176 \\
+       5 &       7 &      23 &  23.3333  &  76.6667 &         35 &          175 \\
+       6 &       4 &      27 &  13.3333  &  90      &         24 &          144 \\
+       7 &       2 &      29 &   6.66667 &  96.6667 &         14 &           98 \\
+       8 &       1 &      30 &   3.33333 & 100      &          8 &           64 \\
+     nan &      30 &     nan & 100       & nan      &        140 &          702 \\
+\hline
+\end{tabular}$\\ \includegraphics[width=0.7\columnwidth]{diagrama_prueba2} \\ $\left\{ Me : 4.0, \  Mo : \left( [4], \  [11]\right), \  media : 4.67\right\}$ \\$\left\{ P70 : 5.0, \  Q1 : 4.0, \  Q3 : 5.0\right\}$ \\$\left\{ C.V : 0.27, \  desv.tip : 1.27, \  rango : 5, \  var : 1.62\right\}$\\ \includegraphics[width=0.7\columnwidth]{caja_prueba2}\end{solution}
+
+
+
+
+\end{questions}
+\end{document}
