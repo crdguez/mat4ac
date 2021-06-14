@@ -50,7 +50,7 @@
 
 \noindent
 \begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r @{\extracolsep{6pt}} }
-\textbf{Nombre:} \makebox[3.5in]{\hrulefill} & \textbf{Fecha:}\makebox[1in]{\hrulefill} \\
+\textbf{Fecha:}\makebox[1in]{\hrulefill} \textbf{Nombre:} \makebox[.6in]{\hrulefill} @@alumno \makebox[.6in]{\hrulefill} \\
  & \\
 \textbf{Tiempo: \timelimit} & Tipo: \tipo 
 \end{tabular*}
@@ -292,7 +292,7 @@ $$f(x)=\begin{cases} 2 x + 2 & \text{for}\: x \leq -2 \\x^{2} - 2 x & \: x > -1 
     \newpage 
 % [line cap=round,line join=round,>=triangle 45,x=1cm,y=1cm, scale=0.78]
 
-\begin{tikzpicture}[x=1cm,y=1cm,scale=0.5]
+\begin{tikzpicture}[x=1cm,y=1cm,scale=0.7]
 \draw [color=lightgray,dash pattern=on 1pt off 1pt, xstep=1cm,ystep=1cm] (-10.1,-10.1) grid (10.1,10.1);
 \draw[color=black] (-10.1,0) -- (10.1,0);
 \foreach \x in {-10,-9,-8,-7,-6,-5,-4,-3,-2,-1,1,2,3,4,5,6,7,8,9,10}
@@ -302,7 +302,9 @@ $$f(x)=\begin{cases} 2 x + 2 & \text{for}\: x \leq -2 \\x^{2} - 2 x & \: x > -1 
 \draw[shift={(0,\y)},color=black] (2pt,0pt) -- (-2pt,0pt) node[left] {\footnotesize $\y$};
 \end{tikzpicture}
 
-\begin{tikzpicture}[x=1cm,y=1cm,scale=0.5]
+\newpage
+
+\begin{tikzpicture}[x=1cm,y=1cm,scale=0.7]
 \draw [color=lightgray,dash pattern=on 1pt off 1pt, xstep=1cm,ystep=1cm] (-10.1,-10.1) grid (10.1,10.1);
 \draw[color=black] (-10.1,0) -- (10.1,0);
 \foreach \x in {-10,-9,-8,-7,-6,-5,-4,-3,-2,-1,1,2,3,4,5,6,7,8,9,10}
@@ -311,6 +313,8 @@ $$f(x)=\begin{cases} 2 x + 2 & \text{for}\: x \leq -2 \\x^{2} - 2 x & \: x > -1 
 \foreach \y in {-10,-9,-8,-7,-6,-5,-4,-3,-2,-1,1,2,3,4,5,6,7,8,9,10}
 \draw[shift={(0,\y)},color=black] (2pt,0pt) -- (-2pt,0pt) node[left] {\footnotesize $\y$};
 \end{tikzpicture}
+
+ 
 
 \end{document}
 \grid
